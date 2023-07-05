@@ -1,0 +1,51 @@
+{
+  "data": {
+    "industries": [
+      {
+        "id": 20,
+        "name": "Industry 2 Fix time",
+        "industryId": "aev4iqpj",
+        "createdById": 6,
+        "createdAt": "2023-03-09T06:30:11.000000Z",
+        "updatedById": null,
+        "updatedAt": "2023-03-09T06:30:11.000000Z",
+        "createdBy": {
+          "user": {
+            "id": 6,
+            "firstName": "Staff Admin",
+            "lastName": "AYP Group"
+          }
+        },
+        "updatedBy": null
+      },
+      {
+        "id": 19,
+        "name": "Industry 1 Update",
+        "industryId": "gdlkdvyj",
+        "createdById": 6,
+        "createdAt": "2023-03-09T04:17:07.000000Z",
+        "updatedById": 6,
+        "updatedAt": "2023-03-09T04:17:37.000000Z",
+        "createdBy": {
+          "user": {
+            "id": 6,
+            "firstName": "Staff Admin",
+            "lastName": "AYP Group"
+          }
+        },
+        "updatedBy": {
+          "user": {
+            "id": 6,
+            "firstName": "Staff Admin",
+            "lastName": "AYP Group"
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 50
+    }
+  }
+}

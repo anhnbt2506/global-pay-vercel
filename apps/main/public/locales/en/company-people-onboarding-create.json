@@ -1,0 +1,409 @@
+{
+  "employmentServices": {
+    "label": "Employment Services",
+    "title": "Employment Services",
+    "description": "Select options available",
+    "sidebar": {
+      "title": "Add a new hire",
+      "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+    },
+    "form": {
+      "PEO": {
+        "label": "Onboard an Employee",
+        "caption": "AYP employs full-time or part-time employees on your behalf on our legal entity or AYP co-employs them on your legal entity."
+      },
+      "POM": {
+        "label": "Run payroll & benefits",
+        "caption": "AYP run payroll, provides benefits and manages contracts where you have entities."
+      },
+      "isSigned": {
+        "label": "By acknowledging, you certify that you, {{name}} , agree to this service agreement and acknowledge the information related to the service you will be using."
+      },
+      "reviewLater": "Review later",
+      "acknowledge": "Acknowledge"
+    },
+    "conversation": {
+      "title": "Comments for contract",
+      "description": "Our team will be notified for action on any comments"
+    }
+  },
+  "guidedMode": {
+    "classifyYourHire": {
+      "title": "Classify your hire",
+      "description": "Please make sure this information is accurate.",
+      "sidebar": {
+        "title": "Employment eligibility",
+        "description": "This will help you determine the correct hiring service for your new employee"
+      },
+      "form": {
+        "country": {
+          "label": "Country",
+          "helperText": "Country of hire"
+        },
+        "legalEntity": {
+          "label": "Do you have a legal entity in the country of hire",
+          "helperText": "Legal entity in country of hire"
+        },
+        "hiringEntity": {
+          "label": "Do you wish to use your legal entity to hire",
+          "helperText": "Hiring entity"
+        },
+        "detailedExplanation": {
+          "forEorHiring": "AYP employs your employee on your behalf with our legal entity. This is defined as an EOR (Employer of record) service.",
+          "forPeoHiring": "AYP co-employs your employee with your legal entity. This is defined as a PEO (Professional employer organization) service. Click here to visit our live support for assistance."
+        }
+      }
+    },
+    "PEO": {
+      "hiringDetails": {
+        "label": "Hiring details",
+        "title": "Hiring details",
+        "description": "What would you like to do?",
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        },
+        "form": {
+          "hireType": {
+            "label": "Hire type",
+            "helperText": "Type of hire"
+          },
+          "hiringCountry": {
+            "label": "Country",
+            "helperText": "Country of hire"
+          },
+          "nationality": {
+            "label": "Nationality",
+            "helperText": "Nationality of hiree"
+          },
+          "citizenshipStatus": {
+            "label": "Status",
+            "helperText": "Citizenship status of hiree"
+          },
+          "isWorkPermitActive": {
+            "label": "Does the hiree have an active work permit",
+            "helperText": "Status of work permit",
+            "detailedExplanation": "Please obtain an active work permit before proceeding. Click here to visit our live support for assistance."
+          },
+          "currency": {
+            "label": "Currency",
+            "helperText": "Choose the default currency for payments for this hiree"
+          }
+        },
+        "backToHiringServices": "Back to hiring services"
+      },
+      "hireeDetails": {
+        "label": "Hiree details",
+        "title": "Hiree details",
+        "description": "Please enter details below",
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        },
+        "form": {
+          "firstName": {
+            "label": "Hiree's legal first name",
+            "helperText": "Legal first name"
+          },
+          "lastName": {
+            "label": "Hiree's legal last name",
+            "helperText": "Legal last name"
+          },
+          "email": {
+            "label": "Hiree's email",
+            "helperText": "e.g. you@domain.com"
+          },
+          "title": {
+            "label": "Hiree's position",
+            "helperText": "Role hired for"
+          },
+          "description": {
+            "label": "Hiree's job description",
+            "helperText": "Summarize the essential responsibilities"
+          },
+          "employeeId": {
+            "label": "Employee ID",
+            "helperText": "Unique identification assigned for each employee",
+            "error": {
+              "employeeIdExisted": "This ID belongs to an existing employee"
+            }
+          }
+        }
+      },
+      "contractDetails": {
+        "label": "Contract details",
+        "title": "Contract details",
+        "description": "Please enter details below",
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        },
+        "form": {
+          "contractType": {
+            "label": "Contract type",
+            "helperText": "Contract type"
+          },
+          "startDate": {
+            "label": "Contract start date",
+            "helperText": "Contract start date"
+          },
+          "endDate": {
+            "label": "Contract end date",
+            "helperText": "Contract end date",
+            "error": {
+              "endDateMustBeLaterThanStartDate": "Contract end date has to be later than the contract start date"
+            }
+          },
+          "employmentType": {
+            "label": "Employment type",
+            "helperText": "Employment type"
+          },
+          "startAt": {
+            "label": "Working hours start time",
+            "helperText": "Working hours start time (local time of hiring country)"
+          },
+          "endAt": {
+            "label": "Working hours end time",
+            "helperText": "Working hours end time (local time of hiring country)"
+          },
+          "workingHoursPerWeek": {
+            "label": "Working hours per week",
+            "helperText": "Working hours per week"
+          },
+          "workerSchedule": {
+            "monday": {
+              "label": "Monday Schedule",
+              "helperText": "Select schedule"
+            },
+            "tuesday": {
+              "label": "Tuesday Schedule",
+              "helperText": "Select schedule"
+            },
+            "wednesday": {
+              "label": "Wednesday Schedule",
+              "helperText": "Select schedule"
+            },
+            "thursday": {
+              "label": "Thursday Schedule",
+              "helperText": "Select schedule"
+            },
+            "friday": {
+              "label": "Friday Schedule",
+              "helperText": "Select schedule"
+            },
+            "saturday": {
+              "label": "Saturday Schedule",
+              "helperText": "Select schedule"
+            },
+            "sunday": {
+              "label": "Sunday Schedule",
+              "helperText": "Select schedule"
+            }
+          },
+          "managerName": {
+            "label": "Reporting manager",
+            "helperText": "Name of direct reporting manager"
+          },
+          "managerTitle": {
+            "label": "Reporting manager's job title",
+            "helperText": "Direct reporting manager's position"
+          },
+          "department": {
+            "label": "Department",
+            "helperText": "Which department will your hire be in",
+            "options": {
+              "create": "Create Department"
+            }
+          },
+          "workplaceAddressType": {
+            "label": "Place of work",
+            "helperText": "Place of work"
+          },
+          "workplaceAddress": {
+            "addressLine": {
+              "label": "Other location address line",
+              "helperText": "Define the address line for employee"
+            },
+            "city": {
+              "label": "Other location city",
+              "helperText": "Define the city for employee"
+            },
+            "state": {
+              "label": "Other location state",
+              "helperText": "Define the state for employee"
+            },
+            "postalCode": {
+              "label": "Other location postal code",
+              "helperText": "Define the postal code for employee"
+            }
+          }
+        }
+      },
+      "remunerationDetails": {
+        "label": "Remuneration details",
+        "title": "Remuneration details",
+        "description": "Please enter details below",
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        },
+        "form": {
+          "isEligibleForAdditionalIncome": {
+            "label": "Eligible for additional income",
+            "helperText": "Eligible for additional income"
+          },
+          "additionalIncomeDescription": {
+            "label": "Additional income description",
+            "helperText": "Summarize eligibility for additional income"
+          },
+          "isEligibleForPaidExpenses": {
+            "label": "Eligible for paid expenses",
+            "helperText": "Eligible for paid expenses"
+          },
+          "paidExpensesDescription": {
+            "label": "Paid expenses description",
+            "helperText": "Summarize eligibility for paid expenses"
+          },
+          "isEntitledToOvertime": {
+            "label": "Eligible for overtime",
+            "helperText": "Eligible for overtime"
+          },
+          "overtimeDescription": {
+            "label": "Overtime description",
+            "helperText": "Summarize eligibility for overtime"
+          },
+          "salaryPerMonth": {
+            "label": "Monthly salary",
+            "helperText": "Monthly salary (equals to {{salaryPerYear}} per year)"
+          },
+          "salaryPayableDate": {
+            "label": "Payable date",
+            "helperText": "Salary will be paid on this date of the month"
+          }
+        }
+      },
+      "additionalDetails": {
+        "label": "Additional details",
+        "title": "Additional details",
+        "description": "Please enter details below",
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        },
+        "form": {
+          "probationPeriod": {
+            "label": "Probation period in {{unit}}"
+          },
+          "paidTimeOff": {
+            "label": "Paid time off in {{unit}}"
+          },
+          "sickTimeOff": {
+            "label": "Sick time off in {{unit}}"
+          },
+          "terminationNotice": {
+            "label": "Termination notice period in {{unit}}"
+          },
+          "isEntitledToOvertimeDifferential": {
+            "label": "Hiree entitled to overtime / night / day differential",
+            "helperText": "Hiree entitled to overtime / night / day differential"
+          },
+          "isEligibleForInsurance": {
+            "label": "Will hiree be offered insurance",
+            "helperText": "Hiree shall or shall not be eligible for insurance"
+          },
+          "religiousFestivityAllowance": {
+            "label": "Religious festivity allowance",
+            "helperText": "Religious festivity allowance"
+          },
+          "fieldManagerialType": {
+            "label": "Hiree field / managerial type",
+            "helperText": "Hiree field / managerial type"
+          },
+          "compassionateTimeOff": {
+            "label": "Compassionate period in {{unit}}"
+          },
+          "monthlyAllowance": {
+            "label": "Monthly allowance",
+            "helperText": "Monthly allowance"
+          },
+          "isEligibleForVariablePay": {
+            "label": "Eligible for variable pay",
+            "helperText": "Eligible for variable pay"
+          },
+          "variablePayDescription": {
+            "label": "Variable pay description",
+            "helperText": "Summarize eligibility of variable pay"
+          },
+          "isEligibleForAnnualBonus": {
+            "label": "Eligible for annual bonus",
+            "helperText": "Eligible for annual bonus"
+          },
+          "annualBonusDescription": {
+            "label": "Annual bonus description",
+            "helperText": "Summarize eligibility of annual bonus"
+          },
+          "isEligibleForCommission": {
+            "label": "Eligible for commission",
+            "helperText": "Eligible for commission"
+          },
+          "commissionDescription": {
+            "label": "Commission description",
+            "helperText": "Summarize eligibility of commission"
+          },
+          "probationStartDate": {
+            "label": "Probation start date",
+            "helperText": "Probation start date"
+          },
+          "probationEndDate": {
+            "label": "Probation end date",
+            "helperText": "Probation end date",
+            "error": {
+              "probationEndDateMustBeLaterThanProbationStartDate": "Probation end date has to be later than the probation start date"
+            }
+          }
+        }
+      },
+      "employmentContract": {
+        "label": "Employment contract",
+        "proceedToSign": "Proceed to sign",
+        "requestAddendum": {
+          "label": "Request addendum",
+          "description": "Fill in details below to continue",
+          "form": {
+            "addComment": {
+              "label": "Details of addendum*"
+            },
+            "addendumFiles": {
+              "label": "Addendum files"
+            }
+          }
+        },
+        "acknowledge": "Acknowledge",
+        "isEligibleForInsurance": {
+          "eligible": "eligible",
+          "notEligible": "not eligible"
+        },
+        "isEntitledToOvertimeDifferential": {
+          "shallBe": "shall be",
+          "shallNotBe": "shall not be"
+        },
+        "form": {
+          "isSigned": {
+            "label": "By acknowledging, you, {{name}}, as a representative of {{company}} agree to this legally binding document and acknowledge the information within is accurate to the best of your knowledge. If {{company}} deems it necessary to include any supplemental agreements in the employment contract, kindly request for an addendum."
+          }
+        },
+        "sidebar": {
+          "title": "Add a new hire",
+          "description": "Adding a new hire is simple, fast, and easy. Follow our guided process."
+        }
+      },
+      "newHireeAdded": {
+        "title": "New hiree added",
+        "description": "You may proceed to the onboarding page to view a summary of all your ongoing hires",
+        "addNewHire": "Add new hire",
+        "downloadContract": "Download contract",
+        "viewSummary": "View summary"
+      }
+    }
+  }
+}

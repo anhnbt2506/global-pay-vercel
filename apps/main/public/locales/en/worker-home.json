@@ -1,0 +1,14 @@
+{
+  "pageName": "Home",
+  "titleWithCompanyInfo": "Welcome to {{companyName}} {{countryName}}",
+  "title": "Please select your desired profile",
+  "description": "You may switch to other employment profiles by selecting switch below",
+  "selectProfile": {
+    "title": "Select profile",
+    "description": "You are about to select a new employment profile.",
+    "form": {
+      "label": "Select profile",
+      "helperText": "Your available employment profiles"
+    }
+  }
+}

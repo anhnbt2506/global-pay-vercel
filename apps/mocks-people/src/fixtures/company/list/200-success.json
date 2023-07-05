@@ -1,0 +1,143 @@
+{
+  "data": {
+    "companies": [
+      {
+        "id": 220,
+        "name": "AYP-GP",
+        "category": "INTERNAL",
+        "industry": {
+          "industryId": "5pkq3g0f",
+          "name": "Manufacturing"
+        },
+        "companyId": "ro16ek7u887l5qg0",
+        "registeredById": 711,
+        "currency": null,
+        "entityLinkStatus": "STANDALONE",
+        "status": "ONBOARDING",
+        "addressId": 674,
+        "createdAt": "2023-02-21T04:04:40.000000Z",
+        "registeredBy": {
+          "user": {
+            "id": 711,
+            "cognitoId": 711,
+            "firstName": "[uat] Tester o222",
+            "lastName": "NGUYEN",
+            "email": "ssdk@bkav.com"
+          }
+        },
+        "address": {
+          "id": 674,
+          "countryCode": "AL",
+          "country": {
+            "id": 4,
+            "code": "AL",
+            "name": "Albania"
+          }
+        }
+      },
+      {
+        "id": 219,
+        "name": null,
+        "category": "INTERNAL",
+        "industry": {
+          "industryId": null,
+          "name": null
+        },
+        "companyId": "1tre09vl340rc29f",
+        "registeredById": 701,
+        "currency": null,
+        "entityLinkStatus": "STANDALONE",
+        "status": "ACTIVE",
+        "addressId": 664,
+        "createdAt": "2023-02-13T06:46:07.000000Z",
+        "registeredBy": {
+          "user": {
+            "id": 701,
+            "cognitoId": 701,
+            "firstName": "fe",
+            "lastName": "habit",
+            "email": "fehabit310@otanhome.com"
+          }
+        },
+        "address": {
+          "id": 664,
+          "countryCode": "AF",
+          "country": null
+        }
+      },
+      {
+        "id": 218,
+        "name": "Classic Cigars",
+        "category": "INTERNAL",
+        "industry": {
+          "industryId": "5p3g0f",
+          "name": "Food"
+        },
+        "companyId": "ss100ps3n5cmpvxd",
+        "registeredById": 693,
+        "currency": "SGD",
+        "entityLinkStatus": "STANDALONE",
+        "status": "IN_REVIEW",
+        "addressId": 656,
+        "createdAt": "2023-02-09T12:42:16.000000Z",
+        "registeredBy": {
+          "user": {
+            "id": 693,
+            "cognitoId": 693,
+            "firstName": "Sergio",
+            "lastName": "Castero",
+            "email": "veribe6515@fsouda.com"
+          }
+        },
+        "address": {
+          "id": 656,
+          "countryCode": "CU",
+          "country": {
+            "id": 54,
+            "code": "CU",
+            "name": "Cuba"
+          }
+        }
+      },
+      {
+        "id": 217,
+        "name": "ThaiLand Milk Corporation",
+        "category": "INDIRECT",
+        "industry": {
+          "industryId": "5q3gf",
+          "name": "Environment"
+        },
+        "companyId": "ozrs8op4wgep1q0y",
+        "registeredById": 680,
+        "currency": null,
+        "entityLinkStatus": "PARENT",
+        "status": "ONBOARDING",
+        "addressId": 647,
+        "createdAt": "2023-02-02T02:34:32.000000Z",
+        "registeredBy": {
+          "user": {
+            "id": 680,
+            "cognitoId": 680,
+            "firstName": "Feb 2023",
+            "lastName": "Test",
+            "email": "alina.nguyen@thailand-milk.com"
+          }
+        },
+        "address": {
+          "id": 647,
+          "countryCode": "TH",
+          "country": {
+            "id": 213,
+            "code": "TH",
+            "name": "Thailand"
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 183
+    }
+  }
+}

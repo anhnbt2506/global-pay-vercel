@@ -1,0 +1,300 @@
+name: Run CI and Cypress
+
+on:
+  repository_dispatch:
+    types: [run-ci-cypress-command]
+
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }} - ${{ github.event.client_payload.pull_request.head.ref }}
+
+env:
+  GIT_SHA: ${{ github.event.client_payload.pull_request.head.sha }}
+  GITHUB_RUN_ID_URL: ${{ format('https://github.com/{0}/actions/runs/{1}', github.repository, github.run_id) }}
+  S3_TMP_FOLDER: ${{ format('s3://{0}/tmp/{1}/{2}/{3}', secrets.GLOBAL_PAY_DEPLOYMENT_BUCKET, github.event.repository.name, github.sha, github.run_id) }}
+  S3_COVERAGE_FOLDER: ${{ format('s3://{0}/coverage/{1}/{2}/{3}', secrets.GLOBAL_PAY_DEPLOYMENT_BUCKET, github.event.repository.name, github.sha, github.run_id) }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: node-cypress-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+      - name: Install dependencies
+        run: pnpm install:cy
+      - name: Run lint
+        run: pnpm nx lint @ayp/main
+      - name: Build package
+        run: pnpm nx build:ci @ayp/main
+        env:
+          NEXT_PUBLIC_STAGE: testing
+          NEXT_PUBLIC_TINYMCE_API_KEY: ${{ secrets.NEXT_PUBLIC_TINYMCE_API_KEY }}
+          NEXT_PUBLIC_TABLEAU_HOST_URL: ${{ secrets.NEXT_PUBLIC_TABLEAU_HOST_URL }}
+          NEXT_PUBLIC_GATEWAY_HOST: ${{ secrets.DEV_NEXT_PUBLIC_GATEWAY_HOST }}
+          NEXT_PUBLIC_PEOPLE_API_HOST: ${{ secrets.DEV_NEXT_PUBLIC_PEOPLE_API_HOST }}
+          NEXT_PUBLIC_FINTECH_API_HOST: ${{ secrets.DEV_NEXT_PUBLIC_FINTECH_API_HOST }}
+          NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME: ${{ secrets.DEV_NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME }}
+          NEXT_PUBLIC_GTM_ID: ${{ secrets.DEV_NEXT_PUBLIC_GTM_ID }}
+          NEXT_PUBLIC_HJID: ${{ secrets.DEV_NEXT_PUBLIC_HJID }}
+          NEXT_PUBLIC_USER_PILOT_TOKEN: ${{ secrets.DEV_NEXT_PUBLIC_USER_PILOT_TOKEN }}
+      - name: Compress build
+        run: zip -r build.zip apps/main/.next
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            build.zip
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+  jest:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      statuses: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: node-cypress-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+      - name: Install dependencies
+        run: pnpm install:cy
+      - name: Run tests
+        run: pnpm nx run-many --parallel --target=test:jest --projects=@ayp/main,@ayp/utils --coverage
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.GLOBAL_PAY_CI_ROLE }}
+      - name: Upload coverage file
+        run: |
+          aws s3 cp apps/main/coverage-jest/coverage-final.json ${{ format('{0}/coverage-jest/coverage-final.json', env.S3_TMP_FOLDER) }}
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+  cypress:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      statuses: write
+    strategy:
+      matrix:
+        context: [root, company, staff, worker]
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ format('{0} ({1})', github.job, matrix.context) }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: node-cypress-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+      - name: Install dependencies
+        run: pnpm install:cy
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+      - name: Decompress build
+        run: unzip build.zip
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+          install: false
+          browser: chrome
+          working-directory: apps/main
+          start: pnpm start, pnpm nx mocks:ci @ayp/mocks-people, pnpm nx mocks:ci @ayp/mocks-fintech
+          spec: ${{ format('cypress/e2e/pages/{0}', matrix.context) }}
+          wait-on: 'http://127.0.0.1:3000/api/health, http://127.0.0.1:3100, http://127.0.0.1:3101'
+        env:
+          NEXTAUTH_SECRET: secret
+          NEXTAUTH_URL: http://127.0.0.1:3000
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.GLOBAL_PAY_CI_ROLE }}
+      - name: Upload coverage file
+        run: |
+          aws s3 cp apps/main/coverage-cypress/coverage-final.json ${{ format('{0}/coverage-cypress/coverage-final-{1}.json', env.S3_TMP_FOLDER, matrix.context) }}
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ format('{0} ({1})', github.job, matrix.context) }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+  coverage-report:
+    needs:
+      - jest
+      - cypress
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      statuses: write
+      pull-requests: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: node-cypress-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+      - name: Install dependencies
+        run: pnpm install:cy
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.GLOBAL_PAY_CI_ROLE }}
+      - name: Download coverage folders
+        run: |
+          aws s3 sync ${{ format('{0}/coverage-jest', env.S3_TMP_FOLDER) }} apps/main/coverage-jest
+          aws s3 sync ${{ format('{0}/coverage-cypress', env.S3_TMP_FOLDER) }} apps/main/coverage-cypress
+      - name: Combine cypress coverage
+        run: |
+          pnpx nyc merge apps/main/coverage-cypress apps/main/coverage-cypress/coverage-final.json
+      - name: Combine jest and cypress
+        run: |
+          mkdir -p apps/main/.nyc_output
+          jq -s '.[0] * .[1]' apps/main/coverage-cypress/coverage-final.json apps/main/coverage-jest/coverage-final.json > apps/main/.nyc_output/out.json
+      - name: Generate report
+        run: |
+          pnpx nyc report --reporter html --report-dir apps/main/coverage --nycrc-path apps/main/.nycrc.coverage
+      - name: Upload coverage artifacts
+        run: aws s3 sync apps/main/coverage ${{ env.S3_COVERAGE_FOLDER }}
+      - name: Add comment to PR
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              repo: context.repo.repo,
+              owner: context.repo.owner,
+              issue_number: ${{ github.event.client_payload.pull_request.number }},
+              body: `${{
+                format(
+                  '👋 Thanks for your contribution! Here is the [coverage report](https://{0}.s3.{1}.amazonaws.com/coverage/{2}/{3}/{4}/index.html)',
+                  secrets.GLOBAL_PAY_DEPLOYMENT_BUCKET,
+                  secrets.AWS_REGION,
+                  github.event.repository.name,
+                  github.sha,
+                  github.run_id
+                )
+              }}`
+            })
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}

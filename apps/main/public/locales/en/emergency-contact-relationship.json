@@ -1,0 +1,9 @@
+{
+  "CHILD": "Child",
+  "FRIEND": "Friend",
+  "FATHER": "Father",
+  "GUARDIAN": "Guardian",
+  "MOTHER": "Mother",
+  "SIBLING": "Sibling",
+  "SPOUSE": "Spouse"
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "banks": [
+      {
+        "bankId": "hkoqrgpk21m3ms2f",
+        "bankName": "Bank 01"
+      },
+      {
+        "bankId": "hkoqrgpk21m3ms2232",
+        "bankName": "Bank 02"
+      }
+    ]
+  }
+}

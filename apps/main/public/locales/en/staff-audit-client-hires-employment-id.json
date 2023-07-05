@@ -1,0 +1,629 @@
+{
+  "pageName": "Client Hires Details",
+  "information": "Information",
+  "documents": "Documents",
+  "informationForm": {
+    "verification": {
+      "title": "VERIFICATION",
+      "fields": {
+        "currentStatus": "Current Status"
+      }
+    },
+    "employmentDetails": {
+      "title": "EMPLOYMENT DETAILS",
+      "fields": {
+        "hireType": "Hire Type",
+        "workerPosition": "Worker Position",
+        "workerTitleAlternate": "Worker Position (Bilingual)",
+        "workerContractType": "Worker Contract Type",
+        "workerContractStartDate": "Worker Contract Start Date",
+        "workerContractEndDate": "Worker Contract End Date",
+        "workerEmploymentType": "Worker Employment Type",
+        "workerWorkingHoursPerWeek": "Worker Working Hours Per Week",
+        "workerStartEmploymentTime": "Worker Start Employment Time",
+        "workerEndEmploymentTime": "Worker End Employment Time",
+        "workerReportingManagerName": "Worker Reporting Manager Name",
+        "workerReportingManagerTitle": "Worker Reporting Manager Title",
+        "workerMonthlySalary": "Worker Monthly Salary",
+        "workerEligibleForInsurance": "Worker Eligible For Insurance",
+        "workerEligibleForAdditionalIncome": "Worker Eligible For Additional Income",
+        "workerEligibleForPaidExpenses": "Worker Eligible For Paid Expenses",
+        "workerEligibleForOvertime": "Worker Eligible For Overtime",
+        "workerEligibleForVariablePay": "Worker Eligible For Variable Pay",
+        "workerEligibleForAnnualBonus": "Worker Eligible For Annual Bonus",
+        "workerEligibleForCommission": "Worker Eligible For Commission"
+      }
+    },
+    "personalProfile": {
+      "title": "PERSONAL PROFILE",
+      "fields": {
+        "workerFirstName": "Worker First Name",
+        "workerLastName": "Worker Last Name",
+        "workerFirstNameAlternate": "Worker First Name (Bilingual)",
+        "workerLastNameAlternate": "Worker Last Name (Bilingual)",
+        "workerNationality": "Worker Nationality",
+        "workerDateOfBirth": "Worker Date Of Birth",
+        "workerGender": "Worker Gender",
+        "workerRace": "Worker Race",
+        "workerReligion": "Worker Religion",
+        "maritalStatus": "Marital Status",
+        "contactNumber": "Contact Number",
+        "workerAddress": "Worker Address",
+        "workerCity": "Worker City",
+        "workerState": "Worker State",
+        "workerPostalCode": "Worker Postal Code",
+        "workerAddressLineAlternate": "Worker Address (Bilingual)",
+        "workerCityAlternate": "Worker City (Bilingual)",
+        "workerStateAlternate": "Worker State (Bilingual)",
+        "workerPostalCodeAlternate": "Worker Postal Code (Bilingual)"
+      }
+    },
+    "identification": {
+      "title": "IDENTIFICATION",
+      "fields": {
+        "workerEmail": "Worker Email",
+        "workerCitizenshipStatus": "Worker Citizenship Status",
+        "workerTaxId": "Worker Tax ID",
+        "workerNationalId": "Worker National ID",
+        "workerNationalIdIssueDate": "Worker National ID Issue Date",
+        "workerNationalIdPlaceOfIssue": "Worker National ID Place Of Issue",
+        "workerNationalIdIssuedPlaceAlternate": "Worker National ID Place Of Issue (Bilingual)",
+        "workerPassportId": "Worker Passport ID",
+        "workerPassportIssuedDate": "Worker Passport ID Issue Date",
+        "workerPassportIssuedPlace": "Worker Passport ID Place Of Issue",
+        "workerPassportIssuedPlaceAlternate": "Worker Passport ID Place Of Issue (Bilingual)",
+        "workerPermitType": "Worker Permit Type",
+        "workerLatestPermitId": "Worker Latest Permit ID",
+        "workerLatestPermitIssueDate": "Worker Latest Permit Issue Date",
+        "workerLatestPermitPlaceOfIssue": "Worker Latest Permit Place Of Issue",
+        "workerPermitIssuedPlaceAlternate": "Worker Latest Permit Place Of Issue (Bilingual)",
+        "workerPreviousPermitId": "Worker Previous Permit ID"
+      }
+    },
+    "addOnEmploymentDetails": {
+      "title": "ADD-ON EMPLOYMENT DETAILS",
+      "id": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period",
+          "workerReligiousFestivityAllowance": "Worker Religious Festivity Allowance"
+        }
+      },
+      "hk": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period",
+          "workerMpfId": "Worker MPF ID"
+        }
+      },
+      "my": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period",
+          "workerEpfId": "Worker EPF ID"
+        }
+      },
+      "sg": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period"
+        }
+      },
+      "th": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period"
+        }
+      },
+      "vn": {
+        "fields": {
+          "workerProbationStartDate": "Worker Probation Start Date",
+          "workerProbationEndDate": "Worker Probation End Date",
+          "workerSocialInsuranceBookNo": "Worker Social Insurance Book ID",
+          "workerLocalHospitalForStatutoryMedicalInsurance": "Worker Local Hospital Declaration"
+        }
+      },
+      "ph": {
+        "fields": {
+          "workerProbationPeriod": "Worker Probation Period",
+          "workerFieldManagerialType": "Worker Field/Managerial Type",
+          "workerMonthlyAllowance": "Worker Monthly Allowance",
+          "workerEntitledToOvertimeNightDayDifferential": "Worker Entitled To Overtime/Night / Day Differential",
+          "workerTinId": "Worker TIN ID",
+          "workerSssId": "Worker SSS ID",
+          "workerPhilhealthId": "Worker PHILHEALTH ID",
+          "workerMidHdmfId": "Worker MID (HDMF) ID"
+        }
+      }
+    },
+    "emergencyContact": {
+      "title": "EMERGENCY CONTACT",
+      "fields": {
+        "workerEmergencyName": "Worker Emergency Name",
+        "workerEmergencyRelationship": "Worker Emergency Relationship",
+        "workerEmergencyNumber": "Worker Emergency Number"
+      }
+    },
+    "bankDetails": {
+      "title": "BANK DETAILS",
+      "fields": {
+        "workerBankAccountHolder": "Worker Bank Account Holder",
+        "workerBankAccountNumber": "Worker Bank Account Number",
+        "workerBankName": "Worker Bank Name",
+        "workerBankBranchCode": "Worker Bank Branch Code",
+        "workerBankSwiftBic": "Worker Bank SWIFT/BIC",
+        "workerBankIban": "Worker Bank IBAN"
+      }
+    },
+    "editModals": {
+      "description": "You are about to update information for this employment.",
+      "addOnEmploymentDetails": {
+        "title": "Add-on employment details",
+        "hk": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          },
+          "mpfId": {
+            "label": "MPF ID",
+            "helperText": "Your MPF ID"
+          }
+        },
+        "my": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          },
+          "epfId": {
+            "label": "EPF ID",
+            "helperText": "Your EPF ID"
+          }
+        },
+        "id": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          },
+          "religiousFestivityAllowance": {
+            "label": "Religious festivity allowance",
+            "helperText": "Religious festivity allowance"
+          }
+        },
+        "ph": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          },
+          "fieldManagerialType": {
+            "label": "Field Managerial Type",
+            "helperText": "Your field managerial type"
+          },
+          "monthlyAllowance": {
+            "label": "Monthly Allowance",
+            "helperText": "Your monthly allowance"
+          },
+          "sssId": {
+            "label": "Government issued SSS ID",
+            "helperText": "Your SSS ID"
+          },
+          "tinId": {
+            "label": "Government issued TIN ID",
+            "helperText": "Your TIN ID"
+          },
+          "isEntitledToOvertimeDifferential": {
+            "label": "Hiree entitled to overtime / night / day differential",
+            "helperText": "Hiree entitled to overtime / night / day differential"
+          },
+          "healthId": {
+            "label": "Government issued PHILHEALTH ID",
+            "helperText": "Your PHILHEALTH ID"
+          },
+          "hdmfId": {
+            "label": "Government issued MID (HDMF) ID",
+            "helperText": "Your MID (HDMF) ID"
+          }
+        },
+        "sg": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          }
+        },
+        "th": {
+          "probationPeriod": {
+            "label": "Worker Probation Period"
+          }
+        },
+        "vn": {
+          "socialInsuranceBookNo": {
+            "label": "Social Insurance Book No",
+            "helperText": "Your social insurance book no"
+          },
+          "localHospitalForStatutoryMedicalInsurance": {
+            "label": "Local Hospital For Statutory Medical Insurance",
+            "helperText": "Your local hospital for statutory medical insurance"
+          },
+          "probationStartDate": {
+            "label": "Worker Probation Period Start Date",
+            "helperText": "Probation start date"
+          },
+          "probationEndDate": {
+            "label": "Worker Probation Period End Date",
+            "helperText": "Probation end date",
+            "error": {
+              "probationEndDateMustBeLaterThanProbationStartDate": "Probation end date has to be later than the probation start date"
+            }
+          }
+        }
+      },
+      "personalProfile": {
+        "title": "Personal Profile",
+        "form": {
+          "workerUser": {
+            "userContext": {
+              "user": {
+                "firstName": {
+                  "label": "Worker First Name",
+                  "helperText": "Your first name"
+                },
+                "lastName": {
+                  "label": "Worker Last Name",
+                  "helperText": "Your last name"
+                },
+                "firstNameAlternate": {
+                  "label": "Worker First Name (Bilingual)",
+                  "helperText": "Your first name"
+                },
+                "lastNameAlternate": {
+                  "label": "Worker Last Name (Bilingual)",
+                  "helperText": "Your last name"
+                }
+              }
+            },
+            "address": {
+              "addressLine": {
+                "label": "Worker Address",
+                "helperText": "Where is your legal residence located"
+              },
+              "city": {
+                "label": "Worker City",
+                "helperText": "Which city is your legal residence located"
+              },
+              "state": {
+                "label": "Worker State",
+                "helperText": "Which state is your legal residence located"
+              },
+              "postalCode": {
+                "label": "Worker Postal code",
+                "helperText": "Which is the postal code of your legal residence"
+              },
+              "addressLineAlternate": {
+                "label": "Worker Address (Bilingual)",
+                "helperText": "Where is your legal residence located"
+              },
+              "cityAlternate": {
+                "label": "Worker City (Bilingual)",
+                "helperText": "Which city is your legal residence located"
+              },
+              "stateAlternate": {
+                "label": "Worker State (Bilingual)",
+                "helperText": "Which state is your legal residence located"
+              },
+              "postalCodeAlternate": {
+                "label": "Postal code (Bilingual)",
+                "helperText": "Worker Postal Code (Bilingual)"
+              }
+            },
+            "dateOfBirth": {
+              "label": "Worker date of birth",
+              "helperText": "Your date of birth"
+            },
+            "gender": {
+              "label": "Worker gender",
+              "helperText": "Your gender"
+            },
+            "religion": {
+              "label": "Worker religion",
+              "helperText": "Your religion"
+            },
+            "race": {
+              "label": "Worker race",
+              "helperText": "Your race"
+            },
+            "maritalStatus": {
+              "label": "Worker marital status",
+              "helperText": "Your marital status"
+            }
+          },
+          "nationalityCode": {
+            "label": "Worker Nationality",
+            "helperText": "Legal Worker Nationality"
+          },
+          "workerContact": {
+            "contactNumberCountryCode": {
+              "label": "Dialing code",
+              "helperText": "Select international dialing code and enter contact number"
+            },
+            "contactNumber": {
+              "label": "Contact number"
+            }
+          }
+        }
+      },
+      "employmentDetails": {
+        "title": "Employment Details",
+        "fields": {
+          "hireType": {
+            "label": "Hire Type",
+            "helperText": "Type of hire"
+          },
+          "title": {
+            "label": "Worker Position",
+            "helperText": "Role hired for"
+          },
+          "titleAlternate": {
+            "label": "Worker Position (Bilingual)",
+            "helperText": "Alternative name for role hired for"
+          },
+          "contractType": {
+            "label": "Worker Contract Type",
+            "helperText": "Contract type"
+          },
+          "startDate": {
+            "label": "Worker Contract Start Date",
+            "helperText": "Contract start date"
+          },
+          "endDate": {
+            "label": "Worker Contract End Date",
+            "helperText": "Contract end date",
+            "error": {
+              "endDateMustBeLaterThanStartDate": "Contract end date has to be later than the contract start date"
+            }
+          },
+          "employmentType": {
+            "label": "Worker Employment Type",
+            "helperText": "Employment Type"
+          },
+          "workingHoursPerWeek": {
+            "label": "Worker Working Hours Per Week",
+            "helperText": "Working hours per week"
+          },
+          "startAt": {
+            "label": "Worker Start Employment Time",
+            "helperText": "Working hours start time (local time of hiring country)"
+          },
+          "endAt": {
+            "label": "Worker End Employment Time",
+            "helperText": "Working hours end time (local time of hiring country)"
+          },
+          "managerName": {
+            "label": "Working Reporting Manager Name",
+            "helperText": "Name of direct repeorting manager"
+          },
+          "managerTitle": {
+            "label": "Worker Reporting Manager Title",
+            "helperText": "Direct reporting manager's position"
+          },
+          "workerRemuneration": {
+            "salaryPerMonth": {
+              "label": "Worker Monthly Salary",
+              "helperText": "Montly Salary"
+            },
+            "isEligibleForInsurance": {
+              "label": "Worker Eligible For Insurance",
+              "helperText": "Worker shall or shall not be eligible for insurance"
+            },
+            "isEligibleForAdditionalIncome": {
+              "label": "Worker Eligible For Additional Income",
+              "helperText": "Eligible for additional income"
+            },
+            "additionalIncomeDescription": {
+              "label": "Additional income description",
+              "helperText": "Summarize eligibility for additional income"
+            },
+            "isEligibleForPaidExpenses": {
+              "label": "Worker Eligible For Paid Expenses",
+              "helperText": "Eligible for paid expenses"
+            },
+            "paidExpensesDescription": {
+              "label": "Paid Expenses Description",
+              "helperText": "Summarize eligibility for paid expenses"
+            },
+            "isEntitledToOvertime": {
+              "label": "Worker Eligible For Overtime",
+              "helperText": "Eligible for overtime"
+            },
+            "overtimeDescription": {
+              "label": "Overtime description",
+              "helperText": "Summarize eligibility for overtime"
+            },
+            "isEligibleForVariablePay": {
+              "label": "Worker Eligible For Variable Pay",
+              "helperText": "Eligible for variable pay"
+            },
+            "variablePayDescription": {
+              "label": "Variable income description",
+              "helperText": "Summarize eligibility for variable income"
+            },
+            "isEligibleForAnnualBonus": {
+              "label": "Eligible for annual bonus",
+              "helperText": "Eligible for annual bonus"
+            },
+            "annualBonusDescription": {
+              "label": "Annual bonus description",
+              "helperText": "Summarize eligibility for annual bonus"
+            },
+            "isEligibleForCommission": {
+              "label": "Eligible for commission",
+              "helperText": "Eligible for commission"
+            },
+            "commissionDescription": {
+              "label": "Commission description",
+              "helperText": "Summarize eligibility of commission"
+            }
+          }
+        }
+      },
+      "emergencyContact": {
+        "title": "Emergency Contact",
+        "form": {
+          "workerContact": {
+            "emergencyContactName": {
+              "label": "Worker Emergency Name",
+              "helperText": "Worker Emergency Name"
+            },
+            "emergencyContactRelationship": {
+              "label": "Worker Emergency Relationship",
+              "helperText": "Worker Emergency Relationship"
+            },
+            "contactNumberCountryCode": {
+              "label": "Dialing code",
+              "helperText": "Select international dialing code and enter contact number"
+            },
+            "emergencyContactNumber": {
+              "label": "Worker Emergency Number",
+              "helperText": "Worker Emergency Number"
+            }
+          }
+        }
+      },
+      "identification": {
+        "title": "Identification",
+        "form": {
+          "workerUser": {
+            "userContext": {
+              "user": {
+                "email": {
+                  "label": "Worker User Email",
+                  "helperText": "Worker User Email"
+                }
+              }
+            }
+          },
+          "citizenshipStatus": {
+            "label": "Worker Citizenship Status",
+            "helperText": "Citizenship status of worker"
+          },
+          "workerIdentity": {
+            "taxId": {
+              "label": "Worker Tax ID",
+              "helperText": "Worker Tax ID"
+            },
+            "nationalId": {
+              "label": "Worker National ID",
+              "helperText": "Worker National ID"
+            },
+            "nationalIdIssuedDate": {
+              "label": "Worker National ID Issue Date",
+              "helperText": "Worker National ID Issue Date"
+            },
+            "nationalIdIssuedPlace": {
+              "label": "Worker National Id Place Of Issue",
+              "helperText": "Worker National Id Place Of Issue"
+            },
+            "nationalIdIssuedPlaceAlternate": {
+              "label": "Worker National Id Place Of Issue (Bilingual)",
+              "helperText": "Worker National Id Place Of Issue (Bilingual)"
+            },
+            "passportNumber": {
+              "label": "Worker Passport ID",
+              "helperText": "Worker Passport ID"
+            },
+            "passportIssuedDate": {
+              "label": "Worker Passport ID Issue Date",
+              "helperText": "Worker Passport ID Issue Date"
+            },
+            "passportIssuedPlace": {
+              "label": "Worker Passport ID Place Of Issue",
+              "helperText": "Worker Passport ID Place Of Issue"
+            },
+            "passportIssuedPlaceAlternate": {
+              "label": "Worker Passport ID Place Of Issue (Bilingual)",
+              "helperText": "Worker Passport ID Place Of Issue (Bilingual)"
+            },
+            "permitType": {
+              "label": "Worker Permit Type",
+              "helperText": "Worker permit type"
+            },
+            "permitId": {
+              "label": "Worker Latest Permit ID",
+              "helperText": "Worker Latest Permit ID"
+            },
+            "permitIssuedDate": {
+              "label": "Worker Latest Permit Issue Date",
+              "helperText": "Worker Latest Permit Issue Date"
+            },
+            "permitIssuedPlace": {
+              "label": "Worker Latest Permit Place Of Issue",
+              "helperText": "Worker Latest Permit Place Of Issue"
+            },
+            "permitIssuedPlaceAlternate": {
+              "label": "Worker Latest Permit Place Of Issue (Bilingual)",
+              "helperText": "Worker Latest Permit Place Of Issue (Bilingual)"
+            }
+          },
+          "additionalInfo": {
+            "oldPermitId": {
+              "label": "Worker Previous Permit ID",
+              "helperText": "Worker Previous Permit ID"
+            }
+          }
+        }
+      },
+      "bankDetails": {
+        "title": "Bank details",
+        "form": {
+          "bankAccount": {
+            "beneficiaryName": {
+              "label": "Name of bank account holder",
+              "helperText": "Bank beneficiary name"
+            },
+            "accountNumber": {
+              "label": "Bank account number",
+              "helperText": "Account number for the bank beneficiary"
+            },
+            "bank": {
+              "label": "Bank name",
+              "helperText": "Bank that is managing your account"
+            },
+            "branchCode": {
+              "label": "Branch code",
+              "helperText": "Unique identification code for your bank branch"
+            }
+          }
+        }
+      }
+    }
+  },
+  "updateClientStatus": {
+    "title": "Update employee status",
+    "toast": {
+      "updateSuccess": "Status successfully updated"
+    },
+    "modal": {
+      "title": "Update Status",
+      "description": "You are about to update the status for this client hiree. Please ensure checks have been completed before proceeding with the status update.",
+      "form": {
+        "status": {
+          "label": "Status",
+          "helperText": "Ensure due diligence has been completed before updating"
+        }
+      }
+    }
+  },
+  "downloadContract": {
+    "title": "Download contract",
+    "errorEmployeeNotOnboarded": "Employee has yet to complete the hiring process"
+  },
+  "addFile": {
+    "title": "Add file",
+    "description": "Add file to upload",
+    "form": {
+      "addendumFiles": {
+        "label": "Addendum Files"
+      },
+      "notifyChange": {
+        "label": "Notify AYP client about addendum uploaded"
+      },
+      "addComment": {
+        "label": "Add comment"
+      },
+      "comment": {
+        "prefilledComment": "Addendums have been uploaded please review"
+      }
+    },
+    "toast": {
+      "warningOutsideAddendumFolder": "You can only upload files to the <strong> Addendum </strong>folder"
+    }
+  }
+}

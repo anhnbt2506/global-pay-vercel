@@ -1,0 +1,10 @@
+{
+  "data": {
+    "agreement": {
+      "id": "1",
+      "agreementId": "abc123",
+      "content": "<>The content</>",
+      "createdAt": "2022-10-25T10:02:54.000000Z"
+    }
+  }
+}

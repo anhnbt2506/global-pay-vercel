@@ -1,0 +1,14 @@
+{
+  "name": "Name",
+  "lastModified": "Last modified",
+  "lastUpdatedBy": "Last updated by",
+  "anchorElMenuItem": {
+    "reUpload": "Re-upload",
+    "download": "Download"
+  },
+  "reUploadModal": {
+    "title": "Upload instructions",
+    "description": "This will replace the existing file that has been uploaded",
+    "fileUploaded": "File uploaded successfully"
+  }
+}

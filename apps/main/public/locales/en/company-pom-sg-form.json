@@ -1,0 +1,56 @@
+{
+  "form": {
+    "payrollCycle": {
+      "label": "Payroll cycle",
+      "helperText": "Period for processing payments"
+    },
+    "payrollCutOffDate": {
+      "label": "Payroll instructions cut off date",
+      "helperText": "When will the cut off date for instructions be"
+    },
+    "payrollDate": {
+      "label": "Payroll date",
+      "helperText": "What is the pay date"
+    },
+    "prorateSalaryFormula": {
+      "label": "Prorate salary formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "cpfFilingNumber": {
+      "label": "CPF filing number",
+      "helperText": "Number used to transact with CPF board"
+    },
+    "cpfSubmissionPlatform": {
+      "label": "CPF submission platform",
+      "helperText": "Digital service used to submit your CPF contributions"
+    },
+    "crimsonLogicUsername": {
+      "label": "Crimson logic username",
+      "helperText": "Crimson logic credentials"
+    },
+    "crimsonLogicPassword": {
+      "label": "Crimson logic password",
+      "helperText": "Crimson logic credentials"
+    },
+    "cpfPaymentMode": {
+      "label": "CPF payment mode",
+      "helperText": "Select mode of payment"
+    },
+    "isAypAssistESubmission": {
+      "label": "Would you like us to assist for e-submission",
+      "helperText": "Manage statutory e-submission"
+    },
+    "eSubmissionServices": {
+      "label": "Please grant corpass e-services to AYP HR Solutions Pte Ltd (UEN 200608037E) as 3rd party. Our team will reach out to you to confirm access.",
+      "helperText": "Select the list of e-services that will be granted to AYP Staffing."
+    },
+    "isUsingDisbursementService": {
+      "label": "Use disbursement service",
+      "helperText": "Funds disbursement service"
+    },
+    "isGenerateBankFile": {
+      "label": "Do you require a bank file to be generated for self submission?",
+      "helperText": "Generating a bank file"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "serviceAgreement": {
+      "id": 8,
+      "companyId": "ge4lmziiraes9vso",
+      "serviceAgreementId": "3l5x2nvoj4zi97cbciypbhqpdr7pir0r",
+      "content": "<p>Buoc Qua Nhau Vu Vu</p>",
+      "hireType": "PEO",
+      "status": "WAITING_CONFIRMATION",
+      "iterationCount": 14,
+      "lastInReviewAt": null,
+      "lastContentUpdatedById": 7,
+      "createdAt": "2022-08-25T04:01:03.000000Z",
+      "updatedAt": "2022-08-30T10:44:10.000000Z",
+      "updatedById": 7,
+      "signedAt": null,
+      "conversationId": "y0pnl878mrxtbnllj6wfnexob4eyd9mc"
+    }
+  }
+}

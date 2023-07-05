@@ -1,0 +1,39 @@
+{
+  "data": {
+    "company": {
+      "id": 157,
+      "companyId": "z7nwn6970a7bclgr",
+      "status": "ACTIVE",
+      "name": "Diego Company",
+      "addressId": 460,
+      "registrationId": "111222333",
+      "taxId": "111222333",
+      "currency": "USD",
+      "hasSgEntity": 1,
+      "sgEntityUen": "UEN-123456",
+      "sgEntityName": "Diego company",
+      "interest": "PARTNERSHIP",
+      "createdById": 494,
+      "registeredById": 494,
+      "createdAt": "2022-10-26T03:55:24.000000Z",
+      "updatedAt": "2022-10-28T07:29:37.000000Z",
+      "deletedAt": null,
+      "address": {
+        "id": 460,
+        "addressLine": "22 Hanoi",
+        "city": "Hanoi",
+        "state": "Vietnam",
+        "postalCode": "100000",
+        "countryCode": "US",
+        "createdAt": "2022-10-26T03:55:24.000000Z",
+        "updatedAt": "2022-10-27T03:56:53.000000Z",
+        "country": {
+          "id": 1,
+          "code": "US",
+          "dialingCode": "+1",
+          "name": "United States"
+        }
+      }
+    }
+  }
+}

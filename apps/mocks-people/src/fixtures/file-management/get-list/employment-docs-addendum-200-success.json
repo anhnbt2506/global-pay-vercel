@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "key": "documents/addendum/file-1.pdf",
+      "type": "FILE",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    },
+    {
+      "key": "documents/addendum/file-2.pdf",
+      "type": "FILE",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    },
+    {
+      "key": "documents/addendum/file-3.pdf",
+      "type": "FILE",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    }
+  ]
+}

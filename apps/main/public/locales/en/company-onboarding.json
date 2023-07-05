@@ -1,0 +1,85 @@
+{
+  "companyInformation": {
+    "label": "Company Information",
+    "title": "Company Information",
+    "description": "Information needed for verification",
+    "sidebar": {
+      "title": "Getting Started",
+      "description": "Lets get the administrative process out of the way!"
+    },
+    "form": {
+      "addressLine": {
+        "label": "Address Line",
+        "helperText": "Where is the company legally located"
+      },
+      "city": {
+        "label": "City",
+        "helperText": "Which city is the company legally located"
+      },
+      "state": {
+        "label": "State",
+        "helperText": "Which state is the company legally located"
+      },
+      "postalCode": {
+        "label": "Postal Code",
+        "helperText": "What is the postal code the company is legally located"
+      },
+      "industry": {
+        "label": "Company Industry",
+        "helperText": "What is the industry of this client"
+      },
+      "category": {
+        "label": "Company Category",
+        "helperText": "What is the category of this client"
+      }
+    }
+  },
+  "companyInvoicing": {
+    "label": "Company Invoicing",
+    "title": "Company Invoicing",
+    "description": "Information needed for tax purposes",
+    "sidebar": {
+      "title": "Getting Started",
+      "description": "Lets get the administrative process out of the way!"
+    },
+    "form": {
+      "registrationId": {
+        "label": "Company Registration ID",
+        "helperText": "Enter your company's registration id"
+      },
+      "taxId": {
+        "label": "Company VAT, EIN, or Tax ID",
+        "helperText": "Please provide your VAT, EIN or Tax ID"
+      },
+      "currency": {
+        "label": "Currency",
+        "helperText": "Choose the currency you want to be invoiced in"
+      },
+      "hasSgEntity": {
+        "label": "Does the company have a Singapore registered entity",
+        "helperText": "As AYP Global Pay is based in Singapore, invoices generated to companies with a registered Singapore entity, are required by law, to include GST collected to Inland Revenue Authority of Singapore (IRAS)"
+      },
+      "sgEntityUen": {
+        "label": "Singapore Entity UEN",
+        "helperText": "Enter the UEN of the Singapore registered company",
+        "error": {
+          "valueMustMeetRequiredLength": "Value must be between 9 and 10 characters long."
+        }
+      },
+      "sgEntityName": {
+        "label": "Singapore Company Name",
+        "helperText": "Enter the name of the Singapore registered company"
+      }
+    },
+    "completeOnboarding": "Complete onboarding"
+  },
+  "onboardingInReview": {
+    "label": "In-review",
+    "title": "Thank you!",
+    "description": "Thank you for signing up! Our experts will be in touch with you shortly.",
+    "sidebar": {
+      "title": "In Review",
+      "description": "You are just a few more steps away!"
+    }
+  }
+}

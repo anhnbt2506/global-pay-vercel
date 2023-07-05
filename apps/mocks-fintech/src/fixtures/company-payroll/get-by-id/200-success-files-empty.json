@@ -1,0 +1,19 @@
+{
+  "data": {
+    "companyPayroll": {
+      "companyPayrollId": "mk6eo1fzpchuovz6",
+      "countryCode": "ID",
+      "cycle": "MONTHLY",
+      "type": "REGULAR_CYCLE",
+      "name": "Regular cycle",
+      "periodStartDate": "",
+      "periodEndDate": "",
+      "status": "DRAFT",
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "companyPayrollFiles": []
+    }
+  }
+}

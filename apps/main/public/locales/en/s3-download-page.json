@@ -1,0 +1,7 @@
+{
+  "toastMessage": {
+    "downloadInProgress": "Access verified and file is available, download is in progress",
+    "fileExpired": "Access verified but file validity has expired, please export again",
+    "unauthorized": "Access verified but do not have the permission to download file"
+  }
+}

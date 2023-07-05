@@ -1,0 +1,7 @@
+{
+  "COMPLETED": "Completed",
+  "DRAFT": "Draft",
+  "PENDING": "Pending",
+  "PENDING_REVIEW": "Pending review",
+  "REJECTED": "Rejected"
+}

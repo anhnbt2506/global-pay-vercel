@@ -1,0 +1,26 @@
+{
+  "pageName": "Client Service Agreements",
+  "dataGrid": {
+    "header": {
+      "company.name": "Client",
+      "hireType": "Service Agreement",
+      "lastInReviewAt": "Days In-review",
+      "iterationCount": "Total Updates",
+      "status": "Current Status"
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search client",
+    "columns": {
+      "hireType": {
+        "POM": "POM",
+        "PEO": "PEO / EOR"
+      }
+    }
+  },
+  "view": {
+    "title": "View"
+  }
+}

@@ -1,0 +1,60 @@
+name: Deploy to UAT
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - uat
+
+env:
+  REGISTRY: harbor.ayp-group.com
+  IMAGE_NAME: ${{ github.event.repository.name }}
+
+jobs:
+  main:
+    runs-on: gp02-docker
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Log in to the container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.GLOBAL_PAY_HARBOR_USERNAME }}
+          password: ${{ secrets.GLOBAL_PAY_HARBOR_PASSWORD }}
+      - name: Extract metadata (tags, labels)
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/global_pay/${{ env.IMAGE_NAME }}
+      - name: Build and push image
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          context: .
+          file: ./apps/main/Dockerfile
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            NEXT_PUBLIC_STAGE=uat
+            NEXT_PUBLIC_VERSION=${{ github.sha }}
+            NEXT_PUBLIC_TINYMCE_API_KEY=${{ secrets.NEXT_PUBLIC_TINYMCE_API_KEY }}
+            NEXT_PUBLIC_GATEWAY_HOST=${{ secrets.UAT_NEXT_PUBLIC_GATEWAY_HOST }}
+            NEXT_PUBLIC_PEOPLE_API_HOST=${{ secrets.UAT_NEXT_PUBLIC_PEOPLE_API_HOST }}
+            NEXT_PUBLIC_FINTECH_API_HOST=${{ secrets.UAT_NEXT_PUBLIC_FINTECH_API_HOST }}
+            NEXT_PUBLIC_TABLEAU_HOST_URL=${{ secrets.NEXT_PUBLIC_TABLEAU_HOST_URL }}
+            NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME=${{ secrets.UAT_NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME }}
+            NEXT_PUBLIC_GTM_ID=${{ secrets.UAT_NEXT_PUBLIC_GTM_ID }}
+            NEXT_PUBLIC_HJID=${{ secrets.UAT_NEXT_PUBLIC_HJID }}
+            NEXT_PUBLIC_USER_PILOT_TOKEN=${{ secrets.UAT_NEXT_PUBLIC_USER_PILOT_TOKEN }}
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.GLOBAL_PAY_CI_ROLE }}
+      - name: Update service
+        run: |
+          aws ecs update-service --cluster GP --service UAT-Frontend-Service --task-definition UAT-Frontend-Task --force-new-deployment 2>&1 > /dev/null

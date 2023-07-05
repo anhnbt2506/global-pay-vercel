@@ -1,0 +1,54 @@
+{
+  "sidebar": {
+    "title": "Employee portal",
+    "subtitle": "Access relevant information and manage your work life in a single place"
+  },
+  "title": "Log in to AYP Global Pay employee portal",
+  "description": "Log in to access and manage your employment profile",
+  "form": {
+    "email": {
+      "label": "Email address",
+      "error": {
+        "unavailableAccess": "Your access is currently unavailable"
+      }
+    },
+    "password": {
+      "label": "Password",
+      "error": "Incorrect email and/or password combination"
+    }
+  },
+  "emailVerification": {
+    "sidebar": {
+      "title": "Verify email",
+      "subtitle": "Complete the verification to proceed."
+    },
+    "title": "Verify email",
+    "description": "You will receive a verification email in your inbox. Do check your spam folder if it doesn't arrive in your inbox.",
+    "success": "Your email has been verified"
+  },
+  "tokenExpired": {
+    "sidebar": {
+      "title": "Token expired",
+      "subtitle": "Oops you waited to long to complete the action."
+    },
+    "title": "Token expired",
+    "description": "Your session token has expired or is no longer active. This happens when you have been idle too long.",
+    "descriptionTwo": "Please log in to submit a new request"
+  },
+  "setPassword": {
+    "sidebar": {
+      "title": "Create password",
+      "subtitle": "Welcome you are new around here"
+    },
+    "title": "Welcome to AYP Global Pay",
+    "description": "We need you to set up your password for",
+    "form": {
+      "password": {
+        "label": "Create your password",
+        "helperText": "Your password must meet the criteria below",
+        "success": "Password has successfully set",
+        "error": "Reset password failed"
+      }
+    }
+  }
+}

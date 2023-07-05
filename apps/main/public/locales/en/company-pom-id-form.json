@@ -1,0 +1,68 @@
+{
+  "form": {
+    "payrollCycle": {
+      "label": "Payroll cycle",
+      "helperText": "Period for processing payments"
+    },
+    "payrollCutOffDate": {
+      "label": "Payroll instructions cut off date",
+      "helperText": "When will the cut off date for instructions be"
+    },
+    "payrollDate": {
+      "label": "Payroll date",
+      "helperText": "What is the pay date"
+    },
+    "prorateSalaryFormula": {
+      "label": "Prorate salary formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "prorateLeaveEncashmentFormula": {
+      "label": "Prorate leave encashment formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "prorateUnpaidLeaveEncashmentFormula": {
+      "label": "Prorate unpaid leave encashment formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "contributionForBpjsOnSalary": {
+      "label": "Contribution for BPJS on salary",
+      "helperText": "Contribution for BPJS on salary"
+    },
+    "isAypAssistESubmission": {
+      "label": "Would you like us to assist for e-submission",
+      "helperText": "Manage statutory e-submission"
+    },
+    "djpTaxNumberId": {
+      "label": "DJP/Mitrapajakku tax number ID",
+      "helperText": "DJP/Mitrapajakku credentials"
+    },
+    "djpPassword": {
+      "label": "DJP/Mitrapajakku password",
+      "helperText": "DJP/Mitrapajakku credentials"
+    },
+    "eDabuId": {
+      "label": "e-Dabu BPJSKS ID",
+      "helperText": "e-Dabu credentials"
+    },
+    "eDabuPassword": {
+      "label": "e-Dabu password",
+      "helperText": "e-Dabu credentials"
+    },
+    "sippId": {
+      "label": "SIPP BPJSTK ID",
+      "helperText": "SIPP credentials"
+    },
+    "sippPassword": {
+      "label": "SIPP password",
+      "helperText": "SIPP credentials"
+    },
+    "isUsingDisbursementService": {
+      "label": "Use disbursement service",
+      "helperText": "Funds disbursement service"
+    },
+    "isGenerateBankFile": {
+      "label": "Do you require a bank file to be generated for self submission?",
+      "helperText": "Generating a bank file"
+    }
+  }
+}

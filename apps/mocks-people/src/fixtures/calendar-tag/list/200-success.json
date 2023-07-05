@@ -1,0 +1,134 @@
+{
+  "data": {
+    "calendarTags": [
+      {
+        "id": 1,
+        "name": "Alpha",
+        "description": "Alpha Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE",
+        "adjustmentCalendarTag": null,
+        "calendarTagId": "1p7ttli1"
+      },
+      {
+        "id": 2,
+        "name": "Beta",
+        "description": "Beta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE",
+        "adjustmentCalendarTag": null
+      },
+      {
+        "id": 3,
+        "name": "Gamma",
+        "description": "Gamma Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE",
+        "adjustmentCalendarTag": {
+          "id": 1,
+          "calendarTagId": "1p7ttli5",
+          "name": "Alpha",
+          "description": "Alpha Description",
+          "isAdjustmentRequired": false,
+          "adjustmentCalendarTagId": null,
+          "adjustmentEvent": null,
+          "adjustmentMethod": null,
+          "adjustmentDays": null,
+          "status": "ACTIVE",
+          "createdAt": "2022-10-25T10:02:54.000000Z",
+          "updatedAt": "2022-10-25T10:02:54.000000Z"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Delta",
+        "description": "Delta Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE",
+        "adjustmentCalendarTag": {
+          "id": 2,
+          "calendarTagId": "dqyuaarl",
+          "name": "Beta",
+          "description": "Beta Description",
+          "isAdjustmentRequired": false,
+          "adjustmentCalendarTagId": null,
+          "adjustmentEvent": null,
+          "adjustmentMethod": null,
+          "adjustmentDays": null,
+          "status": "ACTIVE",
+          "createdAt": "2022-10-25T10:02:54.000000Z",
+          "updatedAt": "2022-10-25T10:02:54.000000Z"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Epsilon",
+        "description": "Epsilon Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE",
+        "adjustmentCalendarTag": {
+          "id": 2,
+          "calendarTagId": "dqyuaarl",
+          "name": "Beta",
+          "description": "Beta Description",
+          "isAdjustmentRequired": false,
+          "adjustmentCalendarTagId": null,
+          "adjustmentEvent": null,
+          "adjustmentMethod": null,
+          "adjustmentDays": null,
+          "status": "ACTIVE",
+          "createdAt": "2022-10-25T10:02:54.000000Z",
+          "updatedAt": "2022-10-25T10:02:54.000000Z"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Zeta",
+        "description": "Zeta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "INACTIVE",
+        "adjustmentCalendarTag": null
+      },
+      {
+        "id": 7,
+        "name": "Eta",
+        "description": "Eta Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "INACTIVE",
+        "adjustmentCalendarTag": {
+          "id": 1,
+          "calendarTagId": "1p7ttli5",
+          "name": "Alpha",
+          "description": "Alpha Description",
+          "isAdjustmentRequired": false,
+          "adjustmentCalendarTagId": null,
+          "adjustmentEvent": null,
+          "adjustmentMethod": null,
+          "adjustmentDays": null,
+          "status": "ACTIVE",
+          "createdAt": "2022-10-25T10:02:54.000000Z",
+          "updatedAt": "2022-10-25T10:02:54.000000Z"
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 7
+    }
+  }
+}

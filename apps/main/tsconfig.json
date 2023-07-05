@@ -1,0 +1,41 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "baseUrl": "src",
+    "typeRoots": ["node_modules/@types", "./typings"],
+    "paths": {
+      "@public/*": ["../public/*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@configs/*": ["configs/*"],
+      "@contexts": ["contexts/index"],
+      "@contexts/*": ["contexts/*"],
+      "@hooks/*": ["hooks/*"],
+      "@hooks": ["hooks"],
+      "@services/*": ["services/*"],
+      "@themes": ["themes/index"],
+      "@utils": ["utils/index"],
+      "@utils/*": ["utils/*"]
+    },
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

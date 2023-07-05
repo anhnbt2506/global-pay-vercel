@@ -1,0 +1,71 @@
+{
+  "data": {
+    "workerEmployment": {
+      "id": 4,
+      "workerTypeId": 4,
+      "companyId": "kzcrrmyhgeqr5o5o",
+      "workerUserId": 4,
+      "workerType": "App\\Models\\Worker\\WorkerThailand",
+      "status": "EMPLOYEE_INVITED",
+      "citizenshipStatus": "CITIZEN",
+      "additionalInfo": {
+        "id": 4,
+        "numberOfChildren": 0,
+        "bpjsKesehatanCardFile": null,
+        "bpjsKetenagakerjaanCardFile": null,
+        "npwpCardFile": null,
+        "familyCardFile": null,
+        "religiousFestivityAllowance": 111,
+        "createdAt": "2022-06-23T09:26:16.000000Z",
+        "updatedAt": "2022-06-23T09:26:16.000000Z"
+      },
+      "company": {
+        "companyId": "kzcrrmyhgeqr5o5o",
+        "name": "Alpha Corp."
+      },
+      "workerUser": {
+        "id": 4,
+        "hasSetPassword": false,
+        "addressId": 10,
+        "createdAt": "2022-06-23T09:26:16.000000Z",
+        "updatedAt": "2022-07-22T06:27:36.000000Z",
+        "userContext": {
+          "user": {
+            "id": 10,
+            "cognitoId": 4,
+            "userId": 4,
+            "firstName": "",
+            "lastName": ""
+          }
+        },
+        "address": {
+          "id": 10,
+          "addressLine": "",
+          "city": "",
+          "state": "",
+          "postalCode": ""
+        },
+        "maritalStatus": null,
+        "dateOfBirth": null,
+        "religion": null,
+        "gender": null,
+        "bankAccount": {
+          "workerEmploymentId": 4,
+          "beneficiaryName": "Sample",
+          "accountNumber": "999",
+          "bank": {
+            "bankId": "123",
+            "bankName": "Bank 01",
+            "bankCode": "SPB",
+            "swiftCode": "SPB",
+            "ibanCode": null
+          },
+          "branchCode": "SPBC"
+        }
+      },
+      "workerIdentity": {
+        "permitType": null
+      }
+    }
+  }
+}

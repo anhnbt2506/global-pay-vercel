@@ -1,0 +1,49 @@
+{
+  "pageName": "Client Hires",
+  "dataGrid": {
+    "header": {
+      "company.name": "Company",
+      "workerUser.userContext.user.firstName;workerUser.userContext.user.lastName": "Name",
+      "workerUser.userContext.user.email": "Email",
+      "hireType": "Hire Type",
+      "hiringCountry.name": "Location",
+      "citizenshipStatus": "Citizenship Status",
+      "isPermitRequired": "Permit Required",
+      "startDate": "Start Date",
+      "status": "Status"
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search company"
+  },
+  "viewProfile": {
+    "title": "View profile"
+  },
+  "addNewHire": {
+    "title": "Add new hire",
+    "clickHere": "Click here",
+    "toDownloadTemplate": "to download template.",
+    "description": "Once the processing of the file is complete, you will receive an email summary.",
+    "fileUploaded": "File uploaded successfully and is currently being processed",
+    "form": {
+      "hireType": {
+        "label": "Hire type",
+        "helperText": "Type of hire",
+        "options": {
+          "peo": "PEO",
+          "pom": "POM",
+          "freelancer": "FREELANCER"
+        }
+      },
+      "company": {
+        "label": "Company",
+        "helperText": "Company that you wish to upload information"
+      },
+      "csvBulkUpload": {
+        "label": "Upload file"
+      }
+    }
+  }
+}

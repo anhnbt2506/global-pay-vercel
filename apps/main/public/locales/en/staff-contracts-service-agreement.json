@@ -1,0 +1,15 @@
+{
+  "pageName": "Service Agreement",
+  "serviceAgreementSelected": "Service agreement selected",
+  "selectServiceAgreement": {
+    "title": "Select option",
+    "description": "You are about to select a new option. Please ensure you have saved the previous updates before continuing",
+    "form": {
+      "serviceAgreement": {
+        "label": "Select option",
+        "helperText": "To modify the agreement"
+      }
+    }
+  },
+  "success": "Successfully saved"
+}

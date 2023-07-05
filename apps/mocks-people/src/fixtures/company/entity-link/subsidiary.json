@@ -1,0 +1,19 @@
+{
+  "data": {
+    "companyEntityLink": {
+      "entityLinkStatus": "SUBSIDIARY",
+      "parentCompany": {
+        "companyId": "6rtfb0vpkwftefxt",
+        "name": "Meri company",
+        "address": {
+          "id": 2,
+          "country": {
+            "id": 233,
+            "name": "Vietnam",
+            "code": "VN"
+          }
+        }
+      }
+    }
+  }
+}

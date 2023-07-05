@@ -1,0 +1,174 @@
+{
+  "data": {
+    "calendarTags": [
+      {
+        "id": 1,
+        "calendarTagId": "1p7ttli5",
+        "name": "Alpha",
+        "description": "Alpha Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 2,
+        "calendarTagId": "dqyuaarl",
+        "name": "Beta",
+        "description": "Beta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 3,
+        "calendarTagId": "c6u6peje",
+        "name": "Gamma",
+        "description": "Gamma Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAY",
+        "adjustmentDays": 3,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 4,
+        "calendarTagId": "gyydcs3j",
+        "name": "Delta",
+        "description": "Delta Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "CALENDAR_DAY",
+        "adjustmentDays": 2,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 5,
+        "calendarTagId": "bz47vdy6",
+        "name": "Epsilon",
+        "description": "Epsilon Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "adjustmentEvent": "AFTER_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAY",
+        "adjustmentDays": 1,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 6,
+        "calendarTagId": "ks2m7ecz",
+        "name": "Zeta",
+        "description": "Zeta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "INACTIVE"
+      },
+      {
+        "id": 7,
+        "calendarTagId": "dmn26as1",
+        "name": "Eta",
+        "description": "Eta Description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "AFTER_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAY",
+        "adjustmentDays": 1,
+        "status": "INACTIVE"
+      },
+      {
+        "id": 8,
+        "calendarTagId": "mavx0akh",
+        "name": "sample022",
+        "description": "description",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "CALENDAR_DAYS",
+        "adjustmentDays": 3,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 9,
+        "calendarTagId": "c88ljygu",
+        "name": "123",
+        "description": "des",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAYS",
+        "adjustmentDays": 1,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 10,
+        "calendarTagId": "pyk4odfc",
+        "name": "abcde",
+        "description": "des",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAYS",
+        "adjustmentDays": 0,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 11,
+        "calendarTagId": "8io2n2o5",
+        "name": "1234",
+        "description": "des 1",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAYS",
+        "adjustmentDays": 1,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 12,
+        "calendarTagId": "j5i0mogh",
+        "name": "GlobalPay1234",
+        "description": "13131231",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "1p7ttli5",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAYS",
+        "adjustmentDays": 12,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 13,
+        "calendarTagId": "pyowe9tx",
+        "name": "1234",
+        "description": "test",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 14,
+        "calendarTagId": "b2ve4r09",
+        "name": "advesa",
+        "description": "13131231",
+        "isAdjustmentRequired": true,
+        "adjustmentCalendarTagId": "dqyuaarl",
+        "adjustmentEvent": "BEFORE_AFFECTED_EVENT",
+        "adjustmentMethod": "WORKING_DAYS",
+        "adjustmentDays": 1212,
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

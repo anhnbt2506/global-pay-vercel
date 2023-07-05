@@ -1,0 +1,161 @@
+name: Run CI
+
+on:
+  repository_dispatch:
+    types: [run-ci-command]
+
+concurrency:
+  group: ${{ github.workflow }} - ${{ github.event.client_payload.pull_request.head.ref }}
+  cancel-in-progress: true
+
+env:
+  GIT_SHA: ${{ github.event.client_payload.pull_request.head.sha }}
+  GITHUB_RUN_ID_URL: ${{ format('https://github.com/{0}/actions/runs/{1}', github.repository, github.run_id) }}
+  S3_COVERAGE_FOLDER: ${{ format('s3://{0}/coverage/{1}/{2}/{3}', secrets.GLOBAL_PAY_DEPLOYMENT_BUCKET, github.event.repository.name, github.sha, github.run_id) }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          cache: 'pnpm'
+          node-version: '18'
+      - name: Install dependencies
+        run: pnpm install:ci
+      - name: Run lint
+        run: pnpm nx lint @ayp/main
+      - name: Build package
+        run: pnpm nx build:ci @ayp/main
+        env:
+          NEXT_PUBLIC_STAGE: dev
+          NEXT_PUBLIC_TINYMCE_API_KEY: ${{ secrets.NEXT_PUBLIC_TINYMCE_API_KEY }}
+          NEXT_PUBLIC_TABLEAU_HOST_URL: ${{ secrets.NEXT_PUBLIC_TABLEAU_HOST_URL }}
+          NEXT_PUBLIC_GATEWAY_HOST: ${{ secrets.DEV_NEXT_PUBLIC_GATEWAY_HOST }}
+          NEXT_PUBLIC_PEOPLE_API_HOST: ${{ secrets.DEV_NEXT_PUBLIC_PEOPLE_API_HOST }}
+          NEXT_PUBLIC_FINTECH_API_HOST: ${{ secrets.DEV_NEXT_PUBLIC_FINTECH_API_HOST }}
+          NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME: ${{ secrets.DEV_NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME }}
+          NEXT_PUBLIC_GTM_ID: ${{ secrets.DEV_NEXT_PUBLIC_GTM_ID }}
+          NEXT_PUBLIC_HJID: ${{ secrets.DEV_NEXT_PUBLIC_HJID }}
+          NEXT_PUBLIC_USER_PILOT_TOKEN: ${{ secrets.DEV_NEXT_PUBLIC_USER_PILOT_TOKEN }}
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+  jest:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      statuses: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GIT_SHA }}
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          cache: 'pnpm'
+          node-version: '18'
+      - name: Install dependencies
+        run: pnpm install:ci
+      - name: Run tests
+        run: pnpm nx run-many --parallel --target=test:jest --projects=@ayp/main,@ayp/utils --coverage
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.GLOBAL_PAY_CI_ROLE }}
+      - name: Upload coverage artifacts
+        run: aws s3 sync apps/main/coverage-jest ${{ env.S3_COVERAGE_FOLDER }}
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+  coverage-report:
+    needs:
+      - jest
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      statuses: write
+      pull-requests: write
+    steps:
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: pending
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}
+      - name: Add comment to PR
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              repo: context.repo.repo,
+              owner: context.repo.owner,
+              issue_number: ${{ github.event.client_payload.pull_request.number }},
+              body: `${{
+                format(
+                  '👋 Thanks for your contribution! Here is the [coverage report](https://{0}.s3.{1}.amazonaws.com/coverage/{2}/{3}/{4}/index.html)',
+                  secrets.GLOBAL_PAY_DEPLOYMENT_BUCKET,
+                  secrets.AWS_REGION,
+                  github.event.repository.name,
+                  github.sha,
+                  github.run_id
+                )
+              }}`
+            })
+      - name: Update commit status
+        if: always()
+        uses: myrotvorets/set-commit-status-action@master
+        with:
+          sha: ${{ env.GIT_SHA }}
+          status: ${{ job.status }}
+          context: ${{ github.job }}
+          targetUrl: ${{ env.GITHUB_RUN_ID_URL }}

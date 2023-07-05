@@ -1,0 +1,131 @@
+{
+  "data": {
+    "workerEmployments": [
+      {
+        "id": 432,
+        "hireType": "POM",
+        "contractType": "INDEFINITE",
+        "title": "Security Engineer 12345",
+        "isPermitRequired": 1,
+        "hiringCountryCode": "VN",
+        "workerUserId": 407,
+        "hiringCountry": {
+          "id": 233,
+          "code": "VN",
+          "name": "Vietnam"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 407,
+            "hasSetPassword": true,
+            "addressId": 563,
+            "createdAt": "2022-12-20T09:25:17.000000Z",
+            "updatedAt": "2023-01-05T06:34:32.000000Z",
+            "user": {
+              "id": 596,
+              "userId": 407,
+              "firstName": "[TEST]",
+              "lastName": "Worker verification 01",
+              "email": "test-worker01@mailsac.com"
+            }
+          }
+        }
+      },
+      {
+        "id": 344,
+        "hireType": "EOR",
+        "contractType": "INDEFINITE",
+        "title": "DEV",
+        "isPermitRequired": null,
+        "hiringCountryCode": "ID",
+        "workerUserId": 364,
+        "hiringCountry": {
+          "id": 101,
+          "code": "ID",
+          "name": "Indonesia"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 364,
+            "hasSetPassword": false,
+            "addressId": 514,
+            "createdAt": "2022-12-06T07:10:51.000000Z",
+            "updatedAt": "2022-12-06T07:10:51.000000Z",
+            "user": {
+              "id": 547,
+              "userId": 364,
+              "firstName": "[TEST] IND KEN3",
+              "lastName": "VNB",
+              "email": "vnb3@in.com"
+            }
+          }
+        }
+      },
+      {
+        "id": 338,
+        "hireType": "EOR",
+        "contractType": "FIXED",
+        "title": "Test 9",
+        "isPermitRequired": null,
+        "hiringCountryCode": "SG",
+        "workerUserId": 359,
+        "hiringCountry": {
+          "id": 192,
+          "code": "SG",
+          "name": "Singapore"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 359,
+            "hasSetPassword": false,
+            "addressId": 508,
+            "createdAt": "2022-12-05T04:11:53.000000Z",
+            "updatedAt": "2022-12-05T04:11:53.000000Z",
+            "user": {
+              "id": 541,
+              "userId": 359,
+              "firstName": "[TEST] KEM 9",
+              "lastName": "VN",
+              "email": "kem9@vn.com"
+            }
+          }
+        }
+      },
+      {
+        "id": 318,
+        "hireType": "EOR",
+        "contractType": "INDEFINITE",
+        "title": "tesst",
+        "isPermitRequired": 0,
+        "hiringCountryCode": "HK",
+        "workerUserId": 339,
+        "hiringCountry": {
+          "id": 97,
+          "code": "HK",
+          "name": "Hong Kong"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 339,
+            "hasSetPassword": true,
+            "addressId": 458,
+            "createdAt": "2022-10-21T02:17:53.000000Z",
+            "updatedAt": "2022-10-21T02:20:50.000000Z",
+            "user": {
+              "id": 492,
+              "userId": 339,
+              "firstName": "hongkong",
+              "lastName": "PEO1",
+              "email": "hongkongpeo1@agp-group.com"
+            }
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 26
+    }
+  }
+}

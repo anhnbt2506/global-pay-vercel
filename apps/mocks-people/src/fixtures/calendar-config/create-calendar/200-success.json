@@ -1,0 +1,18 @@
+{
+  "data": {
+    "calendarConfig": {
+      "name": "Calendar Config1313 A",
+      "description": "Calendar Config A description",
+      "context": {
+        "hireType": "POM",
+        "triggerPoint": "COUNTRY_DATA_SUBMISSION",
+        "countryCode": "TH",
+        "calendarPeriod": "MONTHLY"
+      },
+      "calendarConfigId": "2prwvb1k",
+      "updatedAt": "2022-11-23T06:26:57.000000Z",
+      "createdAt": "2022-11-23T06:26:57.000000Z",
+      "id": 7
+    }
+  }
+}

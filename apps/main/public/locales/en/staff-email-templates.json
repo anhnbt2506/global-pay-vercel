@@ -1,0 +1,60 @@
+{
+  "pageName": "Email Template",
+  "templateSelected": "Template selected",
+  "selectTemplate": {
+    "title": "Select Template",
+    "description": "You are about to select a new template. Please ensure you have saved the previous updates before continuing",
+    "form": {
+      "template": {
+        "label": "Template",
+        "helperText": "Select the template to start modifying"
+      }
+    }
+  },
+  "country": {
+    "title": "Country",
+    "helperText": "Which country will be this template be for"
+  },
+  "subjectPart": {
+    "title": "Email subject:"
+  },
+  "cc": {
+    "title": "Email CC:"
+  },
+  "htmlPart": {
+    "title": "Email content:",
+    "helperText": "Edit or add new Email Template"
+  },
+  "success": "Successfully saved",
+  "templateNames": {
+    "clientManualPayrollComment": "Client Manual Payroll Comment",
+    "clientManualPayrollUpdate": "Client Manual Payroll Update",
+    "staffManualPayrollComment": "Staff Manual Payroll Comment",
+    "staffManualPayrollUpdate": "Staff Manual Payroll Update",
+    "entityLinkingParentNotificationEmail": "Entity linked as parent",
+    "entityLinkingSubsidiaryNotificationEmail": "Entity linked as subsidiary",
+    "entityUnlinkingParentNotificationEmail": "Entity unlinked as parent",
+    "entityUnlinkingSubsidiaryNotificationEmail": "Entity unlinked as subsidiary",
+    "dataGridExportEmailSuccess": "Data export success",
+    "dataGridExportEmailFailed": "Data export fails",
+    "bulkUploadSummaryEmail": "Bulk upload summary",
+    "contractAcceptanceStatusWorkerEmail": "Employee contract acceptance",
+    "employeeInvitedStatusWorkerEmail": "Employee invited",
+    "employeeVerificationEmail": "Employee verification",
+    "updateOfServiceAgreementClientEmail": "Client service agreement update",
+    "verifyEmail": "Employee verification email",
+    "clientVerificationEmail": "Client verification",
+    "employeeOnboardedStatusWorkerEmail": "Employee onboarded",
+    "calendarEventNotificationEmail": "Calendar event notification",
+    "clientAccountCreated": "Client account created",
+    "clientServicesNotSelected": "Client services not selected",
+    "clientServiceAgreementChaser": "Client service agreement chaser",
+    "clientAccountReviewed": "Client account reviewed",
+    "staffReviewClientOnboarding": "Staff review client onboarding",
+    "staffReviewServiceAgreementComments": "Staff review service agreement comments",
+    "clientReviewServiceAgreementComments": "Client review service agreement comments",
+    "clientAcknowledgedServiceAgreement": "Client acknowledged service agreement",
+    "staffAddendumManualRequest": "Staff addendum manual request",
+    "clientAddendumManualUpload": "Client addendum manual upload"
+  }
+}

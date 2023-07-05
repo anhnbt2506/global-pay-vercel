@@ -1,0 +1,11 @@
+{
+  "data": {
+    "agreementTemplate": {
+      "id": 3,
+      "agreementTemplateId": "eor-contract-hk",
+      "content": "<p>{{companyId}}131312321</p>",
+      "createdAt": "2022-06-20T02:50:49.000000Z",
+      "updatedAt": "2023-01-12T07:24:21.000000Z"
+    }
+  }
+}

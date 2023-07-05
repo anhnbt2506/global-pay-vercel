@@ -1,0 +1,73 @@
+{
+  "data": {
+    "company": {
+      "id": 19,
+      "companyId": "ge4lmziiraes9vso",
+      "status": "ACTIVE",
+      "name": "crobakai",
+      "category": "DIRECT",
+      "industryId": "46p4yn0p",
+      "addressId": 11,
+      "billingAddressType": "COMPANY_REGISTERED_ADDRESS",
+      "billingAddressId": 11,
+      "registrationId": "123456Đ",
+      "taxId": "123456",
+      "currency": "SGD",
+      "hasSgEntity": 1,
+      "sgEntityUen": "1234333344",
+      "sgEntityName": "1111",
+      "interest": "OUTSOURCE_PAYROLL",
+      "entityLinkStatus": "STANDALONE",
+      "parentId": null,
+      "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+      "registeredById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+      "createdAt": "2022-06-20T03:22:46.000000Z",
+      "updatedAt": "2023-04-12T07:38:18.000000Z",
+      "deletedAt": null,
+      "address": {
+        "id": 11,
+        "addressLine": "Hoang Mai",
+        "addressLineAlternate": "Hoàng mai",
+        "city": "Ha Noi2",
+        "cityAlternate": null,
+        "state": "Viet Nam",
+        "stateAlternate": null,
+        "postalCode": "10000",
+        "postalCodeAlternate": null,
+        "countryCode": "SV",
+        "createdAt": "2022-06-23T05:21:09.000000Z",
+        "updatedAt": "2023-03-15T15:15:30.000000Z",
+        "country": {
+          "id": 65,
+          "code": "SV",
+          "dialingCode": "+503",
+          "name": "El Salvador",
+          "jtNationalityId": 42,
+          "nationality": "Salvadorean"
+        }
+      },
+      "billingAddress": {
+        "id": 11,
+        "addressLine": "Hoang Mai",
+        "addressLineAlternate": "Hoàng mai",
+        "city": "Ha Noi2",
+        "cityAlternate": null,
+        "state": "Viet Nam",
+        "stateAlternate": null,
+        "postalCode": "10000",
+        "postalCodeAlternate": null,
+        "countryCode": "SV",
+        "createdAt": "2022-06-23T05:21:09.000000Z",
+        "updatedAt": "2023-03-15T15:15:30.000000Z",
+        "country": {
+          "id": 65,
+          "code": "SV",
+          "dialingCode": "+503",
+          "name": "El Salvador",
+          "jtNationalityId": 42,
+          "nationality": "Salvadorean"
+        }
+      }
+    }
+  }
+}

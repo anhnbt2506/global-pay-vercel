@@ -1,0 +1,1500 @@
+{
+  "data": {
+    "countries": [
+      {
+        "id": 3,
+        "code": "AF",
+        "dialingCode": "+93",
+        "name": "Afghanistan"
+      },
+      {
+        "id": 4,
+        "code": "AL",
+        "dialingCode": "+355",
+        "name": "Albania"
+      },
+      {
+        "id": 5,
+        "code": "DZ",
+        "dialingCode": "+213",
+        "name": "Algeria"
+      },
+      {
+        "id": 6,
+        "code": "AS",
+        "dialingCode": "+1-684",
+        "name": "American Samoa"
+      },
+      {
+        "id": 7,
+        "code": "AD",
+        "dialingCode": "+376",
+        "name": "Andorra"
+      },
+      {
+        "id": 8,
+        "code": "AO",
+        "dialingCode": "+244",
+        "name": "Angola"
+      },
+      {
+        "id": 9,
+        "code": "AI",
+        "dialingCode": "+1-264",
+        "name": "Anguilla"
+      },
+      {
+        "id": 10,
+        "code": "AQ",
+        "dialingCode": "+672",
+        "name": "Antarctica"
+      },
+      {
+        "id": 11,
+        "code": "AG",
+        "dialingCode": "+1-268",
+        "name": "Antigua and Barbuda"
+      },
+      {
+        "id": 12,
+        "code": "AR",
+        "dialingCode": "+54",
+        "name": "Argentina"
+      },
+      {
+        "id": 13,
+        "code": "AM",
+        "dialingCode": "+61",
+        "name": "Armenia"
+      },
+      {
+        "id": 14,
+        "code": "AW",
+        "dialingCode": "+297",
+        "name": "Aruba"
+      },
+      {
+        "id": 15,
+        "code": "AU",
+        "dialingCode": "+61",
+        "name": "Australia"
+      },
+      {
+        "id": 16,
+        "code": "AT",
+        "dialingCode": "+43",
+        "name": "Austria"
+      },
+      {
+        "id": 17,
+        "code": "AZ",
+        "dialingCode": "+994",
+        "name": "Azerbaijan"
+      },
+      {
+        "id": 18,
+        "code": "BS",
+        "dialingCode": "+1-242",
+        "name": "Bahamas"
+      },
+      {
+        "id": 19,
+        "code": "BH",
+        "dialingCode": "+973",
+        "name": "Bahrain"
+      },
+      {
+        "id": 20,
+        "code": "BD",
+        "dialingCode": "+880",
+        "name": "Bangladesh"
+      },
+      {
+        "id": 21,
+        "code": "BB",
+        "dialingCode": "+1-246",
+        "name": "Barbados"
+      },
+      {
+        "id": 22,
+        "code": "BY",
+        "dialingCode": "+375",
+        "name": "Belarus"
+      },
+      {
+        "id": 23,
+        "code": "BE",
+        "dialingCode": "+32",
+        "name": "Belgium"
+      },
+      {
+        "id": 24,
+        "code": "BZ",
+        "dialingCode": "+501",
+        "name": "Belize"
+      },
+      {
+        "id": 25,
+        "code": "BJ",
+        "dialingCode": "+229",
+        "name": "Benin"
+      },
+      {
+        "id": 26,
+        "code": "BM",
+        "dialingCode": "+1-441",
+        "name": "Bermuda"
+      },
+      {
+        "id": 27,
+        "code": "BT",
+        "dialingCode": "+975",
+        "name": "Bhutan"
+      },
+      {
+        "id": 28,
+        "code": "BO",
+        "dialingCode": "+591",
+        "name": "Bolivia"
+      },
+      {
+        "id": 29,
+        "code": "BA",
+        "dialingCode": "+387",
+        "name": "Bosnia and Herzegovina"
+      },
+      {
+        "id": 30,
+        "code": "BW",
+        "dialingCode": "+267",
+        "name": "Botswana"
+      },
+      {
+        "id": 31,
+        "code": "BV",
+        "dialingCode": "+55",
+        "name": "Bouvet Island"
+      },
+      {
+        "id": 32,
+        "code": "BR",
+        "dialingCode": "+55",
+        "name": "Brazil"
+      },
+      {
+        "id": 234,
+        "code": "VG",
+        "dialingCode": "+1-284",
+        "name": "British Virgin Islands"
+      },
+      {
+        "id": 33,
+        "code": "IO",
+        "dialingCode": "+246",
+        "name": "British lndian Ocean Territory"
+      },
+      {
+        "id": 34,
+        "code": "BN",
+        "dialingCode": "+673",
+        "name": "Brunei"
+      },
+      {
+        "id": 35,
+        "code": "BG",
+        "dialingCode": "+359",
+        "name": "Bulgaria"
+      },
+      {
+        "id": 36,
+        "code": "BF",
+        "dialingCode": "+226",
+        "name": "Burkina Faso"
+      },
+      {
+        "id": 37,
+        "code": "BI",
+        "dialingCode": "+257",
+        "name": "Burundi"
+      },
+      {
+        "id": 38,
+        "code": "KH",
+        "dialingCode": "+855",
+        "name": "Cambodia"
+      },
+      {
+        "id": 39,
+        "code": "CM",
+        "dialingCode": "+237",
+        "name": "Cameroon"
+      },
+      {
+        "id": 2,
+        "code": "CA",
+        "dialingCode": "+1",
+        "name": "Canada"
+      },
+      {
+        "id": 40,
+        "code": "CV",
+        "dialingCode": "+238",
+        "name": "Cape Verde"
+      },
+      {
+        "id": 244,
+        "code": "BQ",
+        "dialingCode": "+599",
+        "name": "Caribbean Netherlands"
+      },
+      {
+        "id": 41,
+        "code": "KY",
+        "dialingCode": "+1-345",
+        "name": "Cayman Islands"
+      },
+      {
+        "id": 42,
+        "code": "CF",
+        "dialingCode": "+236",
+        "name": "Central African Republic"
+      },
+      {
+        "id": 43,
+        "code": "TD",
+        "dialingCode": "+235",
+        "name": "Chad"
+      },
+      {
+        "id": 44,
+        "code": "CL",
+        "dialingCode": "+56",
+        "name": "Chile"
+      },
+      {
+        "id": 45,
+        "code": "CN",
+        "dialingCode": "+86",
+        "name": "China"
+      },
+      {
+        "id": 46,
+        "code": "CX",
+        "dialingCode": "+61",
+        "name": "Christmas Island"
+      },
+      {
+        "id": 47,
+        "code": "CC",
+        "dialingCode": "+61",
+        "name": "Cocos (Keeling) Islands"
+      },
+      {
+        "id": 48,
+        "code": "CO",
+        "dialingCode": "+57",
+        "name": "Colombia"
+      },
+      {
+        "id": 49,
+        "code": "KM",
+        "dialingCode": "+269",
+        "name": "Comoros"
+      },
+      {
+        "id": 50,
+        "code": "CG",
+        "dialingCode": "+243",
+        "name": "Congo"
+      },
+      {
+        "id": 51,
+        "code": "CK",
+        "dialingCode": "+682",
+        "name": "Cook Islands"
+      },
+      {
+        "id": 52,
+        "code": "CR",
+        "dialingCode": "+506",
+        "name": "Costa Rica"
+      },
+      {
+        "id": 107,
+        "code": "CI",
+        "dialingCode": "+225",
+        "name": "Cote d'Ivoire"
+      },
+      {
+        "id": 53,
+        "code": "HR",
+        "dialingCode": "+385",
+        "name": "Croatia"
+      },
+      {
+        "id": 54,
+        "code": "CU",
+        "dialingCode": "+53",
+        "name": "Cuba"
+      },
+      {
+        "id": 245,
+        "code": "CUW",
+        "dialingCode": "+599",
+        "name": "Curaçao"
+      },
+      {
+        "id": 55,
+        "code": "CY",
+        "dialingCode": "+357",
+        "name": "Cyprus"
+      },
+      {
+        "id": 56,
+        "code": "CZ",
+        "dialingCode": "+420",
+        "name": "Czech Republic"
+      },
+      {
+        "id": 57,
+        "code": "CD",
+        "dialingCode": "+243",
+        "name": "Democratic Republic of Congo"
+      },
+      {
+        "id": 58,
+        "code": "DK",
+        "dialingCode": "+45",
+        "name": "Denmark"
+      },
+      {
+        "id": 59,
+        "code": "DJ",
+        "dialingCode": "+253",
+        "name": "Djibouti"
+      },
+      {
+        "id": 60,
+        "code": "DM",
+        "dialingCode": "+1-767",
+        "name": "Dominica"
+      },
+      {
+        "id": 61,
+        "code": "DO",
+        "dialingCode": "+1-829",
+        "name": "Dominican Republic"
+      },
+      {
+        "id": 62,
+        "code": "TP",
+        "dialingCode": "+670",
+        "name": "East Timor"
+      },
+      {
+        "id": 63,
+        "code": "EC",
+        "dialingCode": "+593",
+        "name": "Ecudaor"
+      },
+      {
+        "id": 64,
+        "code": "EG",
+        "dialingCode": "+20",
+        "name": "Egypt"
+      },
+      {
+        "id": 65,
+        "code": "SV",
+        "dialingCode": "+503",
+        "name": "El Salvador"
+      },
+      {
+        "id": 66,
+        "code": "GQ",
+        "dialingCode": "+240",
+        "name": "Equatorial Guinea"
+      },
+      {
+        "id": 67,
+        "code": "ER",
+        "dialingCode": "+291",
+        "name": "Eritrea"
+      },
+      {
+        "id": 68,
+        "code": "EE",
+        "dialingCode": "+372",
+        "name": "Estonia"
+      },
+      {
+        "id": 69,
+        "code": "ET",
+        "dialingCode": "+251",
+        "name": "Ethiopia"
+      },
+      {
+        "id": 70,
+        "code": "FK",
+        "dialingCode": "+500",
+        "name": "Falkland Islands"
+      },
+      {
+        "id": 71,
+        "code": "FO",
+        "dialingCode": "+298",
+        "name": "Faroe Islands"
+      },
+      {
+        "id": 72,
+        "code": "FJ",
+        "dialingCode": "+679",
+        "name": "Fiji"
+      },
+      {
+        "id": 73,
+        "code": "FI",
+        "dialingCode": "+358",
+        "name": "Finland"
+      },
+      {
+        "id": 74,
+        "code": "FR",
+        "dialingCode": "+33",
+        "name": "France"
+      },
+      {
+        "id": 76,
+        "code": "GF",
+        "dialingCode": "+594",
+        "name": "French Guiana"
+      },
+      {
+        "id": 77,
+        "code": "PF",
+        "dialingCode": "+689",
+        "name": "French Polynesia"
+      },
+      {
+        "id": 78,
+        "code": "TF",
+        "dialingCode": "+262",
+        "name": "French Southern and Antarctic Lands"
+      },
+      {
+        "id": 79,
+        "code": "GA",
+        "dialingCode": "+241",
+        "name": "Gabon"
+      },
+      {
+        "id": 80,
+        "code": "GM",
+        "dialingCode": "+220",
+        "name": "Gambia"
+      },
+      {
+        "id": 81,
+        "code": "GE",
+        "dialingCode": "+995",
+        "name": "Georgia"
+      },
+      {
+        "id": 82,
+        "code": "DE",
+        "dialingCode": "+49",
+        "name": "Germany"
+      },
+      {
+        "id": 83,
+        "code": "GH",
+        "dialingCode": "+233",
+        "name": "Ghana"
+      },
+      {
+        "id": 84,
+        "code": "GI",
+        "dialingCode": "+350",
+        "name": "Gibraltar"
+      },
+      {
+        "id": 85,
+        "code": "GR",
+        "dialingCode": "+30",
+        "name": "Greece"
+      },
+      {
+        "id": 86,
+        "code": "GL",
+        "dialingCode": "299",
+        "name": "Greenland"
+      },
+      {
+        "id": 87,
+        "code": "GD",
+        "dialingCode": "+1-473",
+        "name": "Grenada"
+      },
+      {
+        "id": 88,
+        "code": "GP",
+        "dialingCode": "+590",
+        "name": "Guadeloupe"
+      },
+      {
+        "id": 89,
+        "code": "GU",
+        "dialingCode": "+1-671",
+        "name": "Guam"
+      },
+      {
+        "id": 90,
+        "code": "GT",
+        "dialingCode": "+502",
+        "name": "Guatemala"
+      },
+      {
+        "id": 246,
+        "code": "GG",
+        "dialingCode": "+44-1481",
+        "name": "Guernsey"
+      },
+      {
+        "id": 91,
+        "code": "GN",
+        "dialingCode": "+224",
+        "name": "Guinea"
+      },
+      {
+        "id": 92,
+        "code": "GW",
+        "dialingCode": "+245",
+        "name": "Guinea-Bissau"
+      },
+      {
+        "id": 93,
+        "code": "GY",
+        "dialingCode": "+592",
+        "name": "Guyana"
+      },
+      {
+        "id": 94,
+        "code": "HT",
+        "dialingCode": "+509",
+        "name": "Haiti"
+      },
+      {
+        "id": 95,
+        "code": "HM",
+        "dialingCode": "+672",
+        "name": "Heard Island and McDonald Islands"
+      },
+      {
+        "id": 96,
+        "code": "HN",
+        "dialingCode": "+504",
+        "name": "Honduras"
+      },
+      {
+        "id": 97,
+        "code": "HK",
+        "dialingCode": "+852",
+        "name": "Hong Kong"
+      },
+      {
+        "id": 98,
+        "code": "HU",
+        "dialingCode": "+36",
+        "name": "Hungary"
+      },
+      {
+        "id": 99,
+        "code": "IS",
+        "dialingCode": "+354",
+        "name": "Iceland"
+      },
+      {
+        "id": 100,
+        "code": "IN",
+        "dialingCode": "+91",
+        "name": "India"
+      },
+      {
+        "id": 101,
+        "code": "ID",
+        "dialingCode": "+62",
+        "name": "Indonesia"
+      },
+      {
+        "id": 102,
+        "code": "IR",
+        "dialingCode": "+98",
+        "name": "Iran"
+      },
+      {
+        "id": 103,
+        "code": "IQ",
+        "dialingCode": "+964",
+        "name": "Iraq"
+      },
+      {
+        "id": 104,
+        "code": "IE",
+        "dialingCode": "+353",
+        "name": "Ireland"
+      },
+      {
+        "id": 247,
+        "code": "IM",
+        "dialingCode": "+44-1624",
+        "name": "Isle of Man"
+      },
+      {
+        "id": 105,
+        "code": "IL",
+        "dialingCode": "+972",
+        "name": "Israel"
+      },
+      {
+        "id": 106,
+        "code": "IT",
+        "dialingCode": "+39",
+        "name": "Italy"
+      },
+      {
+        "id": 108,
+        "code": "JM",
+        "dialingCode": "+1-876",
+        "name": "Jamaica"
+      },
+      {
+        "id": 109,
+        "code": "JP",
+        "dialingCode": "+81",
+        "name": "Japan"
+      },
+      {
+        "id": 248,
+        "code": "JE",
+        "dialingCode": "+44-1534",
+        "name": "Jersey"
+      },
+      {
+        "id": 110,
+        "code": "JO",
+        "dialingCode": "+962",
+        "name": "Jordan"
+      },
+      {
+        "id": 111,
+        "code": "KZ",
+        "dialingCode": "+7",
+        "name": "Kazakhstan"
+      },
+      {
+        "id": 112,
+        "code": "KE",
+        "dialingCode": "+254",
+        "name": "Kenya"
+      },
+      {
+        "id": 113,
+        "code": "KI",
+        "dialingCode": "+686",
+        "name": "Kiribati"
+      },
+      {
+        "id": 116,
+        "code": "KW",
+        "dialingCode": "+965",
+        "name": "Kuwait"
+      },
+      {
+        "id": 117,
+        "code": "KG",
+        "dialingCode": "+996",
+        "name": "Kyrgyzstan"
+      },
+      {
+        "id": 118,
+        "code": "LA",
+        "dialingCode": "+856",
+        "name": "Laos"
+      },
+      {
+        "id": 119,
+        "code": "LV",
+        "dialingCode": "+371",
+        "name": "Latvia"
+      },
+      {
+        "id": 120,
+        "code": "LB",
+        "dialingCode": "+961",
+        "name": "Lebanon"
+      },
+      {
+        "id": 121,
+        "code": "LS",
+        "dialingCode": "+266",
+        "name": "Lesotho"
+      },
+      {
+        "id": 122,
+        "code": "LR",
+        "dialingCode": "+231",
+        "name": "Liberia"
+      },
+      {
+        "id": 123,
+        "code": "LY",
+        "dialingCode": "+218",
+        "name": "Libya"
+      },
+      {
+        "id": 124,
+        "code": "LI",
+        "dialingCode": "+423",
+        "name": "Liechtenstein"
+      },
+      {
+        "id": 125,
+        "code": "LT",
+        "dialingCode": "+370",
+        "name": "Lithuania"
+      },
+      {
+        "id": 126,
+        "code": "LU",
+        "dialingCode": "+352",
+        "name": "Luxembourg"
+      },
+      {
+        "id": 127,
+        "code": "MO",
+        "dialingCode": "+853",
+        "name": "Macau"
+      },
+      {
+        "id": 128,
+        "code": "MK",
+        "dialingCode": "+389",
+        "name": "Macedonia (FYROM)"
+      },
+      {
+        "id": 129,
+        "code": "MG",
+        "dialingCode": "+261",
+        "name": "Madagascar"
+      },
+      {
+        "id": 130,
+        "code": "MW",
+        "dialingCode": "+265",
+        "name": "Malawi"
+      },
+      {
+        "id": 131,
+        "code": "MY",
+        "dialingCode": "+60",
+        "name": "Malaysia"
+      },
+      {
+        "id": 132,
+        "code": "MV",
+        "dialingCode": "+960",
+        "name": "Maldives"
+      },
+      {
+        "id": 133,
+        "code": "ML",
+        "dialingCode": "+223",
+        "name": "Mali"
+      },
+      {
+        "id": 134,
+        "code": "MT",
+        "dialingCode": "+356",
+        "name": "Malta"
+      },
+      {
+        "id": 135,
+        "code": "MH",
+        "dialingCode": "+692",
+        "name": "Marshall Islands"
+      },
+      {
+        "id": 136,
+        "code": "MQ",
+        "dialingCode": "+596",
+        "name": "Martinique"
+      },
+      {
+        "id": 137,
+        "code": "MR",
+        "dialingCode": "+222",
+        "name": "Mauritania"
+      },
+      {
+        "id": 138,
+        "code": "MU",
+        "dialingCode": "+230",
+        "name": "Mauritius"
+      },
+      {
+        "id": 139,
+        "code": "TY",
+        "dialingCode": "+262",
+        "name": "Mayotte"
+      },
+      {
+        "id": 140,
+        "code": "MX",
+        "dialingCode": "+52",
+        "name": "Mexico"
+      },
+      {
+        "id": 141,
+        "code": "FM",
+        "dialingCode": "+691",
+        "name": "Micronesia"
+      },
+      {
+        "id": 142,
+        "code": "MD",
+        "dialingCode": "+373",
+        "name": "Moldova"
+      },
+      {
+        "id": 143,
+        "code": "MC",
+        "dialingCode": "+377",
+        "name": "Monaco"
+      },
+      {
+        "id": 144,
+        "code": "MN",
+        "dialingCode": "+976",
+        "name": "Mongolia"
+      },
+      {
+        "id": 145,
+        "code": "MS",
+        "dialingCode": "+1-664",
+        "name": "Montserrat"
+      },
+      {
+        "id": 146,
+        "code": "MA",
+        "dialingCode": "+212",
+        "name": "Morocco"
+      },
+      {
+        "id": 147,
+        "code": "MZ",
+        "dialingCode": "+258",
+        "name": "Mozambique"
+      },
+      {
+        "id": 148,
+        "code": "MM",
+        "dialingCode": "+95",
+        "name": "Myanmar (Burma)"
+      },
+      {
+        "id": 149,
+        "code": "NA",
+        "dialingCode": "+264",
+        "name": "Namibia"
+      },
+      {
+        "id": 150,
+        "code": "NR",
+        "dialingCode": "+674",
+        "name": "Nauru"
+      },
+      {
+        "id": 151,
+        "code": "NP",
+        "dialingCode": "+977",
+        "name": "Nepal"
+      },
+      {
+        "id": 152,
+        "code": "NL",
+        "dialingCode": "+31",
+        "name": "Netherlands"
+      },
+      {
+        "id": 153,
+        "code": "AN",
+        "dialingCode": "+599",
+        "name": "Netherlands Antilles"
+      },
+      {
+        "id": 154,
+        "code": "NC",
+        "dialingCode": "+687",
+        "name": "New Caledonia"
+      },
+      {
+        "id": 155,
+        "code": "NZ",
+        "dialingCode": "+64",
+        "name": "New Zealand"
+      },
+      {
+        "id": 156,
+        "code": "NI",
+        "dialingCode": "+505",
+        "name": "Nicaragua"
+      },
+      {
+        "id": 157,
+        "code": "NE",
+        "dialingCode": "+227",
+        "name": "Niger"
+      },
+      {
+        "id": 158,
+        "code": "NG",
+        "dialingCode": "+234",
+        "name": "Nigeria"
+      },
+      {
+        "id": 159,
+        "code": "NU",
+        "dialingCode": "+683",
+        "name": "Niue"
+      },
+      {
+        "id": 160,
+        "code": "NF",
+        "dialingCode": "+672",
+        "name": "Norfork Island"
+      },
+      {
+        "id": 114,
+        "code": "KP",
+        "dialingCode": "+850",
+        "name": "North Korea"
+      },
+      {
+        "id": 161,
+        "code": "MP",
+        "dialingCode": "+1-670",
+        "name": "Northern Mariana Islands"
+      },
+      {
+        "id": 162,
+        "code": "NO",
+        "dialingCode": "+47",
+        "name": "Norway"
+      },
+      {
+        "id": 163,
+        "code": "OM",
+        "dialingCode": "+968",
+        "name": "Oman"
+      },
+      {
+        "id": 164,
+        "code": "PK",
+        "dialingCode": "+92",
+        "name": "Pakistan"
+      },
+      {
+        "id": 165,
+        "code": "PW",
+        "dialingCode": "+680",
+        "name": "Palau"
+      },
+      {
+        "id": 249,
+        "code": "PS",
+        "dialingCode": "+970",
+        "name": "Palestine"
+      },
+      {
+        "id": 166,
+        "code": "PA",
+        "dialingCode": "+507",
+        "name": "Panama"
+      },
+      {
+        "id": 167,
+        "code": "PG",
+        "dialingCode": "+675",
+        "name": "Papua New Guinea"
+      },
+      {
+        "id": 168,
+        "code": "PY",
+        "dialingCode": "+595",
+        "name": "Paraguay"
+      },
+      {
+        "id": 169,
+        "code": "PE",
+        "dialingCode": "+51",
+        "name": "Peru"
+      },
+      {
+        "id": 170,
+        "code": "PH",
+        "dialingCode": "+63",
+        "name": "Philippines"
+      },
+      {
+        "id": 171,
+        "code": "PN",
+        "dialingCode": "+64",
+        "name": "Pitcairn Islands"
+      },
+      {
+        "id": 172,
+        "code": "PL",
+        "dialingCode": "+48",
+        "name": "Poland"
+      },
+      {
+        "id": 173,
+        "code": "PT",
+        "dialingCode": "+351",
+        "name": "Portugal"
+      },
+      {
+        "id": 174,
+        "code": "PR",
+        "dialingCode": "+1-787",
+        "name": "Puerto Rico"
+      },
+      {
+        "id": 175,
+        "code": "QA",
+        "dialingCode": "+974",
+        "name": "Qatar"
+      },
+      {
+        "id": 178,
+        "code": "RO",
+        "dialingCode": "+40",
+        "name": "Romania"
+      },
+      {
+        "id": 179,
+        "code": "RU",
+        "dialingCode": "+7",
+        "name": "Russia"
+      },
+      {
+        "id": 180,
+        "code": "RW",
+        "dialingCode": "+250",
+        "name": "Rwanda"
+      },
+      {
+        "id": 177,
+        "code": "RE",
+        "dialingCode": "+262",
+        "name": "Réunion"
+      },
+      {
+        "id": 250,
+        "code": "BL",
+        "dialingCode": "+590",
+        "name": "Saint Barthélemy"
+      },
+      {
+        "id": 201,
+        "code": "SH",
+        "dialingCode": "+290",
+        "name": "Saint Helena"
+      },
+      {
+        "id": 181,
+        "code": "KN",
+        "dialingCode": "+1-869",
+        "name": "Saint Kitts and Nevis"
+      },
+      {
+        "id": 182,
+        "code": "LC",
+        "dialingCode": "+1-758",
+        "name": "Saint Lucia"
+      },
+      {
+        "id": 251,
+        "code": "MF",
+        "dialingCode": "+590",
+        "name": "Saint Martin"
+      },
+      {
+        "id": 202,
+        "code": "PM",
+        "dialingCode": "+508",
+        "name": "Saint Pierre and Miquelon"
+      },
+      {
+        "id": 183,
+        "code": "VC",
+        "dialingCode": "+1-784",
+        "name": "Saint Vincent and the Grenadines"
+      },
+      {
+        "id": 184,
+        "code": "WS",
+        "dialingCode": "+685",
+        "name": "Samoa"
+      },
+      {
+        "id": 185,
+        "code": "SM",
+        "dialingCode": "+378",
+        "name": "San Marino"
+      },
+      {
+        "id": 186,
+        "code": "ST",
+        "dialingCode": "+239",
+        "name": "Sao Tome and Principe"
+      },
+      {
+        "id": 187,
+        "code": "SA",
+        "dialingCode": "+966",
+        "name": "Saudi Arabia"
+      },
+      {
+        "id": 188,
+        "code": "SN",
+        "dialingCode": "+221",
+        "name": "Senegal"
+      },
+      {
+        "id": 189,
+        "code": "RS",
+        "dialingCode": "+381",
+        "name": "Serbia"
+      },
+      {
+        "id": 190,
+        "code": "SC",
+        "dialingCode": "+248",
+        "name": "Seychelles"
+      },
+      {
+        "id": 191,
+        "code": "SL",
+        "dialingCode": "+232",
+        "name": "Sierra Leone"
+      },
+      {
+        "id": 192,
+        "code": "SG",
+        "dialingCode": "+65",
+        "name": "Singapore"
+      },
+      {
+        "id": 252,
+        "code": "SX",
+        "dialingCode": "+1-721",
+        "name": "Sint Maarten"
+      },
+      {
+        "id": 193,
+        "code": "SK",
+        "dialingCode": "+421",
+        "name": "Slovakia"
+      },
+      {
+        "id": 194,
+        "code": "SI",
+        "dialingCode": "+386",
+        "name": "Slovenia"
+      },
+      {
+        "id": 195,
+        "code": "SB",
+        "dialingCode": "+677",
+        "name": "Solomon Islands"
+      },
+      {
+        "id": 196,
+        "code": "SO",
+        "dialingCode": "+252",
+        "name": "Somalia"
+      },
+      {
+        "id": 197,
+        "code": "ZA",
+        "dialingCode": "+27",
+        "name": "South Africa"
+      },
+      {
+        "id": 198,
+        "code": "GS",
+        "dialingCode": "+500",
+        "name": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "id": 115,
+        "code": "KR",
+        "dialingCode": "+82",
+        "name": "South Korea"
+      },
+      {
+        "id": 176,
+        "code": "SS",
+        "dialingCode": "+211",
+        "name": "South Sudan"
+      },
+      {
+        "id": 199,
+        "code": "ES",
+        "dialingCode": "+34",
+        "name": "Spain"
+      },
+      {
+        "id": 200,
+        "code": "LK",
+        "dialingCode": "+94",
+        "name": "Sri Lanka"
+      },
+      {
+        "id": 203,
+        "code": "SD",
+        "dialingCode": "+249",
+        "name": "Sudan"
+      },
+      {
+        "id": 204,
+        "code": "SR",
+        "dialingCode": "+597",
+        "name": "Suriname"
+      },
+      {
+        "id": 205,
+        "code": "SJ",
+        "dialingCode": "+47",
+        "name": "Svalbard and Jan Mayen"
+      },
+      {
+        "id": 206,
+        "code": "SZ",
+        "dialingCode": "+268",
+        "name": "Swaziland"
+      },
+      {
+        "id": 207,
+        "code": "SE",
+        "dialingCode": "+46",
+        "name": "Sweden"
+      },
+      {
+        "id": 208,
+        "code": "CH",
+        "dialingCode": "+41",
+        "name": "Switzerland"
+      },
+      {
+        "id": 209,
+        "code": "SY",
+        "dialingCode": "+963",
+        "name": "Syria"
+      },
+      {
+        "id": 210,
+        "code": "TW",
+        "dialingCode": "+886",
+        "name": "Taiwan"
+      },
+      {
+        "id": 211,
+        "code": "TJ",
+        "dialingCode": "+992",
+        "name": "Tajikistan"
+      },
+      {
+        "id": 212,
+        "code": "TZ",
+        "dialingCode": "+255",
+        "name": "Tanzania"
+      },
+      {
+        "id": 213,
+        "code": "TH",
+        "dialingCode": "+66",
+        "name": "Thailand"
+      },
+      {
+        "id": 214,
+        "code": "TG",
+        "dialingCode": "+228",
+        "name": "Togo"
+      },
+      {
+        "id": 215,
+        "code": "TK",
+        "dialingCode": "+690",
+        "name": "Tokelau"
+      },
+      {
+        "id": 216,
+        "code": "TO",
+        "dialingCode": "+676",
+        "name": "Tonga"
+      },
+      {
+        "id": 217,
+        "code": "TT",
+        "dialingCode": "+1-868",
+        "name": "Trinidad and Tobago"
+      },
+      {
+        "id": 218,
+        "code": "TN",
+        "dialingCode": "+216",
+        "name": "Tunisia"
+      },
+      {
+        "id": 219,
+        "code": "TR",
+        "dialingCode": "+90",
+        "name": "Turkey"
+      },
+      {
+        "id": 220,
+        "code": "TM",
+        "dialingCode": "+993",
+        "name": "Turkmenistan"
+      },
+      {
+        "id": 221,
+        "code": "TC",
+        "dialingCode": "+1-649",
+        "name": "Turks and Caicos Islands"
+      },
+      {
+        "id": 222,
+        "code": "TV",
+        "dialingCode": "+688",
+        "name": "Tuvalu"
+      },
+      {
+        "id": 235,
+        "code": "VI",
+        "dialingCode": "+1-340",
+        "name": "U.S. Virgin Islands"
+      },
+      {
+        "id": 223,
+        "code": "UG",
+        "dialingCode": "+256",
+        "name": "Uganda"
+      },
+      {
+        "id": 224,
+        "code": "UA",
+        "dialingCode": "+380",
+        "name": "Ukraine"
+      },
+      {
+        "id": 225,
+        "code": "AE",
+        "dialingCode": "+971",
+        "name": "United Arab Emirates"
+      },
+      {
+        "id": 226,
+        "code": "GB",
+        "dialingCode": "+44",
+        "name": "United Kingdom"
+      },
+      {
+        "id": 1,
+        "code": "US",
+        "dialingCode": "+1",
+        "name": "United States"
+      },
+      {
+        "id": 227,
+        "code": "UM",
+        "dialingCode": "+1",
+        "name": "United States Minor Outlying Islands"
+      },
+      {
+        "id": 228,
+        "code": "UY",
+        "dialingCode": "+598",
+        "name": "Uruguay"
+      },
+      {
+        "id": 229,
+        "code": "UZ",
+        "dialingCode": "+998",
+        "name": "Uzbekistan"
+      },
+      {
+        "id": 230,
+        "code": "VU",
+        "dialingCode": "+678",
+        "name": "Vanuatu"
+      },
+      {
+        "id": 231,
+        "code": "VA",
+        "dialingCode": "+379",
+        "name": "Vatican City"
+      },
+      {
+        "id": 232,
+        "code": "VE",
+        "dialingCode": "+58",
+        "name": "Venezuela"
+      },
+      {
+        "id": 233,
+        "code": "VN",
+        "dialingCode": "+84",
+        "name": "Vietnam"
+      },
+      {
+        "id": 236,
+        "code": "WF",
+        "dialingCode": "+681",
+        "name": "Wallis and Futuna"
+      },
+      {
+        "id": 237,
+        "code": "EH",
+        "dialingCode": "+212",
+        "name": "Western Sahara"
+      },
+      {
+        "id": 238,
+        "code": "YE",
+        "dialingCode": "+967",
+        "name": "Yemen"
+      },
+      {
+        "id": 241,
+        "code": "ZM",
+        "dialingCode": "+260",
+        "name": "Zambia"
+      },
+      {
+        "id": 242,
+        "code": "ZW",
+        "dialingCode": "+263",
+        "name": "Zimbabwe"
+      },
+      {
+        "id": 243,
+        "code": "AX",
+        "dialingCode": "+358",
+        "name": "Åland Islands"
+      }
+    ]
+  }
+}

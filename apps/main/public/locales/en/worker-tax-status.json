@@ -1,0 +1,15 @@
+{
+  "S": "S",
+  "ME": "ME",
+  "TK/0": "TK/0",
+  "TK/1": "TK/1",
+  "TK/2": "TK/2",
+  "TK/3": "TK/3",
+  "K/0": "K/0",
+  "K/1": "K/1",
+  "K/2": "K/2",
+  "K/3": "K/3",
+  "SINGLE": "Single",
+  "MARRIED_AND_SPOUSE_IS_UNEMPLOYED": "Married and husband or wife is not working",
+  "DIVORCED_OR_MARRIED_AND_SPOUSE_IS_WORKING_OR_SINGLE_WITH_ADOPTED_CHILD": "Married and husband or wife is working;divorced or widowed:or single with adopted child"
+}

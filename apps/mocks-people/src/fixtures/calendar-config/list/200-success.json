@@ -1,0 +1,83 @@
+{
+  "data": {
+    "calendarConfigs": [
+      {
+        "id": 1,
+        "name": "Calendar 1",
+        "calendarConfigId": "1",
+        "description": "Calendar 1 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      },
+      {
+        "id": 2,
+        "name": "Calendar 2",
+        "calendarConfigId": "2",
+        "description": "Calendar 2 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Semi-Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      },
+      {
+        "id": 3,
+        "name": "Calendar 3",
+        "calendarConfigId": "3",
+        "description": "Calendar 3 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      },
+      {
+        "id": 4,
+        "name": "Calendar 4",
+        "calendarConfigId": "4",
+        "description": "Calendar 4 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      },
+      {
+        "id": 5,
+        "name": "Calendar 5",
+        "calendarConfigId": "5",
+        "description": "Calendar 5 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      },
+      {
+        "id": 6,
+        "name": "Calendar 6",
+        "calendarConfigId": "6",
+        "description": "Calendar 6 Description",
+        "calendarTags": [],
+        "context": {
+          "calendarPeriod": "Monthly"
+        },
+        "createdAt": "2022-10-25T10:02:54.000000Z",
+        "status": "ACTIVE"
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 6
+    }
+  }
+}

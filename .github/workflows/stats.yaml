@@ -1,0 +1,14 @@
+name: PR Stats
+
+on:
+  repository_dispatch:
+    types: [run-stats-command]
+
+jobs:
+  main:
+    runs-on: tableau-server
+    steps:
+      - name: Run pull request stats
+        uses: flowwer-dev/pull-request-stats@v2
+        with:
+          period: ${{ github.event.client_payload.slash_command.args.unnamed.arg1 }}

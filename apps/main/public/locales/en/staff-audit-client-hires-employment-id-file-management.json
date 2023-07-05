@@ -1,0 +1,112 @@
+{
+  "documents": {
+    "label": "Documents",
+    "addendum": {
+      "label": "Addendum"
+    },
+    "HK": {
+      "passportFile": {
+        "label": "Government issued passport front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "ID": {
+      "familyCardFile": {
+        "label": "Family Card (KK) front & back"
+      },
+      "npwpCardFile": {
+        "label": "Nomor Pokok Wajib Pajak card (NPWP) front & back"
+      },
+      "bpjsKetenagakerjaanCardFile": {
+        "label": "Badan Penyelenggara Jaminan Sosial card (BJPS) Ketenagakerjaan front & back"
+      },
+      "bpjsKesehatanCardFile": {
+        "label": "Badan Penyelenggara Jaminan Sosial card (BJPS) Kesehatan front & back"
+      },
+      "nationalIdFile": {
+        "label": "Government issued national id front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "MY": {
+      "passportFile": {
+        "label": "Government issued passport front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "PH": {
+      "tinIdFile": {
+        "label": "TIN ID front & back"
+      },
+      "sssIdFile": {
+        "label": "SSS ID front & back"
+      },
+      "healthIdFile": {
+        "label": "PHILHEALTH ID front & back"
+      },
+      "hdmfIdFile": {
+        "label": "MID (HDMF) ID front & back"
+      },
+      "birthCertificateFile": {
+        "label": "PSA/Municipal birth certificate front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "SG": {
+      "nationalIdFile": {
+        "label": "Government issued national id front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "TH": {
+      "nationalIdFile": {
+        "label": "Government issued national id front & back"
+      },
+      "houseRegistrationFile": {
+        "label": "Official house registration document"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    },
+    "VN": {
+      "nationalIdFile": {
+        "label": "Government issued national id front & back"
+      },
+      "permitIdFile": {
+        "label": "Government issued permit front & back"
+      },
+      "addendum": {
+        "label": "Addendum"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Service details",
+  "description": "Please fill in details below",
+  "form": {
+    "bankAccount": {
+      "bank": {
+        "label": "Name of the bank",
+        "helperText": "Bank that is managing your account"
+      },
+      "beneficiaryName": {
+        "label": "Bank account name",
+        "helperText": "Bank beneficiary name"
+      },
+      "accountNumber": {
+        "label": "Bank account number",
+        "helperText": "Account number for the bank beneficiary"
+      },
+      "branchCode": {
+        "label": "Branch code",
+        "helperText": "Unique identification code for your bank branch"
+      },
+      "swiftCode": {
+        "label": "Bank SWIFT code",
+        "helperText": "Identification for you bank within the SWIFT network"
+      }
+    }
+  }
+}

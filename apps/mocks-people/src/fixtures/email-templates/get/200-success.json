@@ -1,0 +1,20 @@
+{
+  "data": {
+    "emailTemplates": [
+      "clientManualPayrollComment",
+      "clientManualPayrollUpdate",
+      "employeeVerificationEmail",
+      "staffManualPayrollComment",
+      "staffManualPayrollUpdate",
+      "updateOfServiceAgreementClientEmail",
+      "employeeInvitedStatusWorkerEmail",
+      "contractAcceptanceStatusWorkerEmail",
+      "clientVerificationEmail",
+      "employeeOnboardedStatusWorkerEmail",
+      "bulkUploadSummaryEmail",
+      "calendarEventNotificationEmail",
+      "staffAddendumManualRequest",
+      "clientAddendumManualUpload"
+    ]
+  }
+}

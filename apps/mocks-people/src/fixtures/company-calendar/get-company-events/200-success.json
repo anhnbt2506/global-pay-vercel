@@ -1,0 +1,18 @@
+{
+  "data": {
+    "companyEvents": [
+      {
+        "calendarEventId": "w8je69dp",
+        "date": "2022-12-20",
+        "name": "TH event",
+        "description": "TH event"
+      },
+      {
+        "calendarEventId": "n42eobql",
+        "date": "2022-12-30",
+        "name": "TH event 2",
+        "description": "TH event 2"
+      }
+    ]
+  }
+}

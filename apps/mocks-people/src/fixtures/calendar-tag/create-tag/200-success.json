@@ -1,0 +1,14 @@
+{
+  "data": {
+    "calendarTags": {
+      "id": 1,
+      "name": "Abc",
+      "description": "description",
+      "isAdjustmentRequired": false,
+      "adjustmentCalendarTagId": null,
+      "createdAt": "2022-11-07T10:02:54.000000Z",
+      "status": "ACTIVE",
+      "adjustmentCalendarTag": null
+    }
+  }
+}

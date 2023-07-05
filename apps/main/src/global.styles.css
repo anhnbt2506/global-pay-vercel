@@ -1,0 +1,25 @@
+/** FullCalendar Overrides **/
+:root {
+  --primary-main-color: #2044bf;
+}
+
+.fc-list-event-dot {
+  background-color: var(--primary-main-color) !important;
+  border-color: var(--primary-main-color) !important;
+}
+
+.fc-h-event {
+  cursor: pointer;
+  background-color: var(--primary-main-color) !important;
+  border-color: var(--primary-main-color) !important;
+  margin: 0.1rem 0 !important;
+}
+
+.fc-disable-popover {
+  display: none !important;
+}
+
+.fc-no-event-bg {
+  background: white !important;
+}
+/** End FullCalendar Overrides **/

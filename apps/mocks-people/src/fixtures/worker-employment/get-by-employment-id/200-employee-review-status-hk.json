@@ -1,0 +1,90 @@
+{
+  "data": {
+    "workerEmployment": {
+      "id": 4,
+      "workerTypeId": 4,
+      "companyId": "kzcrrmyhgeqr5o5o",
+      "workerUserId": 4,
+      "workerType": "App\\Models\\Worker\\WorkerHongkong",
+      "status": "EMPLOYEE_REVIEW",
+      "citizenshipStatus": "PERMIT_HOLDER",
+      "additionalInfo": {
+        "id": 4,
+        "numberOfChildren": 0,
+        "bpjsKesehatanCardFile": null,
+        "bpjsKetenagakerjaanCardFile": null,
+        "npwpCardFile": null,
+        "familyCardFile": null,
+        "religiousFestivityAllowance": 111,
+        "createdAt": "2022-06-23T09:26:16.000000Z",
+        "updatedAt": "2022-06-23T09:26:16.000000Z"
+      },
+      "company": {
+        "companyId": "kzcrrmyhgeqr5o5o",
+        "name": "Alpha Corp."
+      },
+      "workerUser": {
+        "id": 4,
+        "hasSetPassword": false,
+        "addressId": 10,
+        "createdAt": "2022-06-23T09:26:16.000000Z",
+        "updatedAt": "2022-07-22T06:27:36.000000Z",
+        "userContext": {
+          "user": {
+            "id": 10,
+            "cognitoId": 4,
+            "userId": 4,
+            "firstName": "Alfian",
+            "lastName": "June23"
+          }
+        },
+        "address": {
+          "id": 10,
+          "addressLine": "example",
+          "city": "CT-JUNE",
+          "state": "ST-JUNE",
+          "postalCode": "99111"
+        },
+        "maritalStatus": null,
+        "dateOfBirth": null,
+        "religion": null,
+        "gender": null,
+        "bankAccount": {
+          "workerEmploymentId": 4,
+          "beneficiaryName": "Sample",
+          "accountNumber": "999",
+          "bank": {
+            "bankId": "123",
+            "bankName": "Bank 01",
+            "bankCode": "SPB",
+            "swiftCode": "SPB",
+            "ibanCode": null
+          },
+          "branchCode": "SPBC"
+        }
+      },
+      "workerIdentity": {
+        "workerEmploymentId": 4,
+        "permitId": "9999",
+        "permitIdFile": null,
+        "permitIssuedDate": null,
+        "permitIssuedPlace": null,
+        "passportNumber": null,
+        "passportFile": null,
+        "nationalId": null,
+        "nationalIdFile": null,
+        "nationalIdIssuedDate": null,
+        "permitType": null
+      },
+      "workerContact": {
+        "workerEmploymentId": 4,
+        "contactNumber": "85377884411",
+        "contactNumberCountryCode": null,
+        "emergencyContactName": null,
+        "emergencyContactRelationship": null,
+        "emergencyContactNumberCountryCode": null,
+        "emergencyContactNumber": null
+      }
+    }
+  }
+}

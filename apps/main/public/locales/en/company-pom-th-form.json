@@ -1,0 +1,64 @@
+{
+  "form": {
+    "payrollCycle": {
+      "label": "Payroll cycle",
+      "helperText": "Period for processing payments"
+    },
+    "payrollCutOffDate": {
+      "label": "Payroll instructions cut off date",
+      "helperText": "When will the cut off date for instructions be"
+    },
+    "payrollDate": {
+      "label": "Payroll date",
+      "helperText": "What is the pay date"
+    },
+    "prorateSalaryFormula": {
+      "label": "Prorate salary formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "socialSecurityId": {
+      "label": "Social security ID",
+      "helperText": "Client ID number"
+    },
+    "isAypAssistESubmission": {
+      "label": "Would you like us to assist for e-submission",
+      "helperText": "Manage statutory e-submission"
+    },
+    "ssoEFilingUsername": {
+      "label": "SSO e-filling username",
+      "helperText": "SSO e-filling credentials"
+    },
+    "ssoEFilingPassword": {
+      "label": "SSO e-filling password",
+      "helperText": "SSO e-filling credentials"
+    },
+    "revenueEFilingUsername": {
+      "label": "Revenue e-filling username",
+      "helperText": "Revenue e-filling credentials"
+    },
+    "revenueEFilingPassword": {
+      "label": "Revenue e-filling password",
+      "helperText": "Revenue e-filling credentials"
+    },
+    "isUsingDisbursementService": {
+      "label": "Use disbursement service",
+      "helperText": "Funds disbursement service"
+    },
+    "supportingDocuments": "Supporting documents",
+    "companyAffidavitFile": {
+      "label": "Company Affidavit with signature of DBD officer not more than 3 months old"
+    },
+    "payrollReportFile": {
+      "label": "Payroll report since January"
+    },
+    "ssoReportFile": {
+      "label": "SSO reports with receipts since January"
+    },
+    "pnd1ReportSinceJanuaryFile": {
+      "label": "PND 1 reports with receipts since January"
+    },
+    "pnd1ReportPreviousYearFile": {
+      "label": "PND 1 KOR the previous year's report"
+    }
+  }
+}

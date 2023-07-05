@@ -1,0 +1,34 @@
+{
+  "name": "@ayp/global-pay-frontend",
+  "version": "1.11.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "husky install",
+    "install:ci": "pnpm install --frozen-lockfile --prefer-offline --ignore-scripts",
+    "install:cy": "pnpm install --frozen-lockfile --prefer-offline",
+    "format": "prettier -w \"**/*.{js,mjs,jsx,ts,tsx,json,scss}\"",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "nx": "15.9.4",
+    "prettier": "^2.8.1"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "**/*.{js,mjs,jsx,ts,tsx,json,scss}": [
+      "prettier -w"
+    ]
+  },
+  "volta": {
+    "node": "18.12.1"
+  },
+  "engines": {
+    "node": "^18",
+    "pnpm": "^7"
+  }
+}

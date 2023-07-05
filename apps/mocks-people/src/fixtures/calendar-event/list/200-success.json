@@ -1,0 +1,62 @@
+{
+  "data": {
+    "calendarEvents": [
+      {
+        "id": 1,
+        "calendarEventId": "odb12hx7",
+        "name": "Event A",
+        "description": "Event A Description",
+        "dateType": "CALENDAR_DATE",
+        "dateValue": "2022-12-01",
+        "createdAt": "2022-10-25T10:03:05.000000Z",
+        "calendarTag": {
+          "calendarTagId": "xk1qvyw0",
+          "name": "ID - Payroll"
+        },
+        "status": "ACTIVE",
+        "isAutomatedReminder": 1,
+        "reminderBasedOn": "WORKING_DAYS",
+        "reminderDayBeforeEvent": 12
+      },
+      {
+        "id": 2,
+        "calendarEventId": "q48bbg2l",
+        "name": "Event B",
+        "description": "Event B Description",
+        "dateType": "SPECIFIC_DAY",
+        "dateValue": "15",
+        "createdAt": "2022-10-25T10:03:05.000000Z",
+        "calendarTag": {
+          "calendarTagId": "wpr615z0",
+          "name": "test"
+        },
+        "status": "ACTIVE",
+        "isAutomatedReminder": 1,
+        "reminderBasedOn": "WORKING_DAYS",
+        "reminderDayBeforeEvent": 12
+      },
+      {
+        "id": 3,
+        "calendarEventId": "h8mb9hyv",
+        "name": "Event C",
+        "description": "Event C Description",
+        "dateType": "CLIENT_INPUT_DATE",
+        "dateValue": "MONTHLY",
+        "createdAt": "2022-10-25T10:03:05.000000Z",
+        "calendarTag": {
+          "calendarTagId": "xk1qvyw0",
+          "name": "ID - Public Holiday"
+        },
+        "status": "INACTIVE",
+        "isAutomatedReminder": 0,
+        "reminderBasedOn": "WORKING_DAYS",
+        "reminderDayBeforeEvent": 12
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 3
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "data": {
+    "templateName": "bulkUploadSummaryEmail",
+    "subjectPart": "Amazon Bulk Upload Summary",
+    "htmlPart": "<p>First Name: {{staffFirstName}} Last Name: {{workerLastName}} downloadUrlTagForSummaryFile: {{downloadUrlTagForSummaryFile}} {{staffFirstName}} {{fileUploadedDate}}131</p>"
+  }
+}

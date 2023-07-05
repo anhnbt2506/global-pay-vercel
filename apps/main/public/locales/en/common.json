@@ -1,0 +1,147 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "next": "Next",
+  "previous": "Previous",
+  "confirm": "Confirm",
+  "submit": "Submit",
+  "view": "View",
+  "switch": "Switch",
+  "cancel": "Cancel",
+  "close": "Close",
+  "login": "Log in",
+  "success": "Success",
+  "savedSuccessfully": "Saved successfully",
+  "update": "Update",
+  "thankYou": "Thank You!",
+  "create": "Create",
+  "unlink": "Unlink",
+  "link": "Link",
+  "validate": "Validate",
+  "managePayroll": "Manage payroll",
+  "viewWorkforce": "View workforce",
+  "addFile": "Add file",
+  "downloadAllFiles": "Download all files",
+  "download": "Download",
+  "remove": "Remove",
+  "form": {
+    "error": {
+      "unknownError": "Unknown Error",
+      "requiredField": "This is a required field",
+      "requiredAtLeastSingleSelectionField": "At least a single selection is required",
+      "emailField": "This must be a valid email",
+      "emailsField": "This must be valid emails",
+      "businessEmailField": "This must be a valid company email - e.g. you@companyname.com",
+      "passwordField": "This password doesn't meet all criterias below",
+      "postalCodeField": "This must be a valid postal code",
+      "numberField": "This must be a valid number",
+      "integerField": "This must be a valid integer",
+      "dateField": "This must be a valid date",
+      "timeField": "This must be a valid time",
+      "gender": "This must be a valid male or female",
+      "selectMinFile": "Please select at least {{min}} file(s)",
+      "religion": "This must be a valid religion",
+      "race": "This must be a valid race",
+      "contactNumber": "This must be a valid contact number",
+      "permitType": "This must be a valid permit type",
+      "maritalStatus": "This must be a valid marital status",
+      "emergencyContactRelationship": "This must be a valid emergency contact relationship",
+      "containSpaces": "This must not contain spaces",
+      "onlyAlpha": "This must contain only alphabet",
+      "onlyNumeric": "This must contain only numeric",
+      "alphaNumeric": "This must contain only alphabet and numeric",
+      "alphaNumericDash": "This must contain only alphabet and numeric and -",
+      "positiveIntegerField": "This must be a valid positive integer"
+    },
+    "helperText": {
+      "valueOf": "Enter a value of {{value}}",
+      "valueMaxOf": "Enter a value maximum of {{max}}",
+      "valueMinOf": "Enter a value minimum of {{min}}",
+      "valueBetweenMinAndMax": "Enter a value between {{min}} and {{max}}"
+    }
+  },
+  "topNavigation": {
+    "logout": "Logout",
+    "welcomeBack": "Welcome back, {{name}}",
+    "currentlyViewing": "You are currently viewing {{pageName}}",
+    "signContract": "Sign contract"
+  },
+  "primarySidebar": {
+    "root": {
+      "liveSupport": "Live Support"
+    },
+    "company": {
+      "dashboard": "Dashboard",
+      "people": {
+        "title": "People",
+        "workforce": "Workforce",
+        "onboarding": "Onboarding"
+      },
+      "payroll": {
+        "title": "Payroll",
+        "calendar": "Payroll Calendar",
+        "dashboard": "Payroll Dashboard"
+      },
+      "helpCenter": "Help Center"
+    },
+    "staff": {
+      "home": "Home",
+      "audit": {
+        "title": "Audit",
+        "clientHires": "Client Hires",
+        "clientList": "Client List",
+        "clientServiceAgreements": "Client Service Agreements"
+      },
+      "contracts": {
+        "title": "Contracts",
+        "eorAgreement": "EOR Agreement",
+        "peoAgreement": "PEO Agreement",
+        "serviceAgreement": "Service Agreement"
+      },
+      "emailTemplates": "Email Templates",
+      "setup": {
+        "title": "Setup",
+        "calendar": "Calendar",
+        "industry": "Industry",
+        "integration": "Integration"
+      },
+      "payroll": {
+        "title": "Payroll",
+        "calendar": "Payroll Calendar",
+        "dashboard": "Payroll Dashboard"
+      }
+    },
+    "worker": {
+      "home": "Home"
+    }
+  },
+  "dataGrid": {
+    "noResults": "No results found",
+    "editDialog": {
+      "title": "Edit {{label}}"
+    },
+    "pleaseUpdateValue": "Please update value"
+  },
+  "fileUpload": {
+    "or": "or",
+    "clickToUpload": "Click to upload",
+    "allowedFileType": "Allowed file type: {{accept}}",
+    "maxFileSizeInMb": "(max. {{maxFileSizeInMb}}MB)",
+    "fileSizeExceeded": "File too large.",
+    "fileTypeNotAllowed": "Unsupported file.",
+    "uploadError": "Upload failed, please retry to upload the file again.",
+    "csvUnsupportedColumn": "Column {{columnId}} is not supported, please download the latest template and reupload.",
+    "csvRowExceeded": "You have uploaded {{userUploadedRows}} rows. The maximum rows supported per upload is {{maxCsvRow}} rows."
+  },
+  "multipleFileUpload": {
+    "selectFile": "Select file",
+    "selectFileDescription": "You can select more than 1 file",
+    "numberOfFilesUpload": "{{uploadedCount}} of {{totalCount}} file(s) uploaded",
+    "numberOfFilesSelected": "{{fileCount}} file(s) selected",
+    "noFileSelected": "No file(s) has been selected yet"
+  },
+  "forceLoginDialog": {
+    "title": "Please log in again",
+    "description": "Your current access has expired and you have been logged out. Please log in to continue where you left off."
+  }
+}

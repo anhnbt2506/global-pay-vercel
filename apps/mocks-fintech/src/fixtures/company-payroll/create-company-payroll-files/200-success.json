@@ -1,0 +1,39 @@
+{
+  "data": {
+    "company_payroll_files": [
+      {
+        "fileManagementId": 1,
+        "uploadBatchId": "hzc7d88arvlqrdw9",
+        "companyPayrollId": "02dxiqos",
+        "id": 1
+      },
+      {
+        "fileManagementId": 2,
+        "uploadBatchId": "hzc7d88arvlqrdw9",
+        "companyPayrollId": "02dxiqos",
+        "id": 2
+      },
+      {
+        "fileManagementId": 3,
+        "uploadBatchId": "hzc7d88arvlqrdw9",
+        "companyPayrollId": "02dxiqos",
+        "id": 3
+      },
+      {
+        "fileManagementId": 4,
+        "uploadBatchId": "hzc7d88arvlqrdw9",
+        "companyPayrollId": "02dxiqos",
+        "id": 4
+      }
+    ],
+    "comment": {
+      "content": "Test comment",
+      "type": "FILE_ADDED",
+      "createdById": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+      "conversationId": 1,
+      "commentId": "rvz7a8s986qx5yd46wx9j2ssxt745t34",
+      "createdAt": "2023-05-29T05:36:00.000000Z",
+      "id": 1
+    }
+  }
+}

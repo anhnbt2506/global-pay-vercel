@@ -1,0 +1,23 @@
+{
+  "pageName": "Onboarding",
+  "dataGrid": {
+    "header": {
+      "workerUser.userContext.user.firstName;workerUser.userContext.user.lastName": "Name",
+      "status": "Status",
+      "hiringCountry.name": "Location",
+      "hireType": "Hire Type",
+      "employmentType": "Employment Type",
+      "startDate": "Start Date"
+    },
+    "noRowsOverlay": {
+      "title": "Start hiring",
+      "description": "You can start adding new hires to your team. You’ll be able to track their progress from here too."
+    },
+    "searchPlaceholder": "Search name",
+    "menuItems": {
+      "addNewHire": "Add new hire",
+      "finishAndInvite": "Finish and Invite",
+      "viewProfile": "View profile"
+    }
+  }
+}

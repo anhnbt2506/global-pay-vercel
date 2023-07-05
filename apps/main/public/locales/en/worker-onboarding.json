@@ -1,0 +1,381 @@
+{
+  "workerCommon": {
+    "description": "Please enter details below",
+    "errorText": "Something wrong, please reload your page."
+  },
+  "workerSideBar": {
+    "title": "Welcome to {{companyName}}!",
+    "description": "Below are all the tasks you need to complete in order to start your employment. Please ensure you submit information carefully and accurately"
+  },
+  "workerPersonalProfile": {
+    "title": "Personal profile",
+    "form": {
+      "workerUser": {
+        "userContext": {
+          "user": {
+            "firstName": {
+              "label": "Legal first name",
+              "helperText": "Your first name"
+            },
+            "lastName": {
+              "label": "Legal last name",
+              "helperText": "Your last name"
+            }
+          }
+        },
+        "address": {
+          "addressLine": {
+            "label": "Address line",
+            "helperText": "Where is your legal residence located"
+          },
+          "city": {
+            "label": "City",
+            "helperText": "Which city is your legal residence located"
+          },
+          "state": {
+            "label": "State",
+            "helperText": "Which state is your legal residence located"
+          },
+          "postalCode": {
+            "label": "Postal code",
+            "helperText": "Which is the postal code of your legal residence"
+          }
+        },
+        "dateOfBirth": {
+          "label": "Date of birth",
+          "helperText": "Your date of birth"
+        },
+        "gender": {
+          "label": "Gender",
+          "helperText": "Your gender"
+        },
+        "race": {
+          "label": "Race",
+          "helperText": "Your race"
+        },
+        "religion": {
+          "label": "Religion",
+          "helperText": "Your religion"
+        },
+        "maritalStatus": {
+          "label": "Marital status",
+          "helperText": "Your marital status"
+        }
+      },
+      "workerContact": {
+        "contactNumberCountryCode": {
+          "label": "Dialing code",
+          "helperText": "Select international dialing code and enter contact number"
+        },
+        "contactNumber": {
+          "label": "Contact number"
+        }
+      }
+    }
+  },
+  "identification": {
+    "title": "Identification",
+    "form": {
+      "workerIdentity": {
+        "permitType": {
+          "label": "Permit type",
+          "helperText": "Your permit type"
+        },
+        "permitId": {
+          "label": "Government issued permit",
+          "helperText": "Your latest permit ID"
+        },
+        "permitIssuedDate": {
+          "label": "Date of issue",
+          "helperText": "Government-issued permit issue date"
+        },
+        "permitExpiryDate": {
+          "label": "Date of expiry",
+          "helperText": "Government-issued permit expiry date"
+        },
+        "permitIssuedPlace": {
+          "label": "Place latest permit issued",
+          "helperText": "Government-issued latest permit issue"
+        },
+        "passportNumber": {
+          "label": "Government issued identification",
+          "helperText": "Your passport ID"
+        },
+        "nationalId": {
+          "label": "Government issued identification",
+          "helperText": "Your national ID"
+        },
+        "nationalIdIssuedDate": {
+          "label": "Date of issue",
+          "helperText": "Government-issued national ID issue date"
+        },
+        "taxId": {
+          "label": "Tax identification number",
+          "helperText": "To track and monitor tax payments, filings, and other tax-related activities"
+        }
+      },
+      "vnForm": {
+        "additionalInfo": {
+          "oldPermitId": {
+            "label": "Previous government issued permit",
+            "helperText": "Your previous permit ID"
+          }
+        }
+      },
+      "sgForm": {
+        "additionalInfo": {
+          "cpfNumber": {
+            "label": "CPF number",
+            "helperText": "To ensure government benefits related to retirement, healthcare and housing"
+          }
+        }
+      }
+    }
+  },
+  "emergencyContact": {
+    "title": "Emergency contact",
+    "formTitle": "Emergency contact details",
+    "form": {
+      "workerContact": {
+        "emergencyContactName": {
+          "label": "Emergency contact name",
+          "helperText": "Name of person"
+        },
+        "emergencyContactRelationship": {
+          "label": "Emergency contact relationship",
+          "helperText": "Relationship to person"
+        },
+        "emergencyContactNumberCountryCode": {
+          "label": "Dialing code",
+          "helperText": "Select international dialing code and enter contact number"
+        },
+        "emergencyContactNumber": {
+          "label": "Contact number"
+        }
+      }
+    }
+  },
+  "bankDetails": {
+    "title": "Bank details",
+    "form": {
+      "bankAccount": {
+        "beneficiaryName": {
+          "label": "Name of bank account holder",
+          "helperText": "Bank beneficiary name"
+        },
+        "accountNumber": {
+          "label": "Bank account number",
+          "helperText": "Account number for the bank beneficiary"
+        },
+        "bank": {
+          "label": "Bank name",
+          "helperText": "Bank that is managing your account"
+        },
+        "branchCode": {
+          "label": "Branch code",
+          "helperText": "Unique identification code for your bank branch"
+        }
+      }
+    }
+  },
+  "additionalInformation": {
+    "title": "Additional information",
+    "form": {
+      "title": "Supporting documents",
+      "workerIdentity": {
+        "nationalIdFile": {
+          "label": "Government issued national id front & back"
+        },
+        "permitIdFile": {
+          "label": "Government issued permit front & back"
+        }
+      }
+    },
+    "hkForm": {
+      "regulatoryInformation": {
+        "title": "Regulatory information",
+        "label": "MPF ID",
+        "helperText": "Your MPF ID"
+      },
+      "supportingDocuments": "Supporting documents",
+      "workerIdentity": {
+        "permitIdFile": {
+          "label": "Government issued permit front & back"
+        },
+        "passportFile": {
+          "label": "Government issued passport front & back"
+        }
+      }
+    },
+    "myForm": {
+      "regulatoryInformation": {
+        "title": "Regulatory information",
+        "label": "EPF ID",
+        "helperText": "Your EPF ID"
+      },
+      "spouseWorking": {
+        "label": "Is your spouse working?",
+        "helperText": "is your spouse working"
+      },
+      "supportingDocuments": "Supporting documents",
+      "workerIdentity": {
+        "permitIdFile": {
+          "label": "Government issued permit front & back"
+        },
+        "passportFile": {
+          "label": "Government issued passport front & back"
+        }
+      }
+    },
+    "idForm": {
+      "title": "Regulatory information",
+      "numberOfChildren": {
+        "label": "Number of children",
+        "helperText": "Declaration for children in your family"
+      },
+      "familyCardFile": {
+        "label": "Family Card (KK) front & back"
+      },
+      "npwpCardFile": {
+        "label": "Nomor Pokok Wajib Pajak card (NPWP) front & back"
+      },
+      "bpjsKetenagakerjaanCardFile": {
+        "label": "Badan Penyelenggara Jaminan Sosial card (BJPS) Ketenagakerjaan front & back"
+      },
+      "bpjsKesehatanCardFile": {
+        "label": "Badan Penyelenggara Jaminan Sosial card (BJPS) Kesehatan front & back"
+      }
+    },
+    "thForm": {
+      "regulatoryInformation": {
+        "title": "Regulatory information",
+        "fatherAllowance": {
+          "label": "Father's monthly allowance",
+          "helperText": "Your father's monthly allowance"
+        },
+        "motherAllowance": {
+          "label": "Mather's monthly allowance",
+          "helperText": "Your mother's monthly allowance"
+        },
+        "spouseFatherAllowance": {
+          "label": "Spouse's father monthly allowance",
+          "helperText": "Your spouse's father monthly allowance"
+        },
+        "spouseMotherAllowance": {
+          "label": "Spouse's mother monthly allowance",
+          "helperText": "Your spouse's mother monthly allowance"
+        },
+        "insurancePremium": {
+          "label": "Monthly insurance premium",
+          "helperText": "Your monthly insurance premium"
+        },
+        "spouseInsurancePremium": {
+          "label": "Spouse's monthly insurance premium",
+          "helperText": "Your spouse's monthly insurance premium"
+        },
+        "fatherInsurancePremium": {
+          "label": "Father's monthly insurance premium",
+          "helperText": "Your father's monthly insurance premium"
+        },
+        "motherInsurancePremium": {
+          "label": "Mother's monthly insurance premium",
+          "helperText": "Your mother's monthly insurance premium"
+        },
+        "interestHousingLoan": {
+          "label": "Monthly interest housing loan",
+          "helperText": "Your monthly interest housing loan"
+        },
+        "educationDonationAmount": {
+          "label": "Support education donation",
+          "helperText": "Your support education donation amount"
+        },
+        "rmfAllowance": {
+          "label": "Retirement Mutual Funds (RMFs)",
+          "helperText": "Your Retirement Mutual Funds (RMFs) monthly amount"
+        },
+        "ltfAllowance": {
+          "label": "Long-Term Equity Funds (LTFs)",
+          "helperText": "Your Long-Term Equity Funds (LTFs) monthly amount"
+        },
+        "hospitalForUnemploymentInsurance": {
+          "label": "Hospital name",
+          "helperText": "Hospital name for unemployment insurance"
+        }
+      },
+      "supportingDocuments": "Supporting documents",
+      "houseRegistrationFile": {
+        "label": "Official house registration document"
+      },
+      "workerIdentity": {
+        "nationalIdFile": {
+          "label": "Government issued national id front & back"
+        },
+        "permitIdFile": {
+          "label": "Government issued permit front & back"
+        }
+      }
+    },
+    "phForm": {
+      "tinId": {
+        "label": "Government issued TIN ID",
+        "helperText": "Your TIN ID"
+      },
+      "sssId": {
+        "label": "Government issued SSS ID",
+        "helperText": "Your SSS ID"
+      },
+      "healthId": {
+        "label": "Government issued PHILHEALTH ID",
+        "helperText": "Your PHILHEALTH ID"
+      },
+      "hdmfId": {
+        "label": "Government issued MID (HDMF) ID",
+        "helperText": "Your MID (HDMF) ID"
+      },
+      "workerIdentity": {
+        "taxId": {
+          "label": "Government issued Tax ID",
+          "helperText": "Your Tax ID"
+        }
+      },
+      "regulatoryInformation": {
+        "title": "Regulatory information",
+        "fatherName": {
+          "label": "Father's name",
+          "helperText": "Your father's name"
+        },
+        "fatherDateOfBirth": {
+          "label": "Father's date of birth",
+          "helperText": "Your father's date of birth"
+        },
+        "motherName": {
+          "label": "Mother's name",
+          "helperText": "Your mother's name"
+        },
+        "motherDateOfBirth": {
+          "label": "Mother's date of birth",
+          "helperText": "Your mother's date of birth"
+        }
+      },
+      "supportingDocuments": {
+        "title": "Supporting documents",
+        "workerIdentity": {
+          "permitIdFile": {
+            "label": "Government issued permit front & back"
+          },
+          "tinIdFile": "TIN ID front & back",
+          "sssIdFile": "SSS ID front & back",
+          "healthIdFile": "PHILHEALTH ID front & back",
+          "hdmfIdFile": "MID (HDMF) ID front & back",
+          "birthCertificateFile": "PSA/Municipal birth certificate front & back"
+        }
+      }
+    }
+  },
+  "inReview": {
+    "title": "In-review",
+    "label": "Thank you!",
+    "description": "Thank you for updating your details! We are reviewing your information and preparing your contract. You may check the contract status via the notification icon.",
+    "home": "Home"
+  }
+}

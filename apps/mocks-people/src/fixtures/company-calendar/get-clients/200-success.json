@@ -1,0 +1,30 @@
+{
+  "data": {
+    "companies": [
+      {
+        "companyId": "76ofdsivuctk7v5h",
+        "name": "Biscuits & Co."
+      },
+      {
+        "companyId": "7dresrbr4o1d41e8",
+        "name": "Falcon"
+      },
+      {
+        "companyId": "i34znastkgi9cvwq",
+        "name": "BKAV"
+      },
+      {
+        "companyId": "l83goy792ef0fis2",
+        "name": "calendar event company"
+      },
+      {
+        "companyId": "ld0ki60httmkwcvm",
+        "name": "Yellow Milky Company"
+      },
+      {
+        "companyId": "lwg0b2m2695mwguw",
+        "name": "AYP-GP"
+      }
+    ]
+  }
+}

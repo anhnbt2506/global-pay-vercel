@@ -1,0 +1,385 @@
+{
+  "information": "Information",
+  "documents": "Documents",
+  "updateHistory": "Update History",
+  "serviceDetails": "Service Details",
+  "entityManagement": "Entity Management",
+  "department": "Department",
+  "updateClientStatus": {
+    "title": "Update Client Status"
+  },
+  "newDepartment": {
+    "title": "New department"
+  },
+  "informationForm": {
+    "title": {
+      "verification": "VERIFICATION",
+      "companyRegistrant": "COMPANY REGISTRANT",
+      "companyInformation": "COMPANY INFORMATION",
+      "companyBilling": "COMPANY BILLING",
+      "companyInvoicing": "COMPANY INVOICING"
+    },
+    "fields": {
+      "status": "Current Status:",
+      "entityLinkingId": "Entity Linking ID:",
+      "registeredBy": {
+        "user": {
+          "firstName": "Registrant First Name:",
+          "lastName": "Registrant Last Name:"
+        },
+        "info": {
+          "jobTitle": "Registrant Job Title:"
+        }
+      },
+      "email": "Registrant Email:",
+      "country": "Company Located:",
+      "addressLine": "Company Address:",
+      "city": "Company City:",
+      "state": "Company State:",
+      "postalCode": "Company Postal Code:",
+      "billingInformation": "Billing Information:",
+      "billingAddress": {
+        "countryCode": "Billing Location:",
+        "addressLine": "Billing Address:",
+        "city": "Billing City:",
+        "state": "Billing State:",
+        "postalCode": "Billing Postal Code:"
+      },
+      "registrationId": "Company Registration ID:",
+      "taxId": "Company Tax ID:",
+      "currency": "Company Invoicing Currency:",
+      "hasSgEntity": "Company Has Singapore Entity:",
+      "sgEntityName": "Singapore Registered Entity Name:",
+      "sgEntityUen": "Singapore Registered Entity UEN:",
+      "category": "Company Category:",
+      "industry": "Company Industry:"
+    },
+    "editModals": {
+      "companyInformation": {
+        "title": "Company Information",
+        "description": "You are about to update information for this client.",
+        "fields": {
+          "country": {
+            "label": "Country",
+            "helperText": "Where is the company legally based"
+          }
+        }
+      },
+      "companyBilling": {
+        "title": "Company Billing",
+        "description": "You are about to update information for this client.",
+        "fields": {
+          "billingInformation": {
+            "label": "Billing Information",
+            "helperText": "Type of address that will be used"
+          },
+          "country": {
+            "label": "Country",
+            "helperText": "Where is the company legally based"
+          },
+          "addressLine": {
+            "label": "Address Line",
+            "helperText": "Where is the company legally located"
+          },
+          "city": {
+            "label": "City",
+            "helperText": "Which city is the company legally located"
+          },
+          "state": {
+            "label": "State",
+            "helperText": "Which state is the company legally located"
+          },
+          "postalCode": {
+            "label": "Postal Code",
+            "helperText": "What is the postal code the company is legally located"
+          }
+        }
+      },
+      "companyInvoicing": {
+        "title": "Company Invoicing",
+        "description": "You are about to update information for this client."
+      }
+    }
+  },
+  "serviceDetailsForm": {
+    "title": {
+      "service": "SERVICE",
+      "details": "DETAILS"
+    },
+    "fields": {
+      "hireType": "Service Selection:",
+      "country": "Country Selection:",
+      "shouldDecrypt": "Data decryption:"
+    },
+    "hkFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Payroll Salary Formula",
+      "mpfProvider": "MPF Provider",
+      "mpfSubSchemeNumber": "MPF Sub Scheme Number",
+      "isAypAssistESubmission": "E-submission Assistance",
+      "mpfUsername": "MPF Username",
+      "mpfPassword": "MPF Password",
+      "isUsingDisbursementService": "Disbursement service"
+    },
+    "idFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Payroll Salary Formula",
+      "prorateLeaveEncashmentFormula": "Payroll encashment formula",
+      "prorateUnpaidLeaveEncashmentFormula": "Payroll unpaid leave encashment formula",
+      "contributionForBpjsOnSalary": "Contribution for BPJS on salary",
+      "isAypAssistESubmission": "E-submission Assistance",
+      "djpTaxNumberId": "DJP/Mitrapajakku tax number ID",
+      "djpPassword": "DJP/Mitrapajakku password",
+      "eDabuId": "e-Dabu BPJSKS ID",
+      "eDabuPassword": "e-Dabu password",
+      "sippId": "SIPP password",
+      "sippPassword": "SIPP password",
+      "isUsingDisbursementService": "Disbursement service"
+    },
+    "myFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Prorate Salary Formula",
+      "epfNumber": "EPF Number",
+      "socsoNumber": "SOCSO Number",
+      "eisNumber": "EIS Number",
+      "isAypAssistESubmission": "E-submission Assistance",
+      "socsoEmail": "SOCSO / EIS Email",
+      "socsoPassword": "SOCSO / EIS Password",
+      "epfUserId": "EPF User Id",
+      "epfPassword": "EPF Password",
+      "cp39UserId": "CP39 User Id",
+      "cp39Password": "CP39 Password",
+      "isUsingDisbursementService": "Disbursement Service"
+    },
+    "phFields": {
+      "payrollCycle": "Payroll Cycle",
+      "statutoryDeductions": "Statutory Deductions",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "semiPayrollDate": "First Payroll Date",
+      "semiPayrollCutOffDate": "First Payroll Instructions Cut Off",
+      "secondPayrollCutOffDate": "Second Payroll Instructions Cut Off",
+      "secondPayrollDate": "Second Payroll Date",
+      "prorateSalaryFormula": "Prorate Salary Formula",
+      "sssUserId": "SSS User Id",
+      "sssPassword": "SSS Password",
+      "penId": "PEN Id",
+      "penPassword": "PhilHealth Password",
+      "birTinId": "BIR TIN Id",
+      "birUsername": "BIR Username",
+      "birPassword": "BIR Password",
+      "birSecurityQuestionAnswer": "BIR Security Question Answer",
+      "isAypAssistESubmission": "E-submission Assistance",
+      "isUsingDisbursementService": "Disbursement Service"
+    },
+    "sgFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Prorate Salary Formula",
+      "cpfFilingNumber": "CPF Filing Number",
+      "cpfSubmissionPlatform": "CPF Submission Platform",
+      "crimsonLogicUsername": "Crimson Logic Username",
+      "crimsonLogicPassword": "Crimson Logic Password",
+      "cpfPaymentMode": "CPF Payment Mode",
+      "isAypAssistESubmission": "E-submission Assistance",
+      "eSubmissionServices": "E-services List",
+      "isUsingDisbursementService": "Disbursement Service"
+    },
+    "thFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Prorate Salary Formula",
+      "socialSecurityId": "Social Security ID",
+      "isAypAssistESubmission": "E-Submission Assistance",
+      "ssoEFilingUsername": "SSO E-filling Username",
+      "ssoEFilingPassword": "SSO E-filling Password",
+      "revenueEFilingUsername": "Revenue E-filling Username",
+      "revenueEFilingPassword": "Revenue E-filling Password",
+      "isUsingDisbursementService": "Disbursement Service"
+    },
+    "vnFields": {
+      "payrollCycle": "Payroll Cycle",
+      "payrollCutOffDate": "Payroll Instructions Cut Off",
+      "payrollDate": "Payroll Date",
+      "prorateSalaryFormula": "Prorate Salary Formula",
+      "shuiCode": "SHUI code",
+      "shuiProvider": "SHUI account provider",
+      "isAypAssistESubmission": "E-Submission Assistance",
+      "shuiUserId": "SHUI user id",
+      "shuiPassword": "SHUI password",
+      "isUsingDisbursementService": "Disbursement Service"
+    },
+    "bankAccount": {
+      "bankName": "Name of the bank",
+      "beneficiaryName": "Bank Account Name",
+      "accountNumber": "Bank Account Number",
+      "branchCode": "Branch Code"
+    },
+    "modal": {
+      "serviceSelection": {
+        "title": "Service Selection",
+        "description": "You are about to select a different service",
+        "form": {
+          "hireType": {
+            "label": "Service selection",
+            "helperText": "View client service information based on selection"
+          },
+          "country": {
+            "label": "Country",
+            "helperText": "Select country service is used in",
+            "error": "No information submitted by client for this country"
+          },
+          "shouldDecrypt": {
+            "label": "Decryption of sensitive data",
+            "helperText": "You will be able to view confidential data and edit information"
+          },
+          "password": {
+            "label": "Password",
+            "helperText": "Verify your password to proceed",
+            "error": "Password entered is incorrect"
+          }
+        }
+      }
+    }
+  },
+  "documentForm": {
+    "title": {
+      "documentName": "DOCUMENT NAME",
+      "date": "DATE",
+      "action": "ACTION"
+    }
+  },
+  "updateHistoryForm": {
+    "title": {
+      "timeStamp": "TIMESTAMP",
+      "comments": "COMMENTS"
+    }
+  },
+  "updateStatus": "Update Status",
+  "selectStatus": {
+    "title": "Status",
+    "description": "You are about to update the status for this client. Please ensure checks have been completed before proceeding with the status update.",
+    "toast": {
+      "statusUpdated": "Status successfully updated"
+    },
+    "form": {
+      "status": {
+        "label": "Status",
+        "helperText": "Ensure due diligence has been completed before updating"
+      }
+    }
+  },
+  "entityManagementButton": {
+    "linkEntity": "Link entity",
+    "unlinkEntity": "Unlink entity",
+    "createOrSelectEntity": " Create or select an existing entity"
+  },
+  "linkEntityModal": {
+    "title": "Link Entity",
+    "description": "Create or select an existing entity",
+    "form": {
+      "linkEntityType": {
+        "label": "Select",
+        "helperText": "Type of link you would like to do"
+      },
+      "newEntity": {
+        "firstName": {
+          "label": "Legal first name",
+          "helperText": "Client first name"
+        },
+        "lastName": {
+          "label": "Legal last name",
+          "helperText": "Client last name"
+        },
+        "companyName": {
+          "label": "Legal company name",
+          "helperText": "This is what we will show on all invoices"
+        },
+        "companyEmail": {
+          "label": "Company email",
+          "helperText": "e.g you@companyname.com"
+        },
+        "password": {
+          "label": "Create your password",
+          "helperText": "Your password must meet the criteria below"
+        },
+        "interest": {
+          "label": "Select",
+          "helperText": "What are you interested in"
+        },
+        "country": {
+          "label": "Country",
+          "helperText": "Where is the company based in"
+        },
+        "entityType": {
+          "label": "Entity type",
+          "helperText": "This entity will have the status of"
+        }
+      },
+      "existingEntity": {
+        "linkId": {
+          "label": "Enter entity linking ID",
+          "helperText": "Obtain linking ID from entity that will be linked",
+          "error": {
+            "notExist": "This linking ID does not exist",
+            "alreadyParent": "An entity is already a parent and is unable to be linked",
+            "alreadySubsidiary": "An entity is already a subsidiary and is unable to be linked"
+          }
+        },
+        "entityType": {
+          "label": "Entity type",
+          "helperText": "This entity will have the status of"
+        },
+        "error": {
+          "LinkingCompanyIsAlreadyASubsidiary": "This entity is already a subsidiary and is unable to be linked",
+          "LinkingCompanyIsAlreadyAParent": "This entity is already a parent and is unable to be linked",
+          "LinkingCompanyIsNotFound": "This entity does not exist",
+          "SameEntityIdCannotBeLinked": "This entity cannot be linked to itself"
+        }
+      }
+    },
+    "notify": {
+      "linkEntitySuccess": "Entities have been successfully linked"
+    }
+  },
+  "unlinkEntityModal": {
+    "title": "Unlink entity",
+    "description": "You are about to unlink this entity with another entity. Any properties and permissions of this existing association will be removed.",
+    "notify": {
+      "unlinkEntitySuccess": "Entities have been successfully unlinked"
+    }
+  },
+  "departmentTab": {
+    "dataGrid": {
+      "header": {
+        "name": "Department",
+        "numberOfEmployees": "Number of Employees",
+        "createdAt": "Created Date",
+        "createdBy.user.firstName;createdBy.user.lastName": "Created By",
+        "updatedAt": "Last Updated Date",
+        "updatedBy.user.firstName;updatedBy.user.lastName": "Last Updated By"
+      },
+      "noRowsOverlay": {
+        "title": "No pending audits",
+        "description": "When audits are required, information will be displayed here for action"
+      },
+      "searchPlaceholder": "Search department",
+      "rowOptions": {
+        "editDepartment": {
+          "title": "Edit department"
+        },
+        "manageEmployees": {
+          "title": "Manage employees"
+        }
+      }
+    }
+  }
+}

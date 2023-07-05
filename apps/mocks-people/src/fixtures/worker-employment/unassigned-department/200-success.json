@@ -1,0 +1,86 @@
+{
+  "data": {
+    "workerEmployments": [
+      {
+        "employmentId": "test01",
+        "workerUser": {
+          "id": 74,
+          "userContext": {
+            "cognitoId": "121827ee-f49a-406c-a241-9fd784dfa40a",
+            "userId": 74,
+            "user": {
+              "cognitoId": "121827ee-f49a-406c-a241-9fd784dfa40a",
+              "firstName": "test",
+              "lastName": "01",
+              "email": "test03@example.com"
+            }
+          }
+        }
+      },
+      {
+        "employmentId": "test02",
+        "workerUser": {
+          "id": 134,
+          "userContext": {
+            "cognitoId": "d26e30b0-1645-472b-8f4d-4d4e901f2570",
+            "userId": 134,
+            "user": {
+              "cognitoId": "d26e30b0-1645-472b-8f4d-4d4e901f2570",
+              "firstName": "test",
+              "lastName": "02",
+              "email": "b@b.com"
+            }
+          }
+        }
+      },
+      {
+        "employmentId": "test03",
+        "workerUser": {
+          "id": 159,
+          "userContext": {
+            "cognitoId": "ae9755af-47c6-45d3-8e25-a6d3538ad5a3",
+            "userId": 159,
+            "user": {
+              "cognitoId": "ae9755af-47c6-45d3-8e25-a6d3538ad5a3",
+              "firstName": "test",
+              "lastName": "03",
+              "email": "batienanh99@gmail.com"
+            }
+          }
+        }
+      },
+      {
+        "employmentId": "test04",
+        "workerUser": {
+          "id": 160,
+          "userContext": {
+            "cognitoId": "d61c41df-cea7-47a4-99ed-976b86fea36d",
+            "userId": 160,
+            "user": {
+              "cognitoId": "d61c41df-cea7-47a4-99ed-976b86fea36d",
+              "firstName": "test",
+              "lastName": "04",
+              "email": "hoangpkucx26@gmail.com"
+            }
+          }
+        }
+      },
+      {
+        "employmentId": "test05",
+        "workerUser": {
+          "id": 161,
+          "userContext": {
+            "cognitoId": "82abb885-77e3-4ae0-ad67-4948b3a2520e",
+            "userId": 161,
+            "user": {
+              "cognitoId": "82abb885-77e3-4ae0-ad67-4948b3a2520e",
+              "firstName": "test",
+              "lastName": "05",
+              "email": "staff12@ayp-group.com"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

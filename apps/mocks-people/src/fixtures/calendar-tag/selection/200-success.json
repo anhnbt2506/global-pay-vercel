@@ -1,0 +1,42 @@
+{
+  "data": {
+    "calendarTags": [
+      {
+        "id": 1,
+        "calendarTagId": "1p7ttli5",
+        "name": "Alpha",
+        "description": "Alpha Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 2,
+        "calendarTagId": "dqyuaarl",
+        "name": "Beta",
+        "description": "Beta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "ACTIVE"
+      },
+      {
+        "id": 6,
+        "calendarTagId": "ks2m7ecz",
+        "name": "Zeta",
+        "description": "Zeta Description",
+        "isAdjustmentRequired": false,
+        "adjustmentCalendarTagId": null,
+        "adjustmentEvent": null,
+        "adjustmentMethod": null,
+        "adjustmentDays": null,
+        "status": "INACTIVE"
+      }
+    ]
+  }
+}

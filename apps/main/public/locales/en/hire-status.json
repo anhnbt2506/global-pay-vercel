@@ -1,0 +1,17 @@
+{
+  "DRAFT": "Draft",
+  "HIRING_REVIEW": "Hiring review",
+  "HIRING_UPDATE_REQUIRED": "Hiring update required",
+  "HIRING_REVIEW_PASSED": "Hiring review passed",
+  "PERMIT_PROCESSING": "Permit processing",
+  "PERMIT_COMPLETED": "Permit completed",
+  "EMPLOYEE_INVITED": "Employee invited",
+  "EMPLOYEE_DECLARATION": "Employee declaration",
+  "EMPLOYEE_REVIEW": "Employee review",
+  "EMPLOYEE_UPDATE_REQUIRED": "Employee update required",
+  "EMPLOYEE_REVIEW_PASSED": "Employee review passed",
+  "CONTRACT_ACCEPTANCE": "Contract acceptance",
+  "ONBOARDED": "Onboarded",
+  "HIRING_STOPPED": "Hiring stopped",
+  "TERMINATED": "Terminated"
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "jtCompanies": [
+      {
+        "companyId": "ge4lmziiraes9vso",
+        "hireType": "POM",
+        "countryCode": "SG",
+        "jtCompanyId": 611,
+        "lastSyncedAt": "2023-04-07 12:00:47",
+        "company": {
+          "id": 20,
+          "companyId": "ge4lmziiraes9vso",
+          "name": "crobakai",
+          "status": "ACTIVE"
+        }
+      },
+      {
+        "companyId": "0c94nc2ayfef2kwy",
+        "hireType": "PEO",
+        "countryCode": "SG",
+        "jtCompanyId": 2,
+        "lastSyncedAt": "2023-04-07 10:31:39",
+        "company": {
+          "id": 75,
+          "companyId": "0c94nc2ayfef2kwy",
+          "name": "Diego 2302",
+          "status": "ONBOARDING"
+        }
+      },
+      {
+        "companyId": "mb76nfp7zhs5mrxb",
+        "hireType": "PEO",
+        "countryCode": "SG",
+        "jtCompanyId": 3,
+        "lastSyncedAt": "2023-04-07 03:39:53",
+        "company": {
+          "id": 10,
+          "companyId": "mb76nfp7zhs5mrxb",
+          "name": "name",
+          "status": "ACTIVE"
+        }
+      },
+      {
+        "companyId": "0gq3pvwg300fcgqt",
+        "hireType": "POM",
+        "countryCode": "VN",
+        "jtCompanyId": 212,
+        "lastSyncedAt": "2023-04-07 03:34:41",
+        "company": {
+          "id": 57,
+          "companyId": "0gq3pvwg300fcgqt",
+          "name": "agp",
+          "status": "ONBOARDING"
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 50
+    }
+  }
+}

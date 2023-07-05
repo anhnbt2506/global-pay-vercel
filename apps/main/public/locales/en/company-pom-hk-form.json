@@ -1,0 +1,48 @@
+{
+  "form": {
+    "payrollCycle": {
+      "label": "Payroll cycle",
+      "helperText": "Period for processing payments"
+    },
+    "payrollCutOffDate": {
+      "label": "Payroll instructions cut off date",
+      "helperText": "When will the cut off date for instructions be"
+    },
+    "payrollDate": {
+      "label": "Payroll date",
+      "helperText": "What is the pay date"
+    },
+    "prorateSalaryFormula": {
+      "label": "Prorate salary formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "mpfProvider": {
+      "label": "MPF provider",
+      "helperText": "Select provider"
+    },
+    "mpfSubSchemeNumber": {
+      "label": "MPF sub scheme number",
+      "helperText": "Company MPF number"
+    },
+    "isAypAssistESubmission": {
+      "label": "Would you like us to assist for e-submission",
+      "helperText": "Manage statutory e-submission"
+    },
+    "mpfUsername": {
+      "label": "MPF username",
+      "helperText": "MPF credentials"
+    },
+    "mpfPassword": {
+      "label": "MPF password",
+      "helperText": "MPF credentials"
+    },
+    "isUsingDisbursementService": {
+      "label": "Use disbursement service",
+      "helperText": "Funds disbursement service"
+    },
+    "isGenerateBankFile": {
+      "label": "Do you require a bank file to be generated for self submission?",
+      "helperText": "Generating a bank file"
+    }
+  }
+}

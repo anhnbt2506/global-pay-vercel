@@ -1,0 +1,10 @@
+{
+  "data": {
+    "agreement": {
+      "id": "1",
+      "agreementId": "abc123",
+      "content": "The content of worker agreement",
+      "createdAt": "2022-01-01T00:00:00.000Z"
+    }
+  }
+}

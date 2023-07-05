@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": 404,
+    "name": "NotFoundError",
+    "message": "Not found"
+  }
+}

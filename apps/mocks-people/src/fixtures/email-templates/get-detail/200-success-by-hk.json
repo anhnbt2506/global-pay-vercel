@@ -1,0 +1,19 @@
+{
+  "data": {
+    "templateName": "staffAddendumManualRequest-hk",
+    "subjectPart": "UAT - New Hong Kong addendum request from {{companyName}} for {{employeeFirstName}} {{employeeLastName}} {{employeeHireType}} hiring",
+    "htmlPart": "{{comment}}",
+    "autoFillTags": [
+      "comment",
+      "commenterFirstName",
+      "commenterLastName",
+      "companyName",
+      "employeeFirstName",
+      "employeeHireType",
+      "employeeLastName",
+      "redirectUrl"
+    ],
+    "isCcEnabled": true,
+    "cc": ["syed.alhabshi@ayp-group.com", "rose123@mailinator.com"]
+  }
+}

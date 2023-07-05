@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "key": "documents/POM/",
+      "type": "FOLDER",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    },
+    {
+      "key": "documents/passportFile",
+      "type": "FILE",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    },
+    {
+      "key": "documents/permitIdFile",
+      "type": "FILE",
+      "lastModified": "2022-09-22T06:50:04+00:00"
+    }
+  ]
+}

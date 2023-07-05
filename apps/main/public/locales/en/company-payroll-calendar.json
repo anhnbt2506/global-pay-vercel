@@ -1,0 +1,16 @@
+{
+  "pageName": "Payroll Calendar",
+  "payrollSelected": "Payroll service / country",
+  "selectCalendar": {
+    "title": "Select calendar",
+    "description": "You are about to view an updated calendar",
+    "form": {
+      "calendar": {
+        "label": "Available calendars",
+        "helperText": "Calendars currently generated"
+      }
+    }
+  },
+  "success": "Successfully saved",
+  "calendarIsNotExist": "You do not have an existing calendar generated"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@ayp/typings",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "directory": "dist",
+    "linkDirectory": true
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "pnpm rollup -c"
+  },
+  "peerDependencies": {
+    "next-auth": "4.18.0",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "yup": "0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.4",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "next": "13.0.6",
+    "next-auth": "4.18.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rollup": "^3.6.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "4.9.4",
+    "yup": "0.32.11"
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

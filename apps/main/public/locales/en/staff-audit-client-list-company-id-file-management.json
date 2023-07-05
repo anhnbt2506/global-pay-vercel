@@ -1,0 +1,83 @@
+{
+  "documents": {
+    "label": "Documents",
+    "PEO": {
+      "label": "PEO"
+    },
+    "POM": {
+      "label": "Payroll (POM)",
+      "ID": {
+        "label": "Indonesia"
+      },
+      "HK": {
+        "label": "Hong Kong"
+      },
+      "MY": {
+        "label": "Malaysia"
+      },
+      "PH": {
+        "label": "Philippines",
+        "secRegistrationFile": {
+          "label": "SEC registration"
+        },
+        "bir2303File": {
+          "label": "BIR 2303 - Certificate of registration"
+        },
+        "sssFile": {
+          "label": "Philhealth registration for ER1 and ER2 - Employee reports"
+        },
+        "penFile": {
+          "label": "SSS registration for R1 and R1A - Employee reports"
+        },
+        "pagFile": {
+          "label": "PAG-IBIG registration EDF and SSF"
+        }
+      },
+      "SG": {
+        "label": "Singapore"
+      },
+      "TH": {
+        "label": "Thailand",
+        "companyAffidavitFile": {
+          "label": "Company Affidavit with signature of DBD officer not more than 3 months old"
+        },
+        "payrollReportFile": {
+          "label": "Payroll report since January"
+        },
+        "ssoReportFile": {
+          "label": "SSO reports with receipts since January"
+        },
+        "pnd1ReportSinceJanuaryFile": {
+          "label": "PND 1 reports with receipts since January"
+        },
+        "pnd1ReportPreviousYearFile": {
+          "label": "PND 1 KOR the previous year's report"
+        }
+      },
+      "VN": {
+        "label": "Vietnam",
+        "businessLicenceFile": {
+          "label": "Certificate of business license"
+        },
+        "payrollReportFile": {
+          "label": "Payroll report since January"
+        },
+        "pitReportSinceQ1File": {
+          "label": "PIT declaration for Q1 to the current quarter"
+        },
+        "pitReportLastYearFile": {
+          "label": "PIT finalization report for last year"
+        },
+        "shuiReportFile": {
+          "label": "SHUI reports since January"
+        },
+        "labourContractsFile": {
+          "label": "Labour contracts and appendix for all employees"
+        }
+      }
+    },
+    "Freelancer": {
+      "label": "Freelancer"
+    }
+  }
+}

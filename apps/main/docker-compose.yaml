@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  frontend:
+    restart: unless-stopped
+    image: global-pay-frontend
+    container_name: global-pay-frontend
+    ports:
+      - 3000:3000
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    networks:
+      - default
+
+networks:
+  default:
+    name: global-pay-network

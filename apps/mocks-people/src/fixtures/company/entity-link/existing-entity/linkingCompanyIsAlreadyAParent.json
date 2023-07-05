@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": 422,
+    "name": "LinkingCompanyIsAlreadyAParent",
+    "message": "{\"linkingType\":[\"LinkingCompanyIsAlreadyAParent\"]}"
+  }
+}

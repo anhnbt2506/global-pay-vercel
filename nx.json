@@ -1,0 +1,64 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "@ayp",
+  "affected": {
+    "defaultBase": "main"
+  },
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*"],
+    "cy": ["!{projectRoot}/**/?(*.)+(cy).[jt]s?(x)?(.snap)"],
+    "jest": [
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)"
+    ],
+    "production": ["default", "cy", "jest"]
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "build:ci": {
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "dev:instrumented": {
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "lint": {
+      "inputs": ["default"]
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^production"]
+    },
+    "test:cy": {
+      "dependsOn": ["^build"],
+      "inputs": ["default", "jest", "^production"]
+    },
+    "test:jest": {
+      "dependsOn": ["^build"],
+      "inputs": ["default", "cy", "^production"]
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "dev",
+          "lint",
+          "test",
+          "test:cy",
+          "test:jest"
+        ]
+      }
+    }
+  }
+}

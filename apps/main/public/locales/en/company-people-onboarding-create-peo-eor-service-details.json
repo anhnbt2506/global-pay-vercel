@@ -1,0 +1,123 @@
+{
+  "serviceDetail": {
+    "title": "Service details",
+    "description": "Please fill in details below",
+    "form": {
+      "hk": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "id": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        },
+        "prorateLeaveEncashmentFormula": {
+          "label": "Prorate leave encashment formula",
+          "helperText": "Adjustments made based on selected prorate"
+        },
+        "prorateUnpaidLeaveEncashmentFormula": {
+          "label": "Prorate unpaid leave encashment formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "my": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "ph": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "semiLabel": "First payroll date",
+          "helperText": "What is the pay date"
+        },
+        "firstPayrollDate": {
+          "label": "First payroll date",
+          "helperText": "What is the pay date"
+        },
+        "secondPayrollDate": {
+          "label": "Second payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "sg": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "th": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      },
+      "vn": {
+        "payrollCycle": {
+          "label": "Payroll cycle",
+          "helperText": "Period for processing payments"
+        },
+        "payrollDate": {
+          "label": "Payroll date",
+          "helperText": "What is the pay date"
+        },
+        "prorateSalaryFormula": {
+          "label": "Prorate salary formula",
+          "helperText": "Adjustments made based on selected prorate"
+        }
+      }
+    }
+  }
+}

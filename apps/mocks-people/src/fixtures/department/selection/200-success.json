@@ -1,0 +1,14 @@
+{
+  "data": {
+    "departments": [
+      {
+        "name": "IT",
+        "departmentId": "ew2123cxxz"
+      },
+      {
+        "name": "Sale",
+        "departmentId": "ds2dxzadw"
+      }
+    ]
+  }
+}

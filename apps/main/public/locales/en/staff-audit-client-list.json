@@ -1,0 +1,30 @@
+{
+  "pageName": "Client List",
+  "dataGrid": {
+    "header": {
+      "name": "Client",
+      "category": "Category",
+      "industry.name": "Industry",
+      "address.country.name": "Location",
+      "registeredBy.user.firstName;registeredBy.user.lastName": "Registered By",
+      "registeredBy.user.email": "Registered Email",
+      "currency": "Invoicing Currency",
+      "entityLinkStatus": "Entity Link Status",
+      "createdAt": "Created On",
+      "status": "Status"
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search client"
+  },
+  "viewProfile": {
+    "title": "View profile"
+  },
+  "addNewClient": {
+    "title": "Add new client",
+    "description": "Please fill in details below to create a new client account",
+    "clientCreated": "a new client created successfully"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "exportData": {
+    "title": "Export data",
+    "toastMessage": {
+      "exportSuccess": "File is being exported, you will receive an update via email",
+      "existingFileExportInProgress": "You have an existing file export in progress please try again in 1 min",
+      "noData": "No data available to export"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "industry": {
+      "id": 22,
+      "name": "TEST-abc",
+      "industryId": "hcq8pm0f",
+      "createdById": 6,
+      "updatedById": 692,
+      "createdAt": "2023-03-09T07:24:27.000000Z",
+      "updatedAt": "2023-03-09T08:49:15.000000Z"
+    }
+  }
+}

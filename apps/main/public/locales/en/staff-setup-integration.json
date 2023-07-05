@@ -1,0 +1,18 @@
+{
+  "pageName": "Integration",
+  "dataGrid": {
+    "header": {
+      "company": "Client",
+      "hireType": "Service Type",
+      "countryCode": "Service Country",
+      "lastSyncedAt": "Date Sync With Juztalent",
+      "companyId": "AGP ID",
+      "jtCompanyId": "Juztalent ID"
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search client"
+  }
+}

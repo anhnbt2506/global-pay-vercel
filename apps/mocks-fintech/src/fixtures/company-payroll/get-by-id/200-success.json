@@ -1,0 +1,86 @@
+{
+  "data": {
+    "companyPayroll": {
+      "companyPayrollId": "mk6eo1fzpchuovz6",
+      "conversation": {
+        "id": 2,
+        "conversationId": "y0pnl878mrxtbnllj6wfnexob4eyd9mc",
+        "contextId": "{2roaavo46d62nus",
+        "contextType": "App\\Models\\CompanyPayroll",
+        "createdAt": "2023-06-04T09: 50:09.000000Z"
+      },
+      "countryCode": "ID",
+      "cycle": "MONTHLY",
+      "type": "REGULAR_CYCLE",
+      "name": "Regular cycle",
+      "periodStartDate": "2023-06-01T00:00:00.000000Z",
+      "periodEndDate": "2023-06-30T00:00:00.000000Z",
+      "status": "DRAFT",
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "companyPayrollFiles": [
+        {
+          "id": 110,
+          "uploadBatchId": "psk9f5z0nxnimkbw",
+          "companyPayrollId": "mk6eo1fzpchuovz6",
+          "fileManagementId": 110,
+          "fileManagement": {
+            "id": 110,
+            "filePath": "company-payroll/mk6eo1fzpchuovz6/anh-ho-chieu-fru1szgv0.jpg",
+            "createdAt": "2023-06-07T02:35:50.000000Z",
+            "createdById": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+            "createdBy": {
+              "userContextId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+              "cognitoId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+              "userType": "App\\Models\\StaffUser",
+              "lastSyncedAt": "2023-04-14 08:00:57",
+              "user": {
+                "cognitoId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+                "email": "staff@mailinator.com",
+                "firstName": "Staff Admin",
+                "lastName": "Mailinator"
+              }
+            }
+          }
+        },
+        {
+          "id": 111,
+          "uploadBatchId": "psk9f5z0nxnimkbw",
+          "companyPayrollId": "mk6eo1fzpchuovz6",
+          "fileManagementId": 111,
+          "fileManagement": {
+            "id": 111,
+            "filePath": "company-payroll/mk6eo1fzpchuovz6/anh-ho-chieu-fru1szgv.jpg",
+            "createdAt": "2023-06-07T02:35:50.000000Z",
+            "createdById": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+            "createdBy": {
+              "userContextId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+              "cognitoId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+              "userType": "App\\Models\\StaffUser",
+              "lastSyncedAt": "2023-04-14 08:00:57",
+              "user": {
+                "cognitoId": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c",
+                "email": "staff@mailinator.com",
+                "firstName": "Staff Admin",
+                "lastName": "Mailinator"
+              }
+            }
+          }
+        },
+        {
+          "id": 112,
+          "uploadBatchId": "psk9f5z0nxnimkbw",
+          "companyPayrollId": "mk6eo1fzpchuovz6",
+          "fileManagementId": 112,
+          "fileManagement": {
+            "id": 112,
+            "filePath": "",
+            "createdById": "f2b14e3d-5b1a-4f37-ae50-f56885e7de9c"
+          }
+        }
+      ]
+    }
+  }
+}

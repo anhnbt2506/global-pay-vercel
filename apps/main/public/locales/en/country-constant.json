@@ -1,0 +1,8 @@
+{
+  "ph": {
+    "fieldManagerialType": {
+      "FIELD_MANAGERIAL": "field/managerial",
+      "NON_FIELD_MANAGERIAL": "(non)field/managerial"
+    }
+  }
+}

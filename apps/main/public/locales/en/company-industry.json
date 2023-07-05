@@ -1,0 +1,20 @@
+{
+  "BANKING_AND_FINANCE": "Banking & Finance",
+  "DISTRIBUTION": "Distribution",
+  "EDUCATION": "Education",
+  "ENERGY": "Energy",
+  "ENGINEERING": "Engineering",
+  "FNB": "F&B",
+  "GLOBAL_ENVIRONMENT_ORGANIZATION": "Global Environment Organization",
+  "HEALTHCARE": "Healthcare",
+  "LOGISTICS": "Logistics",
+  "MANUFACTURING": "Manufacturing",
+  "NGO": "NGO",
+  "ONG_AND_CHEMICAL": "O&G/Chemical",
+  "REAL_ESTATE": "Real Estate",
+  "RETAIL": "Retail",
+  "SERVICES": "Services",
+  "TECHNOLOGY": "Technology",
+  "WORKFORCE_MANAGEMENT": "Workforce management",
+  "NA": "N/A"
+}

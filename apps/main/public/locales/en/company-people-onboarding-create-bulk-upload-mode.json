@@ -1,0 +1,68 @@
+{
+  "backToHiringServices": "Back to hiring services",
+  "backToOnboarding": "Back to onboarding",
+  "pom": {
+    "sidebar": {
+      "title": "Payroll management",
+      "subtitle": "We process and manage your entire organisation’s payroll."
+    },
+    "steps": {
+      "payrollCountry": {
+        "title": "Payroll country",
+        "description": "Please follow the steps below",
+        "form": {
+          "country": {
+            "label": "Country",
+            "helperText": "Payroll (POM) service will be used in the country"
+          }
+        }
+      },
+      "onboardEmployees": {
+        "title": "Onboard employees",
+        "description": "Please follow the steps below",
+        "form": {
+          "step1": {
+            "description": "1. Download the template to fill up",
+            "here": "here"
+          },
+          "step2": {
+            "description": "2. Follow the instructions and fill in employee information"
+          },
+          "step3": {
+            "description": "3. Export sheet into CSV and upload below",
+            "csvBulkUpload": {
+              "label": "Upload file"
+            }
+          }
+        }
+      },
+      "reviewEmployeeData": {
+        "title": "Review employee data",
+        "description": "Please check the information",
+        "dataGrid": {
+          "header": {
+            "no": "No",
+            "workerHiringCountry": "Worker hiring country",
+            "workerHiringStatus": "Worker hiring status",
+            "workerCitizenshipStatus": "Worker citizenship status",
+            "workerNationality": "Worker nationality",
+            "doesWorkerRequireWorkPermit": "Does worker require work permit",
+            "permitType": "Permit type",
+            "workerHasAnActiveWorkPermit": "Worker has an active work permit"
+          }
+        },
+        "toast": {
+          "validateErrorText": "Please check employee details and try again.",
+          "validateSuccessText": "Data validation is successful",
+          "thereAreErrors": "There are {{numberOfError}} errors"
+        }
+      },
+      "completeEnrollment": {
+        "title": "Complete enrollment",
+        "successfullyEnrolled": "Successfully enrolled",
+        "message": "Manage the payroll for the upcoming period or view summary of your enrollment via workforce"
+      }
+    }
+  },
+  "success": "Successfully saved"
+}

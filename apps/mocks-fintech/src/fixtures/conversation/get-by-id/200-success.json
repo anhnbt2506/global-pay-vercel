@@ -1,0 +1,21 @@
+{
+  "data": {
+    "conversation": {
+      "conversationId": "y0pnl878mrxtbnllj6wfnexob4eyd9mc",
+      "comments": [
+        {
+          "id": 56,
+          "commentId": "uy2rqj157cbpjztrirqkt3drcyvdcl8b",
+          "content": "Add more information",
+          "createdAt": "2023-01-27T03:17:32.000000Z",
+          "createdBy": {
+            "cognitoId": "049e001a-d690-458a-b7a6-7006a368477a",
+            "firstName": "Staff Admin",
+            "lastName": "AYP Group"
+          },
+          "type": "FILE_ADDED"
+        }
+      ]
+    }
+  }
+}

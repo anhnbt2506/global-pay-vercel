@@ -1,0 +1,19 @@
+{
+  "pageName": "Payroll Calendar",
+  "calendarInformation": "Calendar information",
+  "selectCalendar": {
+    "title": "Select calendar",
+    "description": "You are about to select a different calendar",
+    "form": {
+      "client": {
+        "label": "Select client",
+        "helperText": "Which client are you going to view"
+      },
+      "availableCalendars": {
+        "label": "Available calendars",
+        "helperText": "Calendars currently generated"
+      }
+    }
+  },
+  "success": "Successfully saved"
+}

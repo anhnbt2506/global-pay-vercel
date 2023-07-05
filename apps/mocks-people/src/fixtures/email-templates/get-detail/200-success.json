@@ -1,0 +1,18 @@
+{
+  "data": {
+    "templateName": "bulkUploadSummaryEmail",
+    "subjectPart": "Amazon Bulk Upload Summary",
+    "htmlPart": "{{companyId}}",
+    "autoFillTags": [
+      "downloadUrlTagForSummaryFile",
+      "fileUploadedDate",
+      "fileUploadedName",
+      "fileUploadedTime",
+      "staffFirstName",
+      "staffLastName",
+      "totalFileUploadedRows",
+      "totalFileUploadedRowsFailed",
+      "totalFileUploadedRowsSuccess"
+    ]
+  }
+}

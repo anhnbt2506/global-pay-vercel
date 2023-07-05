@@ -1,0 +1,8 @@
+{
+  "data": {
+    "templateName": "staffAddendumManualRequest-hk",
+    "subjectPart": "Hello",
+    "htmlPart": "<p>Abc {{comment}}</p>",
+    "cc": ["alfian@gmail.com", "alfian.rasyidin@ayp-group.com", "new@gmail.com"]
+  }
+}

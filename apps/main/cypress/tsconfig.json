@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "cypress",
+      "node",
+      "@mocks-server/cypress-commands",
+      "cypress-file-upload"
+    ],
+    "paths": {
+      "@fixtures/*": ["fixtures/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

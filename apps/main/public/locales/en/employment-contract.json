@@ -1,0 +1,19 @@
+{
+  "sideBar": {
+    "title": "You are almost done!",
+    "description": "Your information has been reviewed with the last step is for you to sign the agreement to begin with {{companyName}}"
+  },
+  "form": {
+    "isSigned": {
+      "label": "By signing, you certify that you, {{firstName}} {{lastName}}, agree to this legally binding document and acknowledge the information within is accurate to the best of your knowledge"
+    }
+  },
+  "inReview": {
+    "label": "Thank you!",
+    "description": "Thank you for completing your last step! You are now ready to begin your employment with {{companyName}}"
+  },
+  "reviewLater": "Review later",
+  "proceedToSign": "Proceed to sign",
+  "downloadContract": "Download contract",
+  "home": "Home"
+}

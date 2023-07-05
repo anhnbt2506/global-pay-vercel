@@ -1,0 +1,19 @@
+{
+  "data": {
+    "id": 34,
+    "name": null,
+    "companyId": "hlnm1jhk37hvcazq",
+    "registeredById": 76,
+    "currency": null,
+    "createdAt": "2022-09-12T02:42:55.000000Z",
+    "status": "ONBOARDING",
+    "addressId": null,
+    "registeredBy": {
+      "id": 76,
+      "firstName": "Tom",
+      "lastName": "Nguyen",
+      "email": "abc@gmail.com"
+    },
+    "address": null
+  }
+}

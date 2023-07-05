@@ -1,0 +1,24 @@
+{
+  "data": {
+    "featureFlags": [
+      {
+        "id": 1,
+        "key": "TABLEAU_DASHBOARD",
+        "value": 1,
+        "description": null
+      },
+      {
+        "id": 2,
+        "key": "HIRE_TYPE_POM",
+        "value": 1,
+        "description": null
+      },
+      {
+        "id": 3,
+        "key": "HELP_CENTER",
+        "value": 1,
+        "description": null
+      }
+    ]
+  }
+}

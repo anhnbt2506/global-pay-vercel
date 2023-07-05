@@ -1,0 +1,27 @@
+{
+  "title": "Add file",
+  "description": "Add file(s) to initiate the process of your payroll cycle",
+  "form": {
+    "notifyChanges": {
+      "staff": {
+        "label": "Notify AYP client about the changes"
+      },
+      "client": {
+        "label": "Notify AYP staff about the changes"
+      }
+    },
+    "addComment": {
+      "label": "Add comment"
+    },
+    "comment": {
+      "prefilledComment": "Please review the files that has been uploaded"
+    },
+    "payrollFiles": {
+      "label": "Payroll Files"
+    },
+    "toast": {
+      "success": "You have <strong> successfully added </strong> a file.",
+      "successMultipleFiles": "You have <strong> successfully added {{numberOfFiles}} file(s).</strong>"
+    }
+  }
+}

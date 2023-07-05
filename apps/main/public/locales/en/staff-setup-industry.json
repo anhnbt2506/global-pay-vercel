@@ -1,0 +1,35 @@
+{
+  "pageName": "Industry",
+  "dataGrid": {
+    "header": {
+      "name": "Industry",
+      "createdAt": "Created Date",
+      "createdBy.user.firstName;createdBy.user.lastName": "Created By",
+      "updatedAt": "Last Updated Date",
+      "updatedBy.user.firstName;updatedBy.user.lastName": "Last Updated By"
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search industry"
+  },
+  "industry": {
+    "addNewIndustry": {
+      "title": "New Industry",
+      "description": "Please fill in details below for industry"
+    },
+    "editIndustry": {
+      "title": "Edit Industry",
+      "description": "Please fill in details below for industry"
+    },
+    "modal": {
+      "form": {
+        "name": {
+          "label": "Name",
+          "helperText": "Industry name"
+        }
+      }
+    }
+  }
+}

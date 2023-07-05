@@ -1,0 +1,20 @@
+{
+  "pageName": "PEO Agreement",
+  "countrySelected": "Country selected",
+  "selectCountry": {
+    "title": "Select country",
+    "description": "You are about to select a new country. Please ensure you have saved the previous updates before continuing",
+    "form": {
+      "country": {
+        "label": "Country",
+        "helperText": "Select the country to modify the agreement"
+      }
+    }
+  },
+  "form": {
+    "content": {
+      "helperText": "Write PEO contract for currently selected country"
+    }
+  },
+  "success": "Successfully saved"
+}

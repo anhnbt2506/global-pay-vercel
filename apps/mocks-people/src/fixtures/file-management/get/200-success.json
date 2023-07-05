@@ -1,0 +1,6 @@
+{
+  "data": {
+    "key": "export/data-grid-export-5e3p0il6-1675755914.csv",
+    "presignedUrl": "https://gp-backend-uat-private.s3.ap-southeast-1.amazonaws.com/export/data-grid-export-5e3p0il6-1675755914.csv?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEEEaDIbaYKaQxklSIg9MQyKyAV2m7gXEV%2BWJZcgqg81w6O71YD527mHd%2BYnLQwXVbRVaOMLW891Edq6gWfhxF3QUNrfQ6fWI87wyJFdKXWc5CBaY1pvTu4HaM9GBbuePU52B605MeZHwXvFnO5uwn3Qfngh%2FFJi%2FlzT9n%2B%2BdzFmbp5OLgd4SyPaFVYN82ebXNDc8CsuOfdwSo08aRWlZYRdl%2B0rUYkdc%2FeqNylG5D4aU8mkcYSyrAIsiBZyQxpjlt41qb8EouZadnwYyLfRpwbPZpew2QcVbrdW9FdYQLglVcPFndfcja%2BSargA%2F92XCq4py3denBTrWog%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA4TJQY4SHOK6X464E%2F20230211%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20230211T081247Z&X-Amz-SignedHeaders=host&X-Amz-Expires=30&X-Amz-Signature=5faf50dd4e7a3f813bd746fab5dea84bf87760ec9ba1ae7939ec1f0450901f23"
+  }
+}

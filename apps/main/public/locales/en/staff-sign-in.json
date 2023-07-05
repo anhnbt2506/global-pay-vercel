@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "title": "Staff portal",
+    "subtitle": "Manage audits from AYP Global Pay staff dashboard"
+  },
+  "title": "Log in to AYP Global Pay staff portal",
+  "description": "Log in to access the staff dashboard to manage client requests",
+  "form": {
+    "email": {
+      "label": "Email address"
+    },
+    "password": {
+      "label": "Password",
+      "error": "Incorrect email and/or password combination"
+    }
+  }
+}

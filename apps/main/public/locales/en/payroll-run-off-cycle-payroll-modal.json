@@ -1,0 +1,40 @@
+{
+  "runOffCyclePayrolLModal": {
+    "title": "Run off cycle payment",
+    "description": "Run payroll outside of your regular pay schedule to accommodate special payments.",
+    "form": {
+      "name": {
+        "label": "Specify payroll name"
+      },
+      "company": {
+        "name": {
+          "label": "Enter client name"
+        }
+      },
+      "country": {
+        "label": "Select country"
+      },
+      "hireType": {
+        "label": "Select service type"
+      },
+      "periodStartDate": {
+        "label": "Define payroll start date"
+      },
+      "periodEndDate": {
+        "label": "Define payroll end date",
+        "error": {
+          "periodEndDateMustBeLaterThanPeriodStartDate": "End date has to be later than the  start date"
+        }
+      },
+      "payDate": {
+        "label": "Define pay date"
+      },
+      "workerEmployments": {
+        "label": "Enter employee email or name"
+      }
+    },
+    "toast": {
+      "success": "You have successfully <strong>run {{number}} off cycle payroll.<strong>"
+    }
+  }
+}

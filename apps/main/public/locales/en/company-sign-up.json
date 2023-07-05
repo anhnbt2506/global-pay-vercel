@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "title": "Sign Up with AYP Global Pay",
+    "subtitle": "Get started by creating your AYP Global Pay account.",
+    "description": "Hire global talents at any time, and onboard and work from anywhere. Manage and pay automatically, accurately, and efficiently. With AYP Global Pay, the world is just a tap away.",
+    "learnMore": "Learn More"
+  },
+
+  "home": "Home",
+  "createNewAccount": "Create a new account",
+  "alreadyHaveAccount": "Already have an account?",
+  "login": "Login",
+  "createAccount": "Create account",
+  "emailVerification": {
+    "sidebar": {
+      "title": "Verify email",
+      "subtitle": "Complete the verification to proceed."
+    },
+    "title": "Verify email",
+    "description": "You will receive a verification email in your inbox. Do check your spam folder if it doesn't arrive in your inbox."
+  }
+}

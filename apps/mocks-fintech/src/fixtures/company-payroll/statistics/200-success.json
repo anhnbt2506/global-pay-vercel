@@ -1,0 +1,22 @@
+{
+  "data": {
+    "statistics": [
+      {
+        "count": 6,
+        "status": "COMPLETED"
+      },
+      {
+        "count": 5,
+        "status": "DRAFT"
+      },
+      {
+        "count": 3,
+        "status": "PENDING"
+      },
+      {
+        "count": 2,
+        "status": "REJECTED"
+      }
+    ]
+  }
+}

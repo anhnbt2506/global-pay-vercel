@@ -1,0 +1,417 @@
+{
+  "data": {
+    "workerEmployment": {
+      "id": 218,
+      "status": "DRAFT",
+      "hireType": "EOR",
+      "hiringCountryCode": "HK",
+      "isHaveLegalEntity": null,
+      "isUseLegalEntity": null,
+      "nationalityCode": "AL",
+      "citizenshipStatus": "PERMIT_HOLDER",
+      "currency": "HKD",
+      "title": "123",
+      "description": "<p>123</p>",
+      "employeeId": "111",
+      "contractType": "INDEFINITE",
+      "startDate": "2023-06-01",
+      "endDate": null,
+      "employmentType": "FULL_TIME",
+      "startAt": "01:00:00",
+      "endAt": "05:00:00",
+      "workingHoursPerWeek": 12,
+      "managerName": "123",
+      "managerTitle": "123",
+      "departmentId": "ew2123cxxz",
+      "workerUserId": 268,
+      "workplaceAddressType": "OTHERS",
+      "workplaceAddressId": 11,
+      "workerTypeId": 62,
+      "workerType": "App\\Models\\Worker\\WorkerHongkong",
+      "terminationNotice": 123,
+      "probationPeriod": 123,
+      "probationEndDate": null,
+      "probationStartDate": null,
+      "employmentId": "7tp9lnct3hblx2hzbae9m4zvfpx63q5t",
+      "workerAddendumFiles": [
+        {
+          "id": 13,
+          "uploadBatchId": "vi99kn86ayc6ymg7",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 97,
+          "fileManagement": {
+            "id": 97,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/bikini.jpg",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T03:36:17.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 28,
+          "uploadBatchId": "ua2895tbbgxc699h",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 112,
+          "fileManagement": {
+            "id": 112,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/sd-1-uebungssatz01-horen-y7hldl2f.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T04:40:05.000000Z",
+            "createdById": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+            "createdBy": {
+              "userContextId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "role": "gp:staff:admin",
+              "userId": 6,
+              "userType": "App\\Models\\StaffUser",
+              "createdAt": "2023-02-09T07:33:06.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+                "email": "staff@mailinator.com",
+                "firstName": "Staff Admin",
+                "lastName": "Mailinator"
+              }
+            }
+          }
+        },
+        {
+          "id": 29,
+          "uploadBatchId": "5mz5lg6ccd1vze6f",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 113,
+          "fileManagement": {
+            "id": 113,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/indonesia-8swrgav5.csv",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T05:24:24.000000Z",
+            "createdById": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+            "createdBy": {
+              "userContextId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "role": "gp:staff:admin",
+              "userId": 6,
+              "userType": "App\\Models\\StaffUser",
+              "createdAt": "2023-02-09T07:33:06.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+                "email": "staff@mailinator.com",
+                "firstName": "Staff Admin",
+                "lastName": "Mailinator"
+              }
+            }
+          }
+        },
+        {
+          "id": 30,
+          "uploadBatchId": "sknb3vtlv28d785d",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 114,
+          "fileManagement": {
+            "id": 114,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/sd-1-uebungssatz01-m2zvwu01.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T05:45:53.000000Z",
+            "createdById": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+            "createdBy": {
+              "userContextId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+              "role": "gp:staff:admin",
+              "userId": 6,
+              "userType": "App\\Models\\StaffUser",
+              "createdAt": "2023-02-09T07:33:06.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "e1678bb1-5c96-49f3-8dfe-4766f4ce7a74",
+                "email": "staff@mailinator.com",
+                "firstName": "Staff Admin",
+                "lastName": "Mailinator"
+              }
+            }
+          }
+        },
+        {
+          "id": 34,
+          "uploadBatchId": "d4flgbvbttho20r3",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 118,
+          "fileManagement": {
+            "id": 118,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/sd-1-uebungssatz01-her1otfb.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T07:58:46.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 35,
+          "uploadBatchId": "6gsftjegxqbkc4kj",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 119,
+          "fileManagement": {
+            "id": 119,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/linh-83fd3itk.csv",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T08:01:20.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 36,
+          "uploadBatchId": "6gsftjegxqbkc4kj",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 120,
+          "fileManagement": {
+            "id": 120,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/sd-1-modellsatz-horen-ex212j9z.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T08:01:20.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 37,
+          "uploadBatchId": "t9ien38lx355g8sw",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 121,
+          "fileManagement": {
+            "id": 121,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/testheft-a1-02-omu8itj9.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T08:04:20.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 38,
+          "uploadBatchId": "a3jl90fny52h36qp",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 122,
+          "fileManagement": {
+            "id": 122,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/danh-tu-yeu-ikp5qzvf.pdf",
+            "expiredAt": null,
+            "createdAt": "2023-06-29T08:13:25.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        },
+        {
+          "id": 47,
+          "uploadBatchId": "0iz7i8plova7krpp",
+          "workerEmploymentId": "ual6fwu4kotvg13jb19vmtn05nt6mgh3",
+          "fileManagementId": 131,
+          "fileManagement": {
+            "id": 131,
+            "filePath": "worker-employment/ual6fwu4kotvg13jb19vmtn05nt6mgh3/documents/addendum/336889441-518707507101480-6338138396575300180-n-czwrkr63.jpg",
+            "expiredAt": null,
+            "createdAt": "2023-06-30T03:50:56.000000Z",
+            "createdById": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+            "createdBy": {
+              "userContextId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+              "role": "gp:company:owner",
+              "userId": 16,
+              "userType": "App\\Models\\CompanyUser",
+              "createdAt": "2022-06-20T03:22:48.000000Z",
+              "updatedAt": "2023-05-29T03:09:30.000000Z",
+              "deletedAt": null,
+              "user": {
+                "cognitoId": "aadb5ce1-ef39-44a5-af2c-33cb9d45a321",
+                "email": "crobakai12@ayp-group.com",
+                "firstName": "Migual",
+                "lastName": "Diaz"
+              }
+            }
+          }
+        }
+      ],
+      "agreement": {
+        "id": 161,
+        "agreementId": "o62344ytetgedqjg99zyswttyommwgx2",
+        "variable": "{\"currentDate\":\"28\\/06\\/2023\",\"currentDateDD\":\"28\",\"currentDateMM\":\"06\",\"currentDateYYYY\":\"2023\",\"companyName\":\"crobakai\",\"companyCountry\":\"El Salvador\",\"companyRegistrationId\":\"123456\\u0110\",\"companyAddressLine\":\"Hoang Mai\",\"companyCity\":\"Ha Noi2\",\"companyState\":\"Viet Nam\",\"companyPostalCode\":\"10000\",\"hiringCountry\":\"Hong Kong\",\"citizenshipStatus\":\"PERMIT_HOLDER\",\"nationality\":\"Albania\",\"currency\":\"HKD\",\"workerFirstName\":\"Steve\",\"workerLastName\":\"Roger\",\"workerEmail\":\"stever@vince-test.com\",\"workerJobTitle\":\"123\",\"workerJobTitleAlternate\":\"123\",\"workerJobDescription\":\"<p>123<\\/p>\",\"workerJobDescriptionAlternate\":\"\",\"passportIssuedPlaceAlternate\":\"\",\"nationalIdIssuedPlaceAlternate\":\"\",\"managerName\":\"123\",\"managerEmail\":\"\",\"managerTitle\":\"123\",\"contractType\":\"INDEFINITE\",\"employmentType\":\"FULL_TIME\",\"workplaceAddressType\":\"OTHERS\",\"workplaceAddress\":\"Hoang Mai, Ha Noi2, Viet Nam, 10000\",\"workplaceAddressAlternate\":\"Ho\\u00e0ng mai\",\"startDate\":\"01\\/06\\/2023\",\"endDate\":\"\",\"startEndDateDifferentialInMonths\":\"\",\"startAt\":\"01:00\",\"endAt\":\"05:00\",\"workingHoursPerWeek\":12,\"salaryPerMonth\":123,\"salaryPerYear\":1476,\"salaryPayableDate\":5,\"isEligibleForAdditionalIncome\":0,\"additionalIncomeDescription\":\"\",\"isEligibleForPaidExpenses\":0,\"paidExpensesDescription\":\"\",\"isEntitledToOvertime\":0,\"overtimeDescription\":\"\",\"probationPeriod\":123,\"probationPeriodUnit\":\"DAY\",\"probationStartDate\":\"\",\"probationEndDate\":\"\",\"probationPeriodInDays\":\"\",\"terminationNotice\":123,\"paidTimeOff\":123,\"sickTimeOff\":365,\"isEligibleForInsurance\":0,\"isEntitledToOvertimeDifferential\":\"\",\"religiousFestivityAllowance\":\"\",\"monthlyAllowance\":\"\",\"compassionateTimeOff\":\"\",\"fieldManagerialType\":\"\",\"isEligibleForVariablePay\":\"\",\"variablePayDescription\":\"\",\"isEligibleForCommission\":\"\",\"commissionDescription\":\"\",\"isEligibleForAnnualBonus\":\"\",\"annualBonusDescription\":\"\",\"workerContactNumber\":\"\",\"workerDateOfBirth\":\"\",\"workerGender\":\"\",\"workerMaritalStatus\":\"\",\"workerReligion\":\"\",\"workerNationalId\":\"\",\"workerAddress\":\"\",\"workerAddressAlternate\":\"\",\"workerEmergencyContactName\":\"\",\"workerEmergencyContactRelationship\":\"\",\"workerEmergencyContactNumber\":\"\",\"workerPermitId\":\"\",\"workerPermitIssuedDate\":\"\",\"workerPermitIssuedPlace\":\"\",\"workerPermitIssuedPlaceAlternate\":\"\",\"workerPassportNumber\":\"\",\"workerNationalIdIssuedDate\":\"\",\"employerSignDate\":\"\",\"workerSignDate\":\"\"}",
+        "content": "<p>{{companyId}}131312321</p>",
+        "contextId": 218,
+        "contextType": "App\\Models\\WorkerEmployment",
+        "createdAt": "2023-06-26T02:38:24.000000Z"
+      },
+      "workerSchedule": {
+        "workerEmploymentId": 218,
+        "monday": "FULL_DAY",
+        "tuesday": "FULL_DAY",
+        "wednesday": "FULL_DAY",
+        "thursday": "FULL_DAY",
+        "friday": "FULL_DAY",
+        "saturday": "OFF_DAY",
+        "sunday": "OFF_DAY"
+      },
+      "workerUser": {
+        "id": 268,
+        "addressId": 378,
+        "bankAccountId": "192",
+        "dateOfBirth": null,
+        "gender": null,
+        "maritalStatus": null,
+        "religion": null,
+        "race": null,
+        "createdAt": "2023-06-26T02:38:24.000000Z",
+        "updatedAt": "2023-06-26T02:38:24.000000Z",
+        "userContext": {
+          "userContextId": "c1348ce6-6d3b-4e90-9c75-b8d0625cd1dc",
+          "cognitoId": "4c41b439-a0e4-4830-b8f2-d12a67395b39",
+          "role": "gp:worker:*",
+          "userId": 268,
+          "userType": "App\\Models\\WorkerUser",
+          "createdAt": "2023-06-26T02:38:27.000000Z",
+          "updatedAt": "2023-06-26T02:38:27.000000Z",
+          "deletedAt": null,
+          "user": {
+            "id": 380,
+            "cognitoId": "4c41b439-a0e4-4830-b8f2-d12a67395b39",
+            "firstName": "Steve",
+            "lastName": "Roger",
+            "email": "stever@vince-test.com"
+          }
+        }
+      },
+      "workerIdentity": {
+        "workerEmploymentId": 218,
+        "isWorkPermitActive": 1
+      },
+      "workplaceAddress": {
+        "id": 11,
+        "addressLine": "Hoang Mai",
+        "city": "Ha Noi2",
+        "state": "Viet Nam",
+        "postalCode": "10000"
+      },
+      "workerRemuneration": {
+        "workerEmploymentId": 218,
+        "salaryPerMonth": 123,
+        "monthlyAllowance": null,
+        "isEligibleForInsurance": 0,
+        "isEligibleForAdditionalIncome": 0,
+        "isEligibleForPaidExpenses": 0,
+        "isEntitledToOvertime": 0,
+        "isEligibleForVariablePay": null,
+        "isEligibleForAnnualBonus": null,
+        "isEligibleForCommission": null,
+        "overtimeDescription": null,
+        "paidExpensesDescription": null,
+        "additionalIncomeDescription": null,
+        "annualBonusDescription": null,
+        "commissionDescription": null,
+        "variablePayDescription": null,
+        "salaryPayableDate": 5,
+        "paidTimeOff": 123,
+        "sickTimeOff": 365,
+        "compassionateTimeOff": null
+      },
+      "additionalInfo": {
+        "id": 62,
+        "mpfId": null,
+        "createdAt": "2023-06-26T02:38:24.000000Z",
+        "updatedAt": "2023-06-26T02:38:24.000000Z"
+      }
+    }
+  }
+}

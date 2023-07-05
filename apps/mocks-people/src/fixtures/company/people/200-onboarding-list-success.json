@@ -1,0 +1,98 @@
+{
+  "data": {
+    "workerEmployments": [
+      {
+        "id": 148,
+        "status": "EMPLOYEE_INVITED",
+        "hireType": "PEO",
+        "startDate": "2022-10-26",
+        "employmentType": "PART_TIME",
+        "hiringCountryCode": "VN",
+        "workerUserId": 159,
+        "hiringCountry": {
+          "id": 233,
+          "code": "VN",
+          "name": "Vietnam"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 159,
+            "hasSetPassword": true,
+            "addressId": 190,
+            "createdAt": "2022-10-03T09:00:44.000000Z",
+            "updatedAt": "2022-10-03T09:02:00.000000Z",
+            "user": {
+              "id": 216,
+              "userId": 159,
+              "firstName": "Tien",
+              "lastName": "Anh"
+            }
+          }
+        }
+      },
+      {
+        "id": 147,
+        "status": "EMPLOYEE_INVITED",
+        "hireType": "PEO",
+        "startDate": "2022-10-12",
+        "employmentType": "PART_TIME",
+        "hiringCountryCode": "VN",
+        "workerUserId": 158,
+        "hiringCountry": {
+          "id": 233,
+          "code": "VN",
+          "name": "Vietnam"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 158,
+            "hasSetPassword": true,
+            "addressId": 189,
+            "createdAt": "2022-10-03T07:41:27.000000Z",
+            "updatedAt": "2022-10-05T14:37:45.000000Z",
+            "user": {
+              "id": 215,
+              "userId": 158,
+              "firstName": "Anh",
+              "lastName": "Thu"
+            }
+          }
+        }
+      },
+      {
+        "id": 145,
+        "status": "HIRING_REVIEW",
+        "hireType": "PEO",
+        "startDate": "2022-08-23",
+        "employmentType": "PART_TIME",
+        "hiringCountryCode": "VN",
+        "workerUserId": 155,
+        "hiringCountry": {
+          "id": 233,
+          "code": "VN",
+          "name": "Vietnam"
+        },
+        "workerUser": {
+          "userContext": {
+            "id": 155,
+            "hasSetPassword": false,
+            "addressId": 186,
+            "createdAt": "2022-08-22T05:46:28.000000Z",
+            "updatedAt": "2022-08-22T05:46:28.000000Z",
+            "user": {
+              "id": 207,
+              "userId": 155,
+              "firstName": "Tony",
+              "lastName": "Nguyen"
+            }
+          }
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 26
+    }
+  }
+}

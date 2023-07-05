@@ -1,0 +1,49 @@
+{
+  "data": {
+    "company": {
+      "id": 54,
+      "companyId": "vdqb3hxkjayjahhn",
+      "registeredById": 278,
+      "currency": "SGD",
+      "status": "ONBOARDING",
+      "taxId": "123321",
+      "registrationId": "123321",
+      "name": null,
+      "addressId": 250,
+      "hasSgEntity": true,
+      "sgEntityUen": "123456789",
+      "sgEntityName": "HelloSGTEAM",
+      "interest": "HIRE_STAFF_IN_COUNTRY_WITHOUT_LOCAL_ENTITY",
+      "registeredBy": {
+        "user": {
+          "firstName": "1622",
+          "lastName": "agp",
+          "email": "zerduvirde@gufum.com"
+        },
+        "id": 278,
+        "userId": 52,
+        "userType": "App\\Models\\CompanyUser",
+        "info": {
+          "id": 52,
+          "companyId": "vdqb3hxkjayjahhn",
+          "jobTitle": "ds",
+          "createdAt": "2023-01-13T04:08:45.000000Z",
+          "updatedAt": "2023-01-13T04:08:45.000000Z"
+        }
+      },
+      "address": {
+        "id": 250,
+        "addressLine": null,
+        "city": null,
+        "state": null,
+        "postalCode": null,
+        "countryCode": "AF",
+        "country": {
+          "id": 3,
+          "code": "AF",
+          "name": "Afghanistan"
+        }
+      }
+    }
+  }
+}

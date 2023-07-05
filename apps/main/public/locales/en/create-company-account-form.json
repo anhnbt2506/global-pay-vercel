@@ -1,0 +1,45 @@
+{
+  "form": {
+    "firstName": {
+      "label": "First Name",
+      "helperText": "Your legal first name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "helperText": "Your legal last name"
+    },
+    "companyName": {
+      "label": "Company Name",
+      "helperText": "This is what we will show on your invoices"
+    },
+    "country": {
+      "label": "Country",
+      "helperText": "Where is the company legally based"
+    },
+    "jobTitle": {
+      "label": "Job Title",
+      "helperText": "Your existing position"
+    },
+    "email": {
+      "label": "Company Email",
+      "helperText": "e.g. you@companyname.com"
+    },
+    "password": {
+      "label": "Password",
+      "helperText": "Your password must meet the criteria below"
+    },
+    "interest": {
+      "label": "Interest",
+      "helperText": "What are you interest in?"
+    },
+    "industry": {
+      "label": "Company Industry",
+      "helperText": "What is the industry of this client"
+    },
+    "category": {
+      "label": "Company Category",
+      "helperText": "What is the category of this client"
+    }
+  },
+  "complianceText": "By creating an account, you agree to the <1>Terms Of Use</1>, <3>Privacy Policy</3> and <5>Personal Data Protection Agreement (PDPA)</5>"
+}

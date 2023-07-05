@@ -1,0 +1,94 @@
+{
+  "form": {
+    "payrollCycle": {
+      "label": "Payroll cycle",
+      "helperText": "Period for processing payments"
+    },
+    "statutoryDeductions": {
+      "label": "Statutory deductions",
+      "helperText": "Period for processing statutory deductions"
+    },
+    "payrollCutOffDate": {
+      "label": "Payroll instructions cut off date",
+      "semiLabel": "First payroll instructions cut off date",
+      "helperText": "When will the cut of date for instructions be"
+    },
+    "payrollDate": {
+      "label": "Payroll date",
+      "semiLabel": "First payroll date",
+      "helperText": "What is the pay date"
+    },
+    "secondPayrollCutOffDate": {
+      "label": "Second payroll instructions cut off date",
+      "helperText": "When will the cut of date for instructions be"
+    },
+    "secondPayrollDate": {
+      "label": "Second payroll date",
+      "helperText": "What is the pay date"
+    },
+    "prorateSalaryFormula": {
+      "label": "Prorate salary formula",
+      "helperText": "Adjustments made based on selected prorate"
+    },
+    "isAypAssistESubmission": {
+      "label": "Would you like us to assist for e-submission",
+      "helperText": "Manage statutory e-submission"
+    },
+    "isUsingDisbursementService": {
+      "label": "Use disbursement service",
+      "helperText": "Funds disbursement service"
+    },
+    "isGenerateBankFile": {
+      "label": "Do you require a bank file to be generated for self submission?",
+      "helperText": "Generating a bank file"
+    },
+    "sssUserId": {
+      "label": "SSS user id",
+      "helperText": "SSS credentials"
+    },
+    "sssPassword": {
+      "label": "SSS password",
+      "helperText": "SSS credentials"
+    },
+    "penId": {
+      "label": "PEN id",
+      "helperText": "PhilHealth credentials"
+    },
+    "penPassword": {
+      "label": "PhilHealth password",
+      "helperText": "PhilHealth credentials"
+    },
+    "birTinId": {
+      "label": "BIR TIN id",
+      "helperText": "BIR credentials"
+    },
+    "birUsername": {
+      "label": "BIR username",
+      "helperText": "BIR credentials"
+    },
+    "birPassword": {
+      "label": "BIR password",
+      "helperText": "BIR credentials"
+    },
+    "birSecurityQuestionAnswer": {
+      "label": "BIR security question answer",
+      "helperText": "BIR credentials"
+    },
+    "supportingDocuments": "Supporting documents",
+    "secRegistrationFile": {
+      "label": "SEC registration"
+    },
+    "bir2303File": {
+      "label": "BIR 2303 - Certificate of registration"
+    },
+    "sssFile": {
+      "label": "Philhealth registration for ER1 and ER2 - Employee reports"
+    },
+    "penFile": {
+      "label": "SSS registration for R1 and R1A - Employee reports"
+    },
+    "pagFile": {
+      "label": "PAG-IBIG registration EDF and SSF"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pageName": "Workforce",
+  "dataGrid": {
+    "header": {
+      "workerUser.userContext.user.firstName;workerUser.userContext.user.lastName": "Name",
+      "workerUser.userContext.user.email": "Email",
+      "hiringCountry.name": "Location",
+      "hireType": "Hire Type",
+      "contractType": "Contract Type",
+      "title": "Job Role",
+      "isPermitRequired": "Permit Required"
+    },
+    "noRowsOverlay": {
+      "title": "Start hiring",
+      "description": "You can start adding new hires to your team. You’ll be able to track their progress from here too."
+    },
+    "searchPlaceholder": "Search name",
+    "menuItems": {
+      "viewProfile": "View profile"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+name: Deploy to PROD
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+env:
+  REGISTRY: harbor.ayp-group.com
+  IMAGE_NAME: ${{ github.event.repository.name }}
+
+jobs:
+  main:
+    runs-on: gp02-docker
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Log in to the container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.GLOBAL_PAY_HARBOR_USERNAME }}
+          password: ${{ secrets.GLOBAL_PAY_HARBOR_PASSWORD }}
+      - name: Extract metadata (tags, labels)
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/global_pay/${{ env.IMAGE_NAME }}
+      - name: Build and push image
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          context: .
+          file: ./apps/main/Dockerfile
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            NEXT_PUBLIC_STAGE=prod
+            NEXT_PUBLIC_VERSION=${{ github.sha }}
+            NEXT_PUBLIC_TINYMCE_API_KEY=${{ secrets.NEXT_PUBLIC_TINYMCE_API_KEY }}
+            NEXT_PUBLIC_GATEWAY_HOST=${{ secrets.PROD_NEXT_PUBLIC_GATEWAY_HOST }}
+            NEXT_PUBLIC_PEOPLE_API_HOST=${{ secrets.PROD_NEXT_PUBLIC_PEOPLE_API_HOST }}
+            NEXT_PUBLIC_FINTECH_API_HOST=${{ secrets.PROD_NEXT_PUBLIC_FINTECH_API_HOST }}
+            NEXT_PUBLIC_TABLEAU_HOST_URL=${{ secrets.NEXT_PUBLIC_TABLEAU_HOST_URL }}
+            NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME=${{ secrets.PROD_NEXT_PUBLIC_TABLEAU_DASHBOARD_NAME }}
+            NEXT_PUBLIC_GTM_ID=${{ secrets.PROD_NEXT_PUBLIC_GTM_ID }}
+            NEXT_PUBLIC_HJID=${{ secrets.PROD_NEXT_PUBLIC_HJID }}
+            NEXT_PUBLIC_USER_PILOT_TOKEN=${{ secrets.PROD_NEXT_PUBLIC_USER_PILOT_TOKEN }}

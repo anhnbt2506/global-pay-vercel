@@ -1,0 +1,24 @@
+{
+  "pageName": "Payroll Dashboard",
+  "payrollDraft": {
+    "description": "You have <strong>{{number}} payroll draft</strong> pending for update.",
+    "viewPayroll": "View payroll"
+  },
+  "offCyclePayroll": {
+    "title": "Run off cycle payroll",
+    "description": "Run payroll outside of your regular pay schedule to accommodate special payments."
+  },
+  "activePayroll": {
+    "title": "Active payroll",
+    "viewDetail": "View details",
+    "draft": {
+      "title": "Draft"
+    },
+    "pending": {
+      "title": "Pending"
+    },
+    "rejected": {
+      "title": "Rejected"
+    }
+  }
+}

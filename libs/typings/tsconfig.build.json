@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "incremental": false,
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "dist/index.d.ts"]
+}

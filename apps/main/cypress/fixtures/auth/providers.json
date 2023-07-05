@@ -1,0 +1,9 @@
+{
+  "credentials": {
+    "id": "credentials",
+    "name": "Credentials",
+    "type": "credentials",
+    "signinUrl": "http://127.0.0.1:3000/api/auth/signin/credentials",
+    "callbackUrl": "http://127.0.0.1:3000/api/auth/callback/credentials"
+  }
+}

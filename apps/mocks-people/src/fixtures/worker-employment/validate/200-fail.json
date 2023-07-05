@@ -1,0 +1,12 @@
+{
+  "data": {
+    "errors": [
+      {
+        "row": 1,
+        "messages": {
+          "WFN": ["validation.required"]
+        }
+      }
+    ]
+  }
+}

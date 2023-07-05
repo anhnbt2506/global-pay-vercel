@@ -1,0 +1,198 @@
+{
+  "pageName": "Calendar",
+  "selectionSelected": "Selection selected",
+  "selectSection": {
+    "title": "Select Selection",
+    "description": "You are about to select a different section",
+    "form": {
+      "section": {
+        "label": "Selection section",
+        "helperText": "To make configurations"
+      }
+    }
+  },
+  "dataGrid": {
+    "event": {
+      "header": {
+        "name": "Name",
+        "description": "Description",
+        "calendarDate": "Calendar Date",
+        "specificDay": "Specific Day",
+        "clientInputDate": "Client Input Date",
+        "status": "Status",
+        "calendarTag": "Associated Tag"
+      }
+    },
+    "tag": {
+      "header": {
+        "name": "Name",
+        "description": "Description",
+        "isAdjustmentRequired": "Require Adjustment",
+        "adjustmentCalendarTag": "Tag Adjusted Against",
+        "status": "Status"
+      }
+    },
+    "calendar": {
+      "header": {
+        "name": "Name",
+        "description": "Description",
+        "calendarTags": "Total Tags",
+        "context": {
+          "calendarPeriod": "Calendar Period"
+        },
+        "status": "Status"
+      }
+    },
+    "noRowsOverlay": {
+      "title": "No pending audits",
+      "description": "When audits are required, information will be displayed here for action"
+    },
+    "searchPlaceholder": "Search"
+  },
+  "updateStatus": {
+    "title": "Update status",
+    "description": "You are about to update the status of this {{calendarType}}",
+    "form": {
+      "modal": {
+        "label": "Select status",
+        "helperText": "This will update the templates"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit"
+  },
+  "addNewEvent": {
+    "title": "New Event"
+  },
+  "addNewTag": {
+    "title": "New Tag"
+  },
+  "tagModal": {
+    "newModalTitle": "New tags",
+    "newModalDescription": "Please fill in details below for tag",
+    "editModalTitle": "Edit tags",
+    "formFields": {
+      "name": {
+        "label": "Name",
+        "helperText": "Tag name"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Tag description"
+      },
+      "isAdjustmentRequired": {
+        "label": "Require readjustment",
+        "helperText": "Will events in this tag be readjusted with events from another tag"
+      },
+      "adjustmentCalendarTagId": {
+        "label": "Tag that will be adjusted against",
+        "helperText": "Adjustment for event"
+      },
+      "adjustmentEvent": {
+        "label": "How will events in tag be adjusted",
+        "helperText": "Adjustment for event"
+      },
+      "adjustmentMethod": {
+        "label": "Adjustment calculation based on",
+        "helperText": "Adjustment method"
+      },
+      "adjustmentDays": {
+        "label": "Number of days",
+        "helperText": "Adjustment in days"
+      }
+    }
+  },
+  "eventModal": {
+    "newModalTitle": "New event",
+    "newModalDescription": "Please fill in details below for event",
+    "editModalTitle": "Edit event",
+    "formFields": {
+      "name": {
+        "label": "Name",
+        "helperText": "Event name"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Event description"
+      },
+      "dateType": {
+        "label": "Date Type",
+        "helperText": "Date information"
+      },
+      "calendarDate": {
+        "label": "Event date",
+        "helperText": "Calendar date"
+      },
+      "specificDay": {
+        "label": "Event date",
+        "helperText": "Specific day"
+      },
+      "clientInputDate": {
+        "label": "Client key",
+        "helperText": "Type of client input information"
+      },
+      "calendarTagId": {
+        "label": "Tag association",
+        "helperText": "Tag associated with this event"
+      },
+      "isAutomatedReminder": {
+        "label": "Send automated reminder",
+        "helperText": "Email client will be sent to client"
+      },
+      "reminderBasedOn": {
+        "label": "Reminder based on",
+        "helperText": "Sent accordingly"
+      },
+      "reminderDayBeforeEvent": {
+        "label": "Number of days",
+        "helperText": "Days for reminder"
+      }
+    }
+  },
+  "calendarModal": {
+    "newModalTitle": "New calendar",
+    "newModalDescription": "Please fill in details below for calendar",
+    "editModalTitle": "Edit calendar",
+    "formFields": {
+      "name": {
+        "label": "Name",
+        "helperText": "Calendar name"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Calendar description"
+      },
+      "context": {
+        "hireType": {
+          "label": "Employment services",
+          "helperText": "Which services will the calendar be generated in"
+        },
+        "triggerPoint": {
+          "label": "When will the calendar be assigned to client",
+          "helperText": "Define trigger point"
+        },
+        "countryCode": {
+          "label": "Country selected to generate calendar",
+          "helperText": "Which country will this calendar be generated in"
+        },
+        "calendarPeriod": {
+          "label": "Calendar period",
+          "helperText": "Period that calendar is generated"
+        }
+      },
+      "calendarTags": {
+        "label": "Tags included",
+        "helperText": "Tag(s) associated with this calendar"
+      }
+    },
+    "error": {
+      "SameCalendarConfigurationHasBeenGenerated": "This calendar configuration exists please update properties to proceed"
+    }
+  },
+  "addNewCalendar": {
+    "title": "New Calendar"
+  },
+  "success": "Successfully saved",
+  "tagCannotBeAdjusted": "This tag cannot be adjusted because another tag is depending on it."
+}

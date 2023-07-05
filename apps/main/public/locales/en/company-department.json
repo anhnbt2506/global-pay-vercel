@@ -1,0 +1,32 @@
+{
+  "departmentModal": {
+    "addNewDepartment": {
+      "title": "New department",
+      "description": "Please fill in details below"
+    },
+    "editDepartment": {
+      "title": "Edit department",
+      "description": "Please fill in details below"
+    },
+    "manageEmployees": {
+      "title": "Manage employees",
+      "description": "Please fill in details below"
+    },
+    "form": {
+      "name": {
+        "label": "Name",
+        "helperText": "Department name"
+      },
+      "addEmployee": {
+        "label": "Add employee",
+        "helperText": "Search employee name or email to select",
+        "error": {
+          "employeeAlReadyBelongsToOtherDepartment": "This employee already belongs to a department"
+        }
+      }
+    },
+    "toastMessage": {
+      "departmentNameExisted": "This department already exists. Please enter a different department name"
+    }
+  }
+}

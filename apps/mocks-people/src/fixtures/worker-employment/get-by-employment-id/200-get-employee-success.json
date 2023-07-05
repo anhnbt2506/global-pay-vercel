@@ -1,0 +1,140 @@
+{
+  "data": {
+    "workerEmployment": {
+      "id": 146,
+      "employmentId": "dfpwuac2hc5c78w2heuy522p62zn08ob",
+      "hireType": "EOR",
+      "title": "Southest Asia Development Center",
+      "titleAlternate": null,
+      "startDate": "2022-04-25",
+      "endDate": "2023-07-23",
+      "probationPeriod": null,
+      "probationStartDate": "2022-04-22",
+      "probationEndDate": "2022-07-23",
+      "employmentType": "FULL_TIME",
+      "workingHoursPerWeek": null,
+      "startAt": "08:00:00",
+      "endAt": null,
+      "managerName": null,
+      "managerTitle": null,
+      "workerTypeId": 63,
+      "companyId": "6apkge7eoaztagse",
+      "workerUserId": 157,
+      "workerType": "App\\Models\\Worker\\WorkerVietnam",
+      "status": "ONBOARDED",
+      "currency": "VND",
+      "nationalityCode": "VN",
+      "contractType": "FIXED",
+      "citizenshipStatus": "PERMIT_HOLDER",
+      "company": {
+        "companyId": "6apkge7eoaztagse",
+        "name": "Alpha AYP"
+      },
+      "workerUser": {
+        "id": 157,
+        "hasSetPassword": false,
+        "addressId": 188,
+        "dateOfBirth": "1996-01-01",
+        "gender": "MALE",
+        "maritalStatus": "SINGLE",
+        "religion": null,
+        "race": null,
+        "createdAt": "2022-09-30T07:10:49.000000Z",
+        "updatedAt": "2023-03-08T02:46:08.000000Z",
+        "userContext": {
+          "user": {
+            "id": 214,
+            "cognitoId": 157,
+            "userId": 157,
+            "firstName": "Tan Loc",
+            "lastName": "Truong",
+            "email": "kefubu@lyricspad.net",
+            "firstNameAlternate": null,
+            "lastNameAlternate": null
+          }
+        },
+        "address": {
+          "id": 188,
+          "addressLine": null,
+          "city": null,
+          "state": null,
+          "postalCode": null,
+          "addressLineAlternate": null,
+          "cityAlternate": null,
+          "stateAlternate": null,
+          "postalCodeAlternate": null
+        },
+        "bankAccount": {
+          "workerEmploymentId": 4,
+          "beneficiaryName": "Sample",
+          "accountNumber": "999",
+          "bank": {
+            "bankId": "123",
+            "bankName": "Bank 01",
+            "bankCode": "SPB",
+            "swiftCode": "SPB",
+            "ibanCode": null
+          },
+          "branchCode": "SPBC"
+        }
+      },
+      "workerIdentity": {
+        "workerEmploymentId": 146,
+        "permitId": null,
+        "permitIssuedDate": "2022-04-25",
+        "permitIssuedPlace": null,
+        "passportNumber": null,
+        "nationalId": "49096004139",
+        "nationalIdIssuedDate": "2022-04-25",
+        "permitType": "NA",
+        "nationalIdIssuedPlace": null,
+        "nationalIdIssuedPlaceAlternate": null,
+        "passportIssuedDate": "2022-04-25",
+        "passportIssuedPlace": null,
+        "passportIssuedPlaceAlternate": null,
+        "permitIssuedPlaceAlternate": null,
+        "taxId": null
+      },
+      "workerRemuneration": {
+        "workerEmploymentId": 146,
+        "salaryPerMonth": null,
+        "monthlyAllowance": null,
+        "isEligibleForInsurance": 1,
+        "isEligibleForAdditionalIncome": 1,
+        "isEligibleForPaidExpenses": 1,
+        "isEntitledToOvertime": 1,
+        "isEligibleForVariablePay": 1,
+        "isEligibleForAnnualBonus": 1,
+        "isEligibleForCommission": 1,
+        "overtimeDescription": "Overtime",
+        "paidExpensesDescription": "Reimbursement",
+        "additionalIncomeDescription": "Bonus, incentive",
+        "annualBonusDescription": "Performance Bonus",
+        "commissionDescription": "5% from every sale",
+        "variablePayDescription": "plus minus 5% "
+      },
+      "additionalInfo": {
+        "id": 63,
+        "oldPermitId": null,
+        "childrenUnder18BirthCertificate": null,
+        "socialInsuranceBookNo": null,
+        "localHospitalForStatutoryMedicalInsurance": null,
+        "socialInsuranceContribution": null,
+        "healthInsuranceContribution": null,
+        "unemploymentInsuranceContribution": null,
+        "tradeUnionContribution": null,
+        "createdAt": "2022-09-30T07:10:49.000000Z",
+        "updatedAt": "2022-09-30T07:10:49.000000Z"
+      },
+      "workerContact": {
+        "workerEmploymentId": 146,
+        "contactNumber": null,
+        "contactNumberCountryCode": null,
+        "emergencyContactName": null,
+        "emergencyContactRelationship": null,
+        "emergencyContactNumberCountryCode": null,
+        "emergencyContactNumber": null
+      }
+    }
+  }
+}

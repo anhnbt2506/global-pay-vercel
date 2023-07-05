@@ -1,0 +1,46 @@
+{
+  "data": {
+    "currencies": [
+      {
+        "id": 49,
+        "code": "HKD",
+        "name": "Hong Kong Dollar"
+      },
+      {
+        "id": 54,
+        "code": "IDR",
+        "name": "Indonesian Rupiah"
+      },
+      {
+        "id": 84,
+        "code": "MYR",
+        "name": "Malaysian Ringgit"
+      },
+      {
+        "id": 95,
+        "code": "PHP",
+        "name": "Philippine Peso"
+      },
+      {
+        "id": 108,
+        "code": "SGD",
+        "name": "Singapore Dollar"
+      },
+      {
+        "id": 115,
+        "code": "THB",
+        "name": "Thai Baht"
+      },
+      {
+        "id": 124,
+        "code": "USD",
+        "name": "United States Dollar"
+      },
+      {
+        "id": 127,
+        "code": "VND",
+        "name": "Vietnamese Dong"
+      }
+    ]
+  }
+}

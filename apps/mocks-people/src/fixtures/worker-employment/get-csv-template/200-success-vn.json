@@ -1,0 +1,302 @@
+{
+  "data": [
+    { "columnName": "WFN", "dataType": "string" },
+    { "columnName": "WFNA", "dataType": "string" },
+    { "columnName": "WLN", "dataType": "string" },
+    { "columnName": "WLNA", "dataType": "string" },
+    { "columnName": "WEL", "dataType": "string" },
+    { "columnName": "WGEN", "dataType": "enum", "options": ["FEMALE", "MALE"] },
+    {
+      "columnName": "WMAR",
+      "dataType": "enum",
+      "options": ["DIVORCED", "MARRIED", "SINGLE", "WIDOWED"]
+    },
+    {
+      "columnName": "WRG",
+      "dataType": "enum",
+      "options": [
+        "ATHEIST",
+        "BUDDHISM",
+        "CHRISTIANITY",
+        "HINDUISM",
+        "ISLAM",
+        "JUDAISM",
+        "SIKHISM",
+        "TAOISM"
+      ]
+    },
+    {
+      "columnName": "WRC",
+      "dataType": "enum",
+      "options": [
+        "ABORIGINE",
+        "AFRICAN",
+        "AMERICAN_INDIAN",
+        "ARYANS",
+        "BURMESE",
+        "CAUCASIAN",
+        "CHINESE",
+        "DRAVIDIANS",
+        "ESKIMO",
+        "EUROPEAN",
+        "FILIPINO",
+        "HAMITES",
+        "HISPANIC",
+        "HOTTENTOTS",
+        "INDIAN",
+        "INDO-CHINESE",
+        "ISLANDER",
+        "JAPANESE",
+        "JEWISH",
+        "KAREN",
+        "KOREAN",
+        "LATINO",
+        "MALAY",
+        "MAORI",
+        "MELANESIANS",
+        "MEXICAN",
+        "MICRONESIAN",
+        "MONGOLIAN",
+        "NEGRITO",
+        "POLYNESIAN",
+        "SEMITES",
+        "SINHALESE",
+        "THAI",
+        "TIBETAN",
+        "VIETNAMESE"
+      ]
+    },
+    { "columnName": "WDOB", "dataType": "date" },
+    { "columnName": "WHC", "dataType": "country" },
+    {
+      "columnName": "WES",
+      "dataType": "enum",
+      "options": [
+        "DRAFT",
+        "HIRING_REVIEW",
+        "HIRING_UPDATE_REQUIRED",
+        "HIRING_REVIEW_PASSED",
+        "PERMIT_PROCESSING",
+        "PERMIT_COMPLETED",
+        "EMPLOYEE_INVITED",
+        "EMPLOYEE_DECLARATION",
+        "EMPLOYEE_REVIEW",
+        "EMPLOYEE_UPDATE_REQUIRED",
+        "EMPLOYEE_REVIEW_PASSED",
+        "CONTRACT_ACCEPTANCE",
+        "ONBOARDED",
+        "HIRING_STOPPED",
+        "TERMINATED"
+      ]
+    },
+    {
+      "columnName": "WSS",
+      "dataType": "enum",
+      "options": ["CITIZEN", "PERMIT_HOLDER", "PERMANENT_RESIDENT"]
+    },
+    { "columnName": "WNY", "dataType": "country" },
+    { "columnName": "WRP", "dataType": "boolean" },
+    { "columnName": "WJT", "dataType": "string" },
+    { "columnName": "WJTA", "dataType": "string" },
+    { "columnName": "WJD", "dataType": "text" },
+    { "columnName": "WJDA", "dataType": "text" },
+    { "columnName": "WMN", "dataType": "string" },
+    { "columnName": "WME", "dataType": "string" },
+    { "columnName": "WMR", "dataType": "string" },
+    {
+      "columnName": "WCT",
+      "dataType": "enum",
+      "options": ["FIXED", "INDEFINITE", "OFFER_LETTER"]
+    },
+    { "columnName": "WSD", "dataType": "date" },
+    { "columnName": "WED", "dataType": "date" },
+    {
+      "columnName": "WET",
+      "dataType": "enum",
+      "options": ["FULL_TIME", "PART_TIME"]
+    },
+    { "columnName": "WFST", "dataType": "time" },
+    { "columnName": "WFET", "dataType": "time" },
+    { "columnName": "WHRW", "dataType": "float" },
+    { "columnName": "WCW", "dataType": "boolean" },
+    {
+      "columnName": "WPA",
+      "dataType": "enum",
+      "options": ["COMPANY", "EMPLOYEE", "OTHERS"]
+    },
+    { "columnName": "WIS", "dataType": "insurance" },
+    { "columnName": "WPPD", "dataType": "integer" },
+    { "columnName": "WPPU", "dataType": "enum", "options": ["DAY", "MONTH"] },
+    { "columnName": "WPSD", "dataType": "date" },
+    { "columnName": "WPED", "dataType": "date" },
+    {
+      "columnName": "WSCT",
+      "dataType": "enum",
+      "options": ["YES", "NO", "NOT_REQUIRED"]
+    },
+    { "columnName": "WTN", "dataType": "integer" },
+    { "columnName": "WTNU", "dataType": "enum", "options": ["DAY", "MONTH"] },
+    { "columnName": "WCSR", "dataType": "currency" },
+    { "columnName": "ECSD", "dataType": "date" },
+    { "columnName": "WCSD", "dataType": "date" },
+    { "columnName": "WEID", "dataType": "string" },
+    { "columnName": "WND", "dataType": "integer" },
+    { "columnName": "WLPD", "dataType": "date" },
+    {
+      "columnName": "WPYM",
+      "dataType": "enum",
+      "options": ["CASH", "CHEQUE", "BANK_DEPOSIT"]
+    },
+    {
+      "columnName": "WSPP",
+      "dataType": "enum",
+      "options": ["SEMI_MONTHLY", "MONTHLY", "WEEKLY", "DAILY"]
+    },
+    {
+      "columnName": "WCXT",
+      "dataType": "enum",
+      "options": ["LESS_THAN_THREE_MONTHS", "THREE_MONTHS_AND_MORE"]
+    },
+    { "columnName": "WTD", "dataType": "date" },
+    { "columnName": "WMLE", "dataType": "boolean" },
+    { "columnName": "WVPD", "dataType": "string" },
+    { "columnName": "WSIB", "dataType": "string" },
+    { "columnName": "WLHR", "dataType": "string" },
+    { "columnName": "WSIC", "dataType": "boolean" },
+    { "columnName": "WHIC", "dataType": "boolean" },
+    { "columnName": "WUIC", "dataType": "boolean" },
+    { "columnName": "WTDU", "dataType": "boolean" },
+    { "columnName": "WSPH", "dataType": "integer" },
+    { "columnName": "WSPM", "dataType": "float" },
+    { "columnName": "WMGA", "dataType": "float" },
+    { "columnName": "WSPB", "dataType": "integer" },
+    { "columnName": "WVO", "dataType": "boolean" },
+    { "columnName": "WVD", "dataType": "text" },
+    { "columnName": "WCO", "dataType": "boolean" },
+    { "columnName": "WCD", "dataType": "text" },
+    { "columnName": "WBO", "dataType": "boolean" },
+    { "columnName": "WBD", "dataType": "text" },
+    { "columnName": "WCTD", "dataType": "smallint" },
+    { "columnName": "WAO", "dataType": "boolean" },
+    { "columnName": "WAD", "dataType": "text" },
+    { "columnName": "WPO", "dataType": "boolean" },
+    { "columnName": "WPD", "dataType": "text" },
+    { "columnName": "WOO", "dataType": "boolean" },
+    { "columnName": "WOD", "dataType": "text" },
+    { "columnName": "WPLD", "dataType": "integer" },
+    { "columnName": "WSTD", "dataType": "integer" },
+    { "columnName": "WIO", "dataType": "boolean" },
+    { "columnName": "WBB", "dataType": "string" },
+    { "columnName": "WBA", "dataType": "string" },
+    { "columnName": "WBN", "dataType": "bank" },
+    { "columnName": "WBC", "dataType": "string" },
+    { "columnName": "WBS", "dataType": "string" },
+    { "columnName": "WBI", "dataType": "string" },
+    { "columnName": "WNUM", "dataType": "string" },
+    { "columnName": "DCC", "dataType": "dialingCode" },
+    { "columnName": "WEN", "dataType": "string" },
+    { "columnName": "WEC", "dataType": "string" },
+    { "columnName": "DCE", "dataType": "dialingCode" },
+    {
+      "columnName": "WER",
+      "dataType": "enum",
+      "options": [
+        "CHILD",
+        "FRIEND",
+        "FATHER",
+        "GUARDIAN",
+        "MOTHER",
+        "SIBLING",
+        "SPOUSE"
+      ]
+    },
+    { "columnName": "WAWP", "dataType": "boolean" },
+    { "columnName": "WLP", "dataType": "string" },
+    {
+      "columnName": "WPT",
+      "dataType": "enum",
+      "options": [
+        "NA",
+        "EMPLOYMENT_PASS",
+        "GENERAL_EMPLOYMENT_POLICY",
+        "9G_VISA",
+        "ALIEN_EMPLOYMENT_PERMIT",
+        "C_312",
+        "NON_IMMIGRANT_VISA_B",
+        "DN_VISA"
+      ]
+    },
+    { "columnName": "WPI", "dataType": "date" },
+    { "columnName": "WPP", "dataType": "string" },
+    { "columnName": "WPPA", "dataType": "string" },
+    { "columnName": "WID", "dataType": "string" },
+    { "columnName": "WNI", "dataType": "date" },
+    { "columnName": "WNII", "dataType": "string" },
+    { "columnName": "WNIIA", "dataType": "string" },
+    { "columnName": "WPID", "dataType": "date" },
+    { "columnName": "WPN", "dataType": "string" },
+    { "columnName": "WPII", "dataType": "string" },
+    { "columnName": "WPIIA", "dataType": "string" },
+    { "columnName": "WTXI", "dataType": "string" },
+    {
+      "columnName": "WXS",
+      "dataType": "enum",
+      "options": [
+        "S",
+        "ME",
+        "TK/0",
+        "TK/1",
+        "TK/2",
+        "TK/3",
+        "K/0",
+        "K/1",
+        "K/2",
+        "K/3"
+      ]
+    },
+    { "columnName": "WXR", "dataType": "boolean" },
+    {
+      "columnName": "WSDMO",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDTU",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDWE",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDTH",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDFR",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDSA",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    {
+      "columnName": "WSDSU",
+      "dataType": "enum",
+      "options": ["FULL_DAY", "HALF_DAY", "OFF_DAY"]
+    },
+    { "columnName": "WAL", "dataType": "string" },
+    { "columnName": "WALA", "dataType": "string" },
+    { "columnName": "WAC", "dataType": "string" },
+    { "columnName": "WACA", "dataType": "string" },
+    { "columnName": "WAS", "dataType": "string" },
+    { "columnName": "WASA", "dataType": "string" },
+    { "columnName": "WPC", "dataType": "string" },
+    { "columnName": "WPCA", "dataType": "string" }
+  ]
+}

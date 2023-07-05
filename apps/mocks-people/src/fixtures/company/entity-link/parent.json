@@ -1,0 +1,33 @@
+{
+  "data": {
+    "companyEntityLink": {
+      "entityLinkStatus": "PARENT",
+      "subsidiaryCompanies": [
+        {
+          "companyId": "0iy5d1imoq0ee6nk",
+          "name": "name",
+          "address": {
+            "id": 1,
+            "country": {
+              "id": 6,
+              "name": "American Samoa",
+              "code": "AS"
+            }
+          }
+        },
+        {
+          "companyId": "4wnqyseks6fbhqzk",
+          "name": "Meri sing company",
+          "address": {
+            "id": 3,
+            "country": {
+              "id": 7,
+              "name": "Andorra",
+              "code": "AD"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "data": {
+    "companyPayrolls": [
+      {
+        "name": "1st Feb 2023 - 28th Feb 2023",
+        "companyPayrollId": "f2roaavo46d62nus",
+        "companyId": "0c94nc2ayfef2kwy",
+        "countryCode": "SG",
+        "hireType": "POM",
+        "cycle": "MONTHLY",
+        "type": "REGULAR_CYCLE",
+        "periodStartDate": "2023-02-01T00:00:00.000000Z",
+        "periodEndDate": "2023-02-28T00:00:00.000000Z",
+        "workerPayrollCount": 0,
+        "status": "DRAFT",
+        "createdAt": "2023-05-31T03:59:44.000000Z",
+        "updatedAt": "2023-05-31T07:08:51.000000Z",
+        "company": {
+          "companyId": "0c94nc2ayfef2kwy",
+          "name": "Diego 2302"
+        },
+        "country": {
+          "code": "SG",
+          "name": "Singapore"
+        }
+      },
+      {
+        "name": "1st Feb 2023 - 28th Feb 2023",
+        "companyPayrollId": "ge4lmziabcde9v12",
+        "companyId": "ucuekcz6z9l24qc1",
+        "countryCode": "VN",
+        "hireType": "POM",
+        "cycle": "MONTHLY",
+        "type": "REGULAR_CYCLE",
+        "periodStartDate": "2023-02-01T00:00:00.000000Z",
+        "periodEndDate": "2023-02-28T00:00:00.000000Z",
+        "workerPayrollCount": 0,
+        "status": "DRAFT",
+        "createdAt": "2023-05-31T03:59:44.000000Z",
+        "updatedAt": "2023-05-31T07:08:51.000000Z",
+        "company": {
+          "companyId": "ucuekcz6z9l24qc1",
+          "name": "Sean - Company A"
+        },
+        "country": {
+          "code": "VN",
+          "name": "Vietnam"
+        }
+      },
+      {
+        "name": "1st Jan 2023 - 31st Jan 2023",
+        "companyPayrollId": "2rfxl7ux3g1y55ar",
+        "companyId": "0c94nc2ayfef2kwy",
+        "countryCode": "SG",
+        "hireType": "POM",
+        "cycle": "MONTHLY",
+        "type": "REGULAR_CYCLE",
+        "periodStartDate": "2023-01-01T00:00:00.000000Z",
+        "periodEndDate": "2023-01-31T00:00:00.000000Z",
+        "workerPayrollCount": 0,
+        "status": "DRAFT",
+        "createdAt": "2023-05-31T03:58:30.000000Z",
+        "updatedAt": "2023-05-31T07:08:48.000000Z",
+        "company": {
+          "companyId": "0c94nc2ayfef2kwy",
+          "name": "Diego 2302"
+        },
+        "country": {
+          "code": "SG",
+          "name": "Singapore"
+        }
+      }
+    ],
+    "meta": {
+      "page": 0,
+      "pageSize": 25,
+      "rowCount": 30
+    }
+  }
+}

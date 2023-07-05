@@ -1,0 +1,14 @@
+{
+  "next": "Berikutnya",
+  "previous": "Sebelumnya",
+  "submit": "Simpan",
+  "login": "Masuk",
+  "form": {
+    "error": {
+      "requiredField": "Ini adalah kolom yang harus diisi",
+      "emailField": "Ini harus email yang valid",
+      "passwordField": "Kata sandi ini tidak memenuhi semua kriteria di bawah",
+      "postalCodeField": "Ini harus berupa kode pos yang valid"
+    }
+  }
+}

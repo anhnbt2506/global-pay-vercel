@@ -1,0 +1,15 @@
+{
+  "data": {
+    "templateName": "staffManualPayrollComment",
+    "subjectPart": "Staff Manual Payroll Comment",
+    "htmlPart": "{{comment}}",
+    "autoFillTags": [
+      "comment",
+      "commenterFirstName",
+      "commenterLastName",
+      "companyName"
+    ],
+    "isCcEnabled": true,
+    "cc": ["test1@gmail.com", "test2@ayp-group.com"]
+  }
+}
